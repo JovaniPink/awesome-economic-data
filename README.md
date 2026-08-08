@@ -1,6 +1,10 @@
 # Awesome Economic Data & Indicators [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of high-frequency and alternative economic indicators for the U.S. outlook. Short descriptions tell you what each source proxies and why it’s useful.
+> A curated, U.S.-focused catalog of high-frequency and alternative economic indicators, data portals, and learning resources. Descriptions identify what each source measures and where interpretation requires care.
+
+Catalog structure reviewed: August 2026.
+
+External sources are reviewed when added or materially changed. A catalog-wide source recency review has not yet been recorded.
 
 ## Contents
 
@@ -11,150 +15,114 @@
 - [Goods Flow & Logistics](#goods-flow--logistics)
 - [Trade & Shipping Rates](#trade--shipping-rates)
 - [Market-Implied Macro](#market-implied-macro)
-- [Remote Sensing & Alt-Data](#remote-sensing--alt-data)
-- [Quirky / Behavioral](#quirky--behavioral)
+- [Remote Sensing & Alternative Data](#remote-sensing--alternative-data)
+- [Behavioral & Company Proxies](#behavioral--company-proxies)
 - [Composite Trackers](#composite-trackers)
 - [Portals](#portals)
-- [Economic Courses](#economic-courses)
-- [Contribute](#contribute)
-
----
+- [Learning & Methods](#learning--methods)
 
 ## Labor & Hiring
 
-About this section. Directional reads on hiring before official BLS releases.
+Directional reads on hiring before official labor releases.
 
-- [ADP National Employment Report](https://adpemploymentreport.com/) - Early read on private payroll growth (sector & pay breakdowns), two days before NFP.
-- [Conference Board–Lightcast HWOL](https://www.conference-board.org/topics/help-wanted-online/) - Job-posting index; pulse on labor demand ahead of JOLTS.
-
----
+- [ADP National Employment Report](https://adpemploymentreport.com/) - Provides a monthly estimate of private-sector employment and pay based on ADP payroll data.
+- [Conference Board-Lightcast Help Wanted OnLine](https://www.conference-board.org/topics/help-wanted-online/) - Models monthly job openings from online job advertisements as an early view of labor demand.
 
 ## Prices & Inflation
 
-About this section. Fast movers that lead or complement CPI/PCE.
+Fast-moving price measures that lead or complement CPI and PCE.
 
-- [Truflation US Aggregate Inflation](https://truflation.com/marketplace/us-inflation-rate) - Daily model-based inflation nowcast; basket differs from CPI.
-- [Manheim Used Vehicle Value Index](https://site.manheim.com/en/services/consulting/used-vehicle-value-index.html) - Wholesale used-car prices; leads CPI used cars.
-- [Visa Spending Momentum Index (FRED)](https://fred.stlouisfed.org/release?rid=736) - Card-spend momentum as a high-frequency proxy for PCE.
-- [Mastercard SpendingPulse (press hub)](https://www.mastercard.com/us/en/news-and-trends/press/) - Retail sales estimates across tender types (monthly).
-- [Copper (CME Futures)](https://www.cmegroup.com/markets/metals/base/copper.html) - “Dr. Copper” barometer for global industrial demand.
-- [Forbes Cost of Living Extremely Well Index (CLEWI)](https://www.forbes.com/sites/andreamurphy/2024/12/24/living-like-a-billionaire-is-more-expensive-than-ever/) - Ultra-luxury basket; useful for top-tail price pressure.
-- [Big Mac Index (interactive)](https://www.economist.com/interactive/big-mac-index) - PPP & currency valuation; light read on local price levels.
-  - [Big Mac Data (GitHub)](https://github.com/TheEconomist/big-mac-data)
-
----
+- [Truflation US Aggregate Inflation](https://truflation.com/marketplace/us-inflation-rate) - Provides a daily model-based inflation estimate whose basket and methodology differ from official CPI.
+- [Manheim Used Vehicle Value Index](https://site.manheim.com/en/services/consulting/used-vehicle-value-index.html) - Tracks wholesale used-vehicle prices that can lead the used-vehicle component of CPI.
+- [Visa Spending Momentum Index on FRED](https://fred.stlouisfed.org/release?rid=736) - Reports a monthly card-spending momentum index derived from Visa payments data.
+- [Copper Futures](https://www.cmegroup.com/markets/metals/base/copper.html) - Provides market pricing commonly used as a noisy signal of global industrial demand.
+- [Big Mac Index](https://www.economist.com/interactive/big-mac-index) - Compares burger prices as an informal purchasing-power-parity and currency-valuation measure.
+- [Big Mac Index Data](https://github.com/TheEconomist/big-mac-data) - Publishes the Economist's underlying Big Mac Index dataset and methodology notes.
 
 ## Housing & Shelter
 
-About this section. Asking-rent series that lead official shelter inflation.
+Asking-rent and housing series that can lead official shelter inflation.
 
-- [Apartment List National Rent Data](https://www.apartmentlist.com/research/national-rent-data) - Monthly asking rents; metro cuts and time series.
-- [Zillow Data Hub (ZORI)](https://www.zillow.com/research/data/) - Repeat-rent index and housing datasets; useful for shelter disinflation path.
-
----
+- [Apartment List National Rent Data](https://www.apartmentlist.com/research/national-rent-data) - Publishes monthly asking-rent estimates with metro-level cuts and downloadable time series.
+- [Zillow Data](https://www.zillow.com/research/data/) - Provides ZORI repeat-rent estimates and other housing datasets with published methodology.
 
 ## Consumer Spending & Mobility
 
-About this section. Near-real-time indicators of services activity & travel.
+Near-real-time indicators of services activity and travel.
 
-- [OpenTable State of the Industry](https://www.opentable.com/c/state-of-industry/) - YoY change in seated diners; local services pulse.
-- [TSA Checkpoint Travel Numbers](https://www.tsa.gov/travel/passenger-volumes) - Daily passenger throughput; leisure/business travel momentum.
-
----
+- [OpenTable State of the Industry](https://www.opentable.com/c/state-of-industry/) - Reports year-over-year changes in seated diners as a narrow restaurant-activity signal.
+- [TSA Checkpoint Travel Numbers](https://www.tsa.gov/travel/passenger-volumes) - Publishes daily airport-screening throughput for current and comparison years.
 
 ## Goods Flow & Logistics
 
-About this section. What’s moving through the pipeline before retail sales hit.
+Freight, port, rail, and packaging measures that can move before retail-sales releases.
 
-- [Cass Freight Index](https://www.cassinfo.com/freight-audit-payment/cass-transportation-indexes/cass-freight-index) - Shipments & expenditures across modes (monthly).
-- [AAR Rail Traffic Data Center](https://www.aar.org/data-center/) - Weekly carloads & intermodal by commodity; industrial heartbeat.
-- [Port of Los Angeles - Container Statistics](https://www.portoflosangeles.org/business/statistics/container-statistics) - Monthly TEUs; early read on inbound goods.
-- [DAT Trendlines (Truckload Spot Rates)](https://www.dat.com/trendlines) - Weekly spot rates & load/ truck ratios; freight tightness & goods inflation.
-- **“Cardboard Box” Proxies** - Early packaging demand signals:
-  - [Fibre Box Association (industry stats)](https://www.fibrebox.org/data-and-research/)
-  - [FRED - PPI Corrugated Boxes](https://fred.stlouisfed.org/series/PCU322211322211P)
-  - [FRED - IP Paper/Paperboard Mills](https://fred.stlouisfed.org/series/IPG3221N)
-
----
+- [Cass Freight Index](https://www.cassinfo.com/freight-audit-payment/cass-transportation-indexes/cass-freight-index) - Reports monthly North American shipment volumes and freight expenditures across transportation modes.
+- [AAR Rail Traffic Data Center](https://www.aar.org/data-center/) - Publishes weekly U.S. rail carload and intermodal counts by commodity.
+- [Port of Los Angeles Container Statistics](https://www.portoflosangeles.org/business/statistics/container-statistics) - Provides monthly loaded and empty container volumes for the Port of Los Angeles.
+- [DAT Trendlines](https://www.dat.com/trendlines) - Reports weekly truckload spot rates and load-to-truck ratios as freight-market signals.
+- [Fibre Box Association Data and Research](https://www.fibrebox.org/data-and-research) - Publishes U.S. corrugated-industry shipment and capacity statistics as packaging-demand context.
+- [Corrugated and Solid Fiber Box Manufacturing PPI](https://fred.stlouisfed.org/series/PCU322211322211P) - Provides the BLS producer price index for corrugated and solid fiber box manufacturing.
+- [Paper and Paperboard Mills Industrial Production](https://fred.stlouisfed.org/series/IPG3221N) - Provides the Federal Reserve industrial production index for paper and paperboard mills.
 
 ## Trade & Shipping Rates
 
-About this section. Costs & volumes for dry bulk and containerized trade.
+Costs and volumes for dry bulk, containerized trade, and air cargo.
 
-- [Baltic Exchange - Indices](https://www.balticexchange.com/) - Baltic Dry Index (dry bulk charter rates) as a raw-materials demand proxy.
-- [Harpex](https://www.harperpetersen.com/container) - Weekly container ship charter rates; finished-goods pipeline tightness.
-- [Freightos Baltic Index (FBX)](https://www.freightos.com/freightos-baltic-index/) - Daily container spot rates by lane; disruptions show up fast.
-- [IATA Air Cargo (press/data)](https://www.iata.org/en/pressroom/) - Monthly cargo tonne-kilometers; high-value trade momentum.
-
----
+- [Baltic Exchange Indices](https://www.balticexchange.com/en/index.html) - Provides dry-bulk and other freight-market benchmarks, including the Baltic Dry Index.
+- [Harpex](https://www.harperpetersen.com/container) - Publishes a weekly container-ship charter-rate index.
+- [Freightos Baltic Index](https://www.freightos.com/freightos-baltic-index/) - Reports daily container prices across major global trade lanes using commercial transaction data.
+- [IATA Economics](https://www.iata.org/en/publications/economics/) - Publishes recurring air-cargo market analysis, including cargo tonne-kilometer trends.
 
 ## Market-Implied Macro
 
-About this section. What markets are pricing about growth and recession risk.
+Market prices and models used to assess growth and recession risk.
 
-- [FRED - 10Y–3M Yield Curve](https://fred.stlouisfed.org/series/T10Y3M) - Benchmark term spread used in recession-probability models.
-- [FRED - 10Y–2Y Yield Curve](https://fred.stlouisfed.org/series/T10Y2Y) - Popular but noisier term spread.
-- [NY Fed Yield Curve Recession Model (FAQ)](https://www.newyorkfed.org/research/capital_markets/ycfaq) - Methodology & background.
+- [10-Year Treasury Minus 3-Month Treasury](https://fred.stlouisfed.org/series/T10Y3M) - Provides the term spread used by the New York Fed's recession-probability model.
+- [10-Year Treasury Minus 2-Year Treasury](https://fred.stlouisfed.org/series/T10Y2Y) - Provides a widely followed alternative term spread that can differ from the model benchmark.
+- [New York Fed Yield Curve Model FAQ](https://www.newyorkfed.org/research/capital_markets/ycfaq) - Explains the yield-curve recession model, inputs, interpretation, and limitations.
 
----
+## Remote Sensing & Alternative Data
 
-## Remote Sensing & Alt-Data
+Satellite-derived measures and research methods that help fill local data gaps.
 
-About this section. Satellite-based measures and ML that fill data gaps.
+- [VIIRS Nighttime Lights](https://eogdata.mines.edu/products/vnl/) - Provides nighttime-light composites that researchers use as a noisy proxy for regional activity.
+- [NASA Black Marble](https://blackmarble.gsfc.nasa.gov/) - Provides daily nighttime-light products used for disaster, recovery, and economic-activity research.
+- [Using Satellite Imagery to Understand and Promote Sustainable Development](https://www.aeaweb.org/articles?id=10.1257/aeri.20210422) - Evaluates machine-learning methods that infer local economic conditions from daytime satellite imagery.
 
-- [NOAA/NGDC VIIRS Nighttime Lights (VNL)](https://eogdata.mines.edu/products/vnl/) - Regional activity proxy; use composites to reduce noise.
-- [NASA Black Marble](https://blackmarble.gsfc.nasa.gov/) - Daily/nightly lights & derived products; disaster & recovery tracking.
-- **ML on Daytime Satellite Imagery** - Predict local income/population change:
-  - [Khachiyan et al., AER: Insights](https://www.aeaweb.org/articles?id=10.1257/aeri.20210422)
+## Behavioral & Company Proxies
 
----
+Indirect and company-specific signals that should be treated as context rather than broad economic measures.
 
-## Quirky / Behavioral
-
-About this section. Directional anecdotal indicators—use as color, not gospel.
-
-- [Hemline Index (primer)](https://en.wikipedia.org/wiki/Hemline_index) - Fashion “mood ring”; folklore but persistent.
-- **Lipstick Effect** - Small-luxury splurge in downturns:
-  - [Example Research (Elsevier)](https://www.sciencedirect.com/science/article/abs/pii/S2214804319304884)
-- **Pawn Shop Stress Proxies** - Household liquidity pressure:
-  - [National Pawnbrokers Association](https://www.nationalpawnbrokers.org/)
-  - [FirstCash Investor Relations](https://investors.firstcash.com/)
-  - [EZCORP Investor Relations](https://www.ezcorp.com/investor-relations)
-- **Men’s Underwear Index** - Trivial but famous retail tell:
-  - [Hanesbrands IR](https://ir.hanesbrands.com/)
-  - [Gildan–Hanesbrands Deal](https://gildancorp.com/en/media/news/gildan-and-hanesbrands-agree-to-combine/)
-
----
+- [Lipstick Effect Research](https://www.sciencedirect.com/science/article/abs/pii/S2214804319304884) - Examines the debated hypothesis that some consumers shift toward small luxury purchases during economic stress.
+- [FirstCash Investor Relations](https://investors.firstcash.com/) - Provides company filings and results that can offer a narrow, company-specific view of pawn lending and retail activity.
+- [EZCORP Investor Relations](https://www.ezcorp.com/investor-relations) - Provides company filings and results that can offer a second narrow view of pawn lending and retail activity.
 
 ## Composite Trackers
 
-About this section. Multi-source dashboards with downloadable series.
+Multi-source dashboards and recurring composite indicators.
 
-- [Opportunity Insights Economic Tracker](https://tracktherecovery.org/) - Real-time spending, employment & SMB revenue by income & locale.
-  - [Economic Tracker Data (GitHub)](https://github.com/OpportunityInsights/EconomicTracker)
-- [ISM PMI Reports](https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/) - Manufacturing & Services diffusion indices with sub-components.
-- [S&P Global US PMI Press Releases](https://www.pmi.spglobal.com/Public/Release/PressReleases) - Flash & final PMIs; globally comparable methodology.
-- [EIA Hourly Electric Grid Monitor](https://www.eia.gov/electricity/gridmonitor/) - Real-time load/generation; proxy for industrial/commercial activity (weather-adjust).
-
----
+- [Economic Tracker](https://economictracker.org/) - Visualizes high-frequency spending, employment, and small-business measures by geography and income group.
+- [Economic Tracker Data](https://github.com/OpportunityInsights/EconomicTracker) - Publishes downloadable data and documentation used by the Economic Tracker.
+- [ISM PMI Reports](https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/) - Publishes manufacturing and services diffusion indices with industry and subcomponent detail.
+- [S&P Global US PMI Releases](https://www.pmi.spglobal.com/Public/Release/PressReleases) - Publishes flash and final U.S. purchasing managers' indices using a globally comparable methodology.
+- [EIA Hourly Electric Grid Monitor](https://www.eia.gov/electricity/gridmonitor/) - Reports hourly electricity demand and generation as a weather-sensitive activity signal.
 
 ## Portals
 
-About this section. Aggregators and web services for economists and data hunters.
+Research indexes and data services for finding economic series and literature.
 
-- [RePEc](http://repec.org/) - Web services for economic researchers: bibliography, blog aggregator, new working papers, software.
-- [Federal Reserve Bank of St. Louis: Web Services](https://research.stlouisfed.org/resources.html) - Curated list of St. Louis Fed apps and data tools (FRED, FRASER, ALFRED, CASSIDI) with links and documentation.
+- [IDEAS/RePEc](https://ideas.repec.org/) - Indexes economics working papers, articles, books, software components, and author profiles.
+- [Federal Reserve Bank of St. Louis Resources](https://research.stlouisfed.org/resources.html) - Links to FRED, ALFRED, FRASER, and related economic data and archival services.
 
-## Economic Courses
+## Learning & Methods
 
-About this section. High-quality, mostly free economics coursework.
+Open and structured resources for learning economic concepts and interpreting data.
 
-- [MIT OCW Economics](http://ocw.mit.edu/courses/economics/) - 100+ courses spanning micro, macro, and econometrics; lectures, assignments, and reading lists.
-- [edX Economics](https://www.edx.org/course/subject/economics-finance) - University-led courses across economics & finance; filter by level and schedule.
-- [Khan Academy: Economics](https://www.khanacademy.org/economics-finance-domain) - Foundations in micro/macro and finance; beginner-friendly modules.
+- [MIT OpenCourseWare Economics](https://ocw.mit.edu/search/?d=Economics&s=department_course_numbers.sort_coursenum) - Provides self-paced undergraduate and graduate economics course materials.
+- [edX Economics](https://www.edx.org/learn/economics) - Lists economics courses from universities and other education providers with varying access terms.
+- [Khan Academy Economics](https://www.khanacademy.org/economics-finance-domain) - Provides introductory microeconomics, macroeconomics, and finance lessons and exercises.
 
----
+## Contributing
 
-## Contribute
-
-Spotted a dead link, better mirror, or a new high-signal resource? PRs welcome - keep it clean, current, and non-spammy. See [contributing.md](contributing.md).
+See [contributing.md](contributing.md) before proposing a source. The automated gate checks catalog structure; contributors must separately verify source quality, access, recency, and the claims in each description.
