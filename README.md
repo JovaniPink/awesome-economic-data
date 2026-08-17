@@ -113,6 +113,7 @@ Multi-source dashboards and recurring composite indicators.
 Research indexes and data services for finding economic series and literature.
 
 - [IDEAS/RePEc](https://ideas.repec.org/) - Indexes economics working papers, articles, books, software components, and author profiles.
+- [BLS Public Data API](https://www.bls.gov/developers/) - Provides programmatic access to published U.S. labor-market and price data with documented query limits, citation requirements, and terms for secondary use.
 - [Federal Reserve Bank of St. Louis Resources](https://research.stlouisfed.org/resources.html) - Links to FRED, ALFRED, FRASER, and related economic data and archival services.
 
 ## Learning & Methods
