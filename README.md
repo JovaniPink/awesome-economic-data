@@ -19,6 +19,7 @@ External sources are reviewed when added or materially changed. A catalog-wide s
 - [Behavioral & Company Proxies](#behavioral--company-proxies)
 - [Composite Trackers](#composite-trackers)
 - [Portals](#portals)
+- [Finance, Economics & Systems Channels](#finance-economics--systems-channels)
 - [Learning & Methods](#learning--methods)
 
 ## Labor & Hiring
@@ -115,6 +116,25 @@ Research indexes and data services for finding economic series and literature.
 - [IDEAS/RePEc](https://ideas.repec.org/) - Indexes economics working papers, articles, books, software components, and author profiles.
 - [BLS Public Data API](https://www.bls.gov/developers/) - Provides programmatic access to published U.S. labor-market and price data with documented query limits, citation requirements, and terms for secondary use.
 - [Federal Reserve Bank of St. Louis Resources](https://research.stlouisfed.org/resources.html) - Links to FRED, ALFRED, FRASER, and related economic data and archival services.
+
+## Finance, Economics & Systems Channels
+
+Research-oriented video resources for learning how practitioners and educators analyze markets, companies, economic policy, and technical systems. Creator credentials and teaching claims were checked against official biographies or institutional profiles in August 2026. Inclusion is a curation decision, not an endorsement or investment advice; follow the primary sources cited by each creator and distinguish observed evidence from interpretation.
+
+### Finance and economics
+
+- [Patrick Boyle On Finance](https://www.youtube.com/channel/UCASM0cgfkJxQ1ICmRilfHLw) - Explains quantitative finance, markets, and financial history from the perspective of a former hedge-fund founding partner and visiting finance professor.
+- [Ben Felix](https://www.youtube.com/@BenFelixCSI) - Connects investing and personal-finance questions to academic research as PWL Capital's chief investment officer.
+- [Aswath Damodaran on Valuation](https://www.youtube.com/@AswathDamodaranonValuation) - Publishes NYU Stern lectures and practical materials on corporate finance, valuation, accounting, and investment philosophy.
+- [PensionCraft](https://www.youtube.com/@Pensioncraft) - Explains investing, asset allocation, macroeconomics, and markets with data-oriented lessons from former investment-bank strategist Ramin Nakisa; free videos sit alongside commercial memberships, courses, and coaching.
+- [Money & Macro](https://www.youtube.com/@MoneyMacro) - Uses research, data, and economic models to explain macroeconomics, monetary policy, financial markets, and global institutions; host Joeri Schasfoort holds a PhD in economics and is a former university lecturer.
+- [The Plain Bagel](https://www.youtube.com/@ThePlainBagel) - Provides beginner-friendly education on investing, economics, and personal finance from portfolio manager Richard Coffin, CFA, CFP.
+- [Marginal Revolution University](https://www.youtube.com/@MarginalRevolutionUniversity) - Offers free economics courses, short videos, and classroom resources founded by George Mason University economists Tyler Cowen and Alex Tabarrok as a nonprofit project housed at the Mercatus Center.
+
+### Technology and adjacent evidence review
+
+- [Asianometry](https://www.youtube.com/@Asianometry) - Produces researched video essays on Asian technology, business history, semiconductor manufacturing, supply chains, and economics.
+- [Sabine Hossenfelder](https://www.youtube.com/@SabineHossenfelder) - Applies cited, peer-reviewed research and fact-checking to science and technology claims; included as an adjacent media-literacy resource rather than a finance authority.
 
 ## Learning & Methods
 
