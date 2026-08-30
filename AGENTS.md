@@ -9,6 +9,7 @@ This repository is a curated economic-data catalog. The README is the product; t
 ```sh
 python3 -m unittest discover -s tests -v
 python3 scripts/validate_readme.py README.md
+python3 scripts/build_resource_index.py --check
 ```
 
 The validation code uses only the Python standard library and supports Python 3.11 or newer.
@@ -21,6 +22,7 @@ The validation code uses only the Python standard library and supports Python 3.
 - Format catalog entries as `- [Name](URL) - Description.` with an uppercase description and a terminal period.
 - List a canonical resource URL once, in its strongest category.
 - Distinguish observed data, modeled estimates, market prices, forecasts, and anecdotal or company-specific proxies.
+- Keep `catalog/resources.v1.json` synchronized with the README. Stable resource identifiers are derived from canonical URLs; changing a URL creates a new evidence identity.
 - Do not treat a repository-structure review as a catalog-wide source recency review.
 
 ## Evidence boundary
