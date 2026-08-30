@@ -21,6 +21,7 @@ External sources are reviewed when added or materially changed. A catalog-wide s
 - [Regional Economic Modeling Data](#regional-economic-modeling-data)
 - [Portals](#portals)
 - [Finance, Economics & Systems Channels](#finance-economics--systems-channels)
+- [Machine Learning and Economic Simulation](#machine-learning-and-economic-simulation)
 - [Learning & Methods](#learning--methods)
 
 ## Labor & Hiring
@@ -127,6 +128,20 @@ First-party sources for a point-in-time state and Washington, DC expert system. 
 - [FDIC Data Downloads](https://www.fdic.gov/bank-data-guide/data-downloads) - Provides quarterly institution financials back to 1992 and annual branch deposits, while mergers and borrower geography complicate state credit measures.
 - [Treasury Interest Rate Statistics](https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics) - Publishes daily par yields derived from indicative market quotations for national gate context; methodology changes and the lack of state variation limit direct expert use.
 
+Additional sources can improve timing, structure, credit, agriculture, or shock context after the core point-in-time baseline is verified.
+
+- [BLS State and Area Employment](https://www.bls.gov/sae/) - Provides monthly state payroll employment, hours, and earnings by industry, with monthly and benchmark revisions that prevent treating the current history as the original release.
+- [BLS Local Area Unemployment Statistics](https://www.bls.gov/lau/) - Provides official monthly state labor-force, employment, unemployment, and unemployment-rate estimates that are model-based and annually re-estimated with revised inputs and population controls.
+- [BLS State JOLTS](https://www.bls.gov/jlt/jlt_statedata.htm) - Publishes state job openings, hires, quits, and separations as model-assisted estimates whose benchmarked history incorporates JOLTS, QCEW, and regional information.
+- [Census County Business Patterns](https://www.census.gov/programs-surveys/cbp/data/datasets.html) - Provides annual establishment, employment, and payroll statistics by detailed industry and geography, with suppression and a slow release cadence limiting short-horizon use.
+- [Census Business Dynamics Statistics](https://www.census.gov/programs-surveys/bds/data.API.html) - Provides annual job creation and destruction, births, deaths, startups, and shutdowns by geography and firm characteristics through an API key-protected service.
+- [American Community Survey API](https://www.census.gov/programs-surveys/acs/data/data-via-api.html) - Provides annual demographic, economic, and housing estimates for structural context, with sampling uncertainty, margins of error, population thresholds, and changing vintages to preserve.
+- [IRS Migration Data](https://www.irs.gov/statistics/soi-tax-stats-migration-data) - Measures state and county inflows and outflows from tax-return address changes, with coverage limits and a methodology break beginning with the 2022-2023 data.
+- [SBA 7(a) and 504 Public Data](https://data.sba.gov/dataset/7a-504-foia) - Publishes quarterly loan-level approvals since fiscal year 1991 as a small-business credit signal, but the programs do not represent all small-business borrowing.
+- [USDA NASS Quick Stats](https://www.nass.usda.gov/Quick_Stats/) - Provides state agricultural production and prices by commodity and period, while API credentials, changing definitions, and suppression require source-specific handling.
+- [NOAA Climate Data Online API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2) - Provides station and location weather and climate observations for shock context, with token limits, station coverage, units, and aggregation choices that must remain explicit.
+- [OpenFEMA Disaster Declarations](https://www.fema.gov/about/openfema/disaster-declarations-summaries) - Lists federal disaster declarations and affected geographies, but administrative timing, partial older records, and historical entry errors prevent treating declarations as direct economic-loss measures.
+
 ## Portals
 
 Research indexes and data services for finding economic series and literature.
@@ -158,6 +173,18 @@ Research-oriented video resources for learning how practitioners and educators a
 
 - [Asianometry](https://www.youtube.com/@Asianometry) - Produces researched video essays on Asian technology, business history, semiconductor manufacturing, supply chains, and economics.
 - [Sabine Hossenfelder](https://www.youtube.com/@SabineHossenfelder) - Applies cited, peer-reviewed research and fact-checking to science and technology claims; included as an adjacent media-literacy resource rather than a finance authority.
+
+## Machine Learning and Economic Simulation
+
+Discovery resources for prediction, causal machine learning, and economic simulation. The two community catalogs below did not expose a recognized license when reviewed on August 30, 2026, so this repository links to them without copying their text or bibliographies. Simulated outcomes require separate calibration, identification, and external-validity evidence before they support claims about the real economy.
+
+- [Awesome Machine Learning in Economics and Finance](https://github.com/cwyalpha/Awesome-Machine-Learning-in-Economics-and-Finance) - Offers a small mixed-language discovery list of researchers, papers, courses, frameworks, and examples, but it is not a reviewed source authority and each linked item requires independent verification.
+- [Machine Learning: An Applied Econometric Approach](https://www.aeaweb.org/articles?id=10.1257/jep.31.2.87) - Explains how prediction-oriented machine learning differs from conventional parameter-focused econometrics and why empirical design still controls interpretation.
+- [EconML](https://github.com/py-why/EconML) - Provides Python estimators for heterogeneous treatment effects using machine-learning components, but software output does not repair weak identification or establish external validity.
+- [DoubleML](https://docs.doubleml.org/stable/) - Implements double and debiased machine-learning methods for causal parameters under stated orthogonality, nuisance-estimation, sampling, and identification assumptions.
+- [Awesome Economic World Models](https://github.com/FreedomIntelligence/Awesome-Economic-World-Models) - Organizes a broad research taxonomy for agent-based and adaptive economic simulations, which are not observed economic data, validated counterfactuals, or forecasts by default.
+- [Economic World Models Systems Blueprint](https://arxiv.org/abs/2608.06020) - Proposes a capability ladder, runtime architecture, engineering path, and evaluation systems blueprint for agentic economies; it is a research agenda, not empirical validation of a real economic twin.
+- [ABIDES-Economist](https://arxiv.org/abs/2402.09563) - Describes an agent-based simulator for economic systems with learning agents, useful for controlled experiments but separate from observed-market evidence or trading validation.
 
 ## Learning & Methods
 
