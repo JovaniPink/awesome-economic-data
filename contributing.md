@@ -12,6 +12,7 @@ By participating, you agree to abide by its terms.
 - Identify observed data, modeled estimates, market prices, forecasts, and anecdotal or company-specific proxies accurately.
 - Link to the recurring dataset or methodology page, not a one-time news story or generic press hub.
 - Do not submit affiliate, referral, pay-to-rank, or promotional links.
+- Do not copy, translate, or republish text from a repository that lacks a compatible license or documented permission; write an original attributed summary instead.
 - Add one resource per pull request when practical, and explain why it improves the catalog.
 
 ## Quality bar
@@ -24,6 +25,8 @@ A listed resource should be at least one of the following:
 - A substantive learning resource for economics, statistics, or economic-data interpretation.
 
 Company results and behavioral proxies must be labeled as narrow context. They must not be described as representative measures of the broader economy without supporting evidence.
+
+A source listed in a modeling roadmap is not automatically model-ready. Point-in-time use requires verified release dates, historical vintages or prospective capture, stable units and geography, documented terms, and leakage-resistant validation.
 
 ## Validate your change
 

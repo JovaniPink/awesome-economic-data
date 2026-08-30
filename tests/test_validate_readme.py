@@ -48,8 +48,43 @@ PUBLISHABLE_TEXT_FILES: Final[tuple[str, ...]] = (
     "README.md",
     "code-of-conduct.md",
     "contributing.md",
+    "docs/ai-assisted-economic-research-writing.md",
+    "docs/regional-economic-modeling-data.md",
     "scripts/validate_readme.py",
     "tests/test_validate_readme.py",
+)
+
+REGIONAL_EXPERT_ROLES: Final[tuple[str, ...]] = (
+    "Aggregate labor momentum",
+    "Industry momentum",
+    "Business formation",
+    "Construction pipeline",
+    "State growth",
+    "Housing",
+    "Energy",
+    "Labor flows",
+    "Credit",
+    "National context",
+)
+
+WRITING_GUIDE_CATEGORIES: Final[tuple[str, ...]] = (
+    "Chinese Draft to English Economics Prose",
+    "English Economics Prose to a Chinese Reading Copy",
+    "Chinese Academic Rewriting",
+    "Careful Condensation",
+    "Evidence-Bounded Expansion",
+    "English Economics Editing",
+    "Chinese Economics Editing",
+    "Logic and Identification Review",
+    "Removing Formulaic AI Style from LaTeX Prose",
+    "Removing Formulaic AI Style from Word Prose",
+    "Research-Design Figures",
+    "Empirical Chart Selection",
+    "Figure Titles",
+    "Table Titles",
+    "Empirical-Results Analysis",
+    "Reviewer Simulation",
+    "Model and Tool Selection",
 )
 
 RELEASE_SOURCE_CONTRACTS: Final[tuple[ReleaseSourceContract, ...]] = (
@@ -153,6 +188,226 @@ RELEASE_SOURCE_CONTRACTS: Final[tuple[ReleaseSourceContract, ...]] = (
     },
 )
 
+REGIONAL_SOURCE_CONTRACTS: Final[tuple[ReleaseSourceContract, ...]] = (
+    {
+        "name": "QCEW Data Files",
+        "url": "https://www.bls.gov/cew/downloadable-data-files.htm",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": (
+            "quarterly state employment, establishment, and wage data",
+            "industry detail",
+            "historical forecasts require publication vintages",
+        ),
+        "forbidden_phrases": ("unrevised historical data",),
+    },
+    {
+        "name": "Census Business Formation Statistics",
+        "url": "https://www.census.gov/econ/bfs/data.html",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": (
+            "monthly state business applications",
+            "projected formations",
+            "methodology and seasonal revisions",
+        ),
+        "forbidden_phrases": ("unrevised business formations",),
+    },
+    {
+        "name": "Building Permits by State",
+        "url": "https://www.census.gov/construction/bps/statemonthly.html",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": (
+            "monthly state residential permits",
+            "late reports and corrections",
+        ),
+        "forbidden_phrases": ("final monthly values",),
+    },
+    {
+        "name": "BEA Regional Economic Accounts",
+        "url": "https://www.bea.gov/data/economic-accounts/regional",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": (
+            "state GDP and personal income",
+            "archived releases",
+        ),
+        "forbidden_phrases": ("current API history is point-in-time",),
+    },
+    {
+        "name": "FHFA House Price Index Datasets",
+        "url": "https://www.fhfa.gov/house-price-index?tab=HPI+Datasets",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": (
+            "state purchase-only house-price indexes",
+            "historical values are revised",
+        ),
+        "forbidden_phrases": ("all index variants are interchangeable",),
+    },
+    {
+        "name": "EIA API v2",
+        "url": "https://www.eia.gov/opendata/documentation.php",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": (
+            "state and sector electricity",
+            "API key, pagination, units, and prospective vintage capture",
+        ),
+        "forbidden_phrases": ("no API key",),
+    },
+    {
+        "name": "Census Quarterly Workforce Indicators",
+        "url": "https://www.census.gov/data/developers/data-sets/qwi.html",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": (
+            "quarterly hires, separations, job creation, job destruction, and wages",
+            "historical publication vintages",
+        ),
+        "forbidden_phrases": ("verified point-in-time history",),
+    },
+    {
+        "name": "FDIC Data Downloads",
+        "url": "https://www.fdic.gov/bank-data-guide/data-downloads",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": (
+            "quarterly institution financials back to 1992",
+            "mergers and borrower geography",
+        ),
+        "forbidden_phrases": ("branch location identifies every borrower",),
+    },
+    {
+        "name": "Treasury Interest Rate Statistics",
+        "url": (
+            "https://home.treasury.gov/policy-issues/financing-the-government/"
+            "interest-rate-statistics"
+        ),
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": (
+            "national gate context",
+            "indicative market quotations",
+            "methodology changes",
+        ),
+        "forbidden_phrases": ("state-specific interest rates",),
+    },
+)
+
+REGIONAL_EXTENSION_CONTRACTS: Final[tuple[ReleaseSourceContract, ...]] = (
+    {
+        "name": "BLS State and Area Employment",
+        "url": "https://www.bls.gov/sae/",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": ("monthly state payroll", "monthly and benchmark revisions"),
+        "forbidden_phrases": ("never revised",),
+    },
+    {
+        "name": "BLS Local Area Unemployment Statistics",
+        "url": "https://www.bls.gov/lau/",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": ("monthly state labor-force", "model-based"),
+        "forbidden_phrases": ("direct census",),
+    },
+    {
+        "name": "BLS State JOLTS",
+        "url": "https://www.bls.gov/jlt/jlt_statedata.htm",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": ("job openings, hires, quits, and separations", "model-assisted"),
+        "forbidden_phrases": ("directly observed state JOLTS",),
+    },
+    {
+        "name": "Census County Business Patterns",
+        "url": "https://www.census.gov/programs-surveys/cbp/data/datasets.html",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": ("annual establishment, employment, and payroll", "suppression"),
+        "forbidden_phrases": ("quarterly leading indicator",),
+    },
+    {
+        "name": "Census Business Dynamics Statistics",
+        "url": "https://www.census.gov/programs-surveys/bds/data.API.html",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": ("annual job creation and destruction", "API key"),
+        "forbidden_phrases": ("monthly business formation",),
+    },
+    {
+        "name": "American Community Survey API",
+        "url": "https://www.census.gov/programs-surveys/acs/data/data-via-api.html",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": ("annual demographic, economic, and housing", "sampling uncertainty"),
+        "forbidden_phrases": ("monthly population counts",),
+    },
+    {
+        "name": "IRS Migration Data",
+        "url": "https://www.irs.gov/statistics/soi-tax-stats-migration-data",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": ("tax-return address changes", "methodology break"),
+        "forbidden_phrases": ("complete population migration",),
+    },
+    {
+        "name": "SBA 7(a) and 504 Public Data",
+        "url": "https://data.sba.gov/dataset/7a-504-foia",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": (
+            "quarterly loan-level approvals",
+            "do not represent all small-business borrowing",
+        ),
+        "forbidden_phrases": ("all small-business credit",),
+    },
+    {
+        "name": "USDA NASS Quick Stats",
+        "url": "https://www.nass.usda.gov/Quick_Stats/",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": ("state agricultural production and prices", "suppression"),
+        "forbidden_phrases": ("complete real-time farm economy",),
+    },
+    {
+        "name": "NOAA Climate Data Online API",
+        "url": "https://www.ncdc.noaa.gov/cdo-web/webservices/v2",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": ("weather and climate observations", "station coverage"),
+        "forbidden_phrases": ("economic effect of weather",),
+    },
+    {
+        "name": "OpenFEMA Disaster Declarations",
+        "url": "https://www.fema.gov/about/openfema/disaster-declarations-summaries",
+        "section": "Regional Economic Modeling Data",
+        "required_phrases": ("federal disaster declarations", "historical entry errors"),
+        "forbidden_phrases": ("official federal financial reporting",),
+    },
+)
+
+METHOD_SOURCE_CONTRACTS: Final[tuple[ReleaseSourceContract, ...]] = (
+    {
+        "name": "Awesome Machine Learning in Economics and Finance",
+        "url": "https://github.com/cwyalpha/Awesome-Machine-Learning-in-Economics-and-Finance",
+        "section": "Machine Learning and Economic Simulation",
+        "required_phrases": ("mixed-language discovery list", "not a reviewed source authority"),
+        "forbidden_phrases": ("authoritative bibliography",),
+    },
+    {
+        "name": "Awesome Economic World Models",
+        "url": "https://github.com/FreedomIntelligence/Awesome-Economic-World-Models",
+        "section": "Machine Learning and Economic Simulation",
+        "required_phrases": ("research taxonomy", "not observed economic data"),
+        "forbidden_phrases": ("proves policy outcomes",),
+    },
+    {
+        "name": "Economic World Models Systems Blueprint",
+        "url": "https://arxiv.org/abs/2608.06020",
+        "section": "Machine Learning and Economic Simulation",
+        "required_phrases": ("systems blueprint", "not empirical validation"),
+        "forbidden_phrases": ("validated economic twin",),
+    },
+    {
+        "name": "AI Research Writing for Economics",
+        "url": (
+            "https://github.com/uinue2010/"
+            "awesome-ai-research-writing-economics"
+        ),
+        "section": "Learning & Methods",
+        "required_phrases": (
+            "Chinese-language prompts",
+            "workflow inspiration",
+            "no recognized license",
+        ),
+        "forbidden_phrases": ("English translation",),
+    },
+)
+
 
 def _catalog_entries_by_url(text: str) -> dict[str, CatalogEntry]:
     entries: dict[str, CatalogEntry] = {}
@@ -167,10 +422,12 @@ def _catalog_entries_by_url(text: str) -> dict[str, CatalogEntry]:
     return entries
 
 
-def _release_source_contract_errors(text: str) -> tuple[str, ...]:
+def _source_contract_errors(
+    text: str, contracts: tuple[ReleaseSourceContract, ...]
+) -> tuple[str, ...]:
     errors: list[str] = []
     entries = _catalog_entries_by_url(text)
-    for contract in RELEASE_SOURCE_CONTRACTS:
+    for contract in contracts:
         url = contract["url"]
         entry = entries.get(url)
         if entry is None:
@@ -188,6 +445,10 @@ def _release_source_contract_errors(text: str) -> tuple[str, ...]:
             if phrase in description:
                 errors.append(f"forbidden README phrase for {url}: {phrase}")
     return tuple(errors)
+
+
+def _release_source_contract_errors(text: str) -> tuple[str, ...]:
+    return _source_contract_errors(text, RELEASE_SOURCE_CONTRACTS)
 
 
 class GithubAnchorTests(unittest.TestCase):
@@ -296,6 +557,80 @@ class ReleaseSourceContractTests(unittest.TestCase):
         self.assertTrue(
             any("forbidden README phrase" in error for error in gdpnow_errors)
         )
+
+
+class RegionalExpansionContractTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.repository_root = Path(__file__).resolve().parents[1]
+        self.readme = (self.repository_root / "README.md").read_text(encoding="utf-8")
+
+    def test_regional_sources_match_reviewed_evidence(self) -> None:
+        self.assertEqual(
+            _source_contract_errors(self.readme, REGIONAL_SOURCE_CONTRACTS), ()
+        )
+
+    def test_extension_and_method_sources_preserve_boundaries(self) -> None:
+        contracts = REGIONAL_EXTENSION_CONTRACTS + METHOD_SOURCE_CONTRACTS
+        self.assertEqual(_source_contract_errors(self.readme, contracts), ())
+
+    def test_regional_source_contract_rejects_leakage_mutation(self) -> None:
+        mutation = self.readme.replace(
+            "historical publication vintages must be established",
+            "verified point-in-time history is available",
+        )
+
+        errors = _source_contract_errors(mutation, REGIONAL_SOURCE_CONTRACTS)
+
+        self.assertTrue(
+            any("forbidden README phrase" in error for error in errors)
+        )
+
+    def test_method_source_contract_rejects_translation_claim(self) -> None:
+        mutation = self.readme.replace(
+            "use it as workflow inspiration",
+            "use this English translation",
+        )
+
+        errors = _source_contract_errors(mutation, METHOD_SOURCE_CONTRACTS)
+
+        self.assertTrue(
+            any("forbidden README phrase" in error for error in errors)
+        )
+
+    def test_regional_data_map_covers_requested_experts(self) -> None:
+        path = self.repository_root / "docs/regional-economic-modeling-data.md"
+        text = path.read_text(encoding="utf-8")
+
+        for role in REGIONAL_EXPERT_ROLES:
+            with self.subTest(role=role):
+                self.assertIn(f"| {role} |", text)
+
+        for heading in (
+            "Publisher and canonical URL",
+            "Measures and units",
+            "Revision and vintage availability",
+            "Point-in-time feasibility",
+        ):
+            with self.subTest(heading=heading):
+                self.assertIn(heading, text)
+
+    def test_english_writing_guide_has_attribution_and_safeguards(self) -> None:
+        path = self.repository_root / "docs/ai-assisted-economic-research-writing.md"
+        text = path.read_text(encoding="utf-8")
+
+        for category in WRITING_GUIDE_CATEGORIES:
+            with self.subTest(category=category):
+                self.assertIn(f"## {category}", text)
+
+        for phrase in (
+            "This is an original English guide, not a translation or republication.",
+            "https://github.com/uinue2010/awesome-ai-research-writing-economics",
+            "https://github.com/Leey21/awesome-ai-research-writing",
+            "Do not invent citations, DOI values, BibTeX, data, coefficients, or significance.",
+            "AI-assisted reviewer output is diagnostic feedback, not peer review.",
+        ):
+            with self.subTest(phrase=phrase):
+                self.assertIn(phrase, text)
 
 
 class RepositoryTextContractTests(unittest.TestCase):

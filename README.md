@@ -190,9 +190,12 @@ Discovery resources for prediction, causal machine learning, and economic simula
 
 Open and structured resources for learning economic concepts and interpreting data.
 
+- [AI Research Writing for Economics](https://github.com/uinue2010/awesome-ai-research-writing-economics) - Organizes Chinese-language prompts for economics research and writing and identifies an upstream prompt collection; use it as workflow inspiration because no recognized license was present at the August 30, 2026 review.
 - [MIT OpenCourseWare Economics](https://ocw.mit.edu/search/?d=Economics&s=department_course_numbers.sort_coursenum) - Provides self-paced undergraduate and graduate economics course materials.
 - [edX Economics](https://www.edx.org/learn/economics) - Lists economics courses from universities and other education providers with varying access terms.
 - [Khan Academy Economics](https://www.khanacademy.org/economics-finance-domain) - Provides introductory microeconomics, macroeconomics, and finance lessons and exercises.
+
+The [original English AI-assisted economics research and writing guide](docs/ai-assisted-economic-research-writing.md) turns those workflow categories into evidence-bounded checklists and prompt patterns without translating or republishing the source collection.
 
 ## Contributing
 
