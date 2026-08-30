@@ -18,6 +18,7 @@ External sources are reviewed when added or materially changed. A catalog-wide s
 - [Remote Sensing & Alternative Data](#remote-sensing--alternative-data)
 - [Behavioral & Company Proxies](#behavioral--company-proxies)
 - [Composite Trackers](#composite-trackers)
+- [Regional Economic Modeling Data](#regional-economic-modeling-data)
 - [Portals](#portals)
 - [Finance, Economics & Systems Channels](#finance-economics--systems-channels)
 - [Learning & Methods](#learning--methods)
@@ -111,6 +112,20 @@ Multi-source dashboards and recurring composite indicators.
 - [Atlanta Fed GDPNow](https://www.atlantafed.org/research-and-data/data/gdpnow) - Publishes a model-based running estimate of current-quarter real GDP growth; it is not an official Atlanta Fed forecast, receives no subjective adjustment, and can retain substantial error near the advance GDP release.
 - [Dallas Fed Weekly Economic Index](https://www.dallasfed.org/research/wei) - Models the common component of ten daily and weekly series, updates weekly, and scales the result to four-quarter GDP growth; weights and past values may be revised.
 - [Philadelphia Fed ADS Index](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads) - Publishes a model-based daily business-conditions estimate plus real-time vintages; it combines inputs at mixed frequencies and is not a directly observed daily measure.
+
+## Regional Economic Modeling Data
+
+First-party sources for a point-in-time state and Washington, DC expert system. Inclusion identifies a promising input, not a completed historical-vintage audit or a claim that the source improves forecasts. The [regional modeling data map](docs/regional-economic-modeling-data.md) records measures, frequency, access, revision behavior, model role, and admission status.
+
+- [QCEW Data Files](https://www.bls.gov/cew/downloadable-data-files.htm) - Provides quarterly state employment, establishment, and wage data with industry detail; historical forecasts require publication vintages because later releases can revise earlier values.
+- [Census Business Formation Statistics](https://www.census.gov/econ/bfs/data.html) - Provides monthly state business applications and projected formations as leading business-activity signals, with methodology and seasonal revisions that can restate history.
+- [Building Permits by State](https://www.census.gov/construction/bps/statemonthly.html) - Publishes monthly state residential permits by structure type, while late reports and corrections can make cumulative values differ from sums of earlier monthly releases.
+- [BEA Regional Economic Accounts](https://www.bea.gov/data/economic-accounts/regional) - Publishes state GDP and personal income with industry and component detail; honest historical forecasts require archived releases rather than current revised values alone.
+- [FHFA House Price Index Datasets](https://www.fhfa.gov/house-price-index?tab=HPI+Datasets) - Provides state purchase-only house-price indexes and other HPI variants, but historical values are revised and the variants have different coverage and methods.
+- [EIA API v2](https://www.eia.gov/opendata/documentation.php) - Provides state and sector electricity sales, prices, customers, and generation; reliable use requires an API key, pagination, units, and prospective vintage capture.
+- [Census Quarterly Workforce Indicators](https://www.census.gov/data/developers/data-sets/qwi.html) - Provides quarterly hires, separations, job creation, job destruction, and wages by geography and worker or firm characteristics, but historical publication vintages must be established before point-in-time use.
+- [FDIC Data Downloads](https://www.fdic.gov/bank-data-guide/data-downloads) - Provides quarterly institution financials back to 1992 and annual branch deposits, while mergers and borrower geography complicate state credit measures.
+- [Treasury Interest Rate Statistics](https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics) - Publishes daily par yields derived from indicative market quotations for national gate context; methodology changes and the lack of state variation limit direct expert use.
 
 ## Portals
 
