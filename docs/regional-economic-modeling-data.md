@@ -4,7 +4,7 @@ Reviewed against first-party publisher pages on August 30, 2026.
 
 ## Purpose
 
-This map organizes public data that could support a state-level mixture of economic experts. It is a source-research roadmap, not evidence that every source has passed a point-in-time archive audit or improved a forecast.
+This map organizes public data that could support a state-level mixture of economic experts. It is a source-research roadmap, not evidence that every source has passed a point-in-time archive audit or improved a forecast. The QCEW exception below is deliberately narrow: its release-timing evidence supports final target-outcome cutoffs, not a reconstruction of historical preliminary files or a source-terms decision.
 
 The proposed target remains next-quarter final QCEW third-month employment year-over-year log growth for the 50 states and Washington, DC. A source is model-ready only after its exact publication history, units, geography, revisions, terms, and release dates have been reproduced.
 
@@ -24,13 +24,13 @@ Every reviewed source must record the following fields before model admission.
 | Intended model use | Expert features or gate context, without causal interpretation. |
 | Admission priority | One of `core`, `pilot`, `investigate`, `later`, `structural_context`, or `gate_context`. |
 | Material limitation | The strongest known reason the source could mislead or fail admission. |
-| Point-in-time feasibility | `designed`, `requires_archive_proof`, or `prospective_only` until an executed audit changes it. |
+| Point-in-time feasibility | `final_outcome_timing_only`, `designed`, `requires_archive_proof`, or `prospective_only`; each value states the demonstrated scope rather than a generic model-ready claim. |
 
 ## Requested expert system
 
 | Expert role | Primary source | Measures and units | Geography and frequency | Revision and vintage availability | Intended use and status | Material limitation | Point-in-time feasibility |
 |---|---|---|---|---|---|---|---|
-| Aggregate labor momentum | [BLS QCEW data files](https://www.bls.gov/cew/downloadable-data-files.htm) and [revision history](https://www.bls.gov/cew/revisions/home.htm) | Third-month employment, establishments, and total wages as published levels; derive log growth only from positive levels. | State and DC, quarterly; preserve the applicable SIC or NAICS basis and identify reconstructed history explicitly. | State revision files are available from 2017, but every feature still needs an official publication date and exact release identity. | Labor expert, `core`. | QCEW cautions against treating every detailed cell as a continuous time series; late reports, imputation, suppression, and classification changes matter. | `designed` for the existing contract; real source admission remains incomplete. |
+| Aggregate labor momentum | [BLS QCEW data files](https://www.bls.gov/cew/downloadable-data-files.htm), [release calendar](https://www.bls.gov/cew/release-calendar.htm), and the [2019-2024 timing bundle](../catalog/evidence/qcew-2019-2024-release-timing.v1.json) | Third-month employment, establishments, and total wages as published levels; derive log growth only from positive levels. | State and DC, quarterly; the admitted target selection is statewide Total Covered, Total all industries, and all establishment sizes. | The bundle records every 2019-2024 full-data availability date and applies the following first-quarter full-data event as the conservative final-outcome cutoff. It does not retain historical release-file bytes. | Labor outcome timing, `core`, `admitted` only for final QCEW target outcomes. | QCEW revisions, late reporting, imputation, suppression, and the 2017-to-2022 NAICS change still require run-specific receipt and row checks. | `final_outcome_timing_only`; preliminary-vintage reconstruction and terms remain incomplete. |
 | Industry momentum | [BLS QCEW data files](https://www.bls.gov/cew/downloadable-data-files.htm), [reporting rates](https://www.bls.gov/cew/reporting-rates/home.htm), and [location quotients](https://www.bls.gov/cew/about-data/location-quotients-explained.htm) | Employment, wages, establishments, industry shares, concentration, reporting rates, and shift-share inputs. | State and DC by NAICS industry, quarterly; some size-class data are annual first-quarter observations. | Publication vintages must retain the applicable NAICS basis, ownership, aggregation level, suppression status, and reporting completeness. | Industry expert, `pilot`; this is the preferred first expansion after the aggregate baseline. | Detailed cells can be suppressed or reclassified, and several derived features will overlap with the aggregate labor expert. | `requires_archive_proof`. |
 | Business formation | [Census BFS data](https://www.census.gov/econ/bfs/data.html), [historical releases](https://www.census.gov/econ/bfs/data/historic.html), and [FAQ](https://www.census.gov/econ/bfs/faqs.html) | Business applications and high-propensity applications as counts; actual and projected formations require separate labels. | State and DC, monthly; the current monthly series begins in July 2004 and is usually released about 11 to 12 days after month end. | Historical reports exist, but annual updates revise formation outcomes, seasonal factors, industry coding, and sometimes the definitions applied to the full series. | Business-formation expert, `pilot`. | Projected formations are model outputs rather than observed firm births, and excluded industries or applications affect scope. | `requires_archive_proof`. |
 | Construction pipeline | [Census Building Permits Survey](https://www.census.gov/construction/bps/index.html), [state monthly files](https://www.census.gov/construction/bps/statemonthly.html), and [methodology](https://www.census.gov/construction/bps/methodology.html) | Authorized residential buildings, housing units by structure type, and valuation as counts or dollars. | State, CBSA, county, and permit-issuing place; monthly and annual data are available from 1959. | Archived monthly files are available, while later reports and corrections can enter cumulative values without changing an earlier monthly file. | Construction expert, `pilot`. | The survey measures authorizations, not starts or completions, and summing published monthly files need not equal year-to-date totals. | `requires_archive_proof`. |
@@ -40,6 +40,23 @@ Every reviewed source must record the following fields before model admission.
 | Labor flows | [Census QWI API](https://www.census.gov/data/developers/data-sets/qwi.html) and [Business and Workforce Dynamics API](https://www.census.gov/topics/business-economy/dynamics/data/api.html) | Employment, hires, separations, job creation, job destruction, and wages among 32 indicators; status flags identify data quality conditions. | National, state, metro, county, and workforce areas with industry, firm, and worker detail; current API data are quarterly and not seasonally adjusted. | The time series reaches back to 1990, but the public pages do not by themselves prove that every historical publication vintage can be reconstructed. | Labor-flows expert, `investigate`. | Coverage and release timing vary across participating states and detailed cells; Census requires attribution and preservation of published precision. | `requires_archive_proof`. |
 | Credit | [FDIC data downloads](https://www.fdic.gov/bank-data-guide/data-downloads) and [Summary of Deposits](https://banks.data.fdic.gov/bankfind-suite/SOD) | Loans, deposits, delinquencies, capital, institution condition, branches, and annual branch deposits in report-specific dollar or ratio units. | Institution financials are quarterly back to 1992; Summary of Deposits is annual as of June 30 and available back to 1994. | Institution history, mergers, failures, amendments, and changing identifiers must be resolved point in time. | Credit expert, `later`. | Headquarters and branch deposits do not identify borrower location, while institution survival and mergers can bias naive state aggregation. | `requires_archive_proof`. |
 | National context | [Treasury interest-rate statistics](https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics) and [yield-curve methodology](https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/treasury-yield-curve-methodology) | Daily nominal and real par yields in percent across published maturities, derived from indicative bid-side quotations. | National, each trading day; the same context applies to every state at a forecast origin. | Official historical rates remain published, but Treasury changed the par-curve method from a quasi-cubic Hermite spline to a monotone convex method on December 6, 2021. | Gate context, `gate_context`; interact rates with local housing, industry, or credit exposure. | The series has no state variation, is not based on actual transaction prices, and Treasury can revise its methodology. | `designed` for national context after preserving the series break. |
+
+## QCEW final-outcome timing admission
+
+The [BLS release calendar](https://www.bls.gov/cew/release-calendar.htm) says final quarterly and annual-average data for a reference year are available with the following reference year's first-quarter release. Before the 2025 schedule change, BLS separated the news release from the full-data update; this bundle therefore uses the later full-data availability event, not the headline release. The [evidence bundle](../catalog/evidence/qcew-2019-2024-release-timing.v1.json) records all 24 quarterly full-data dates, the field and statewide-total selection, the BLS source URLs, and the unresolved evidence boundary.
+
+For the target in this map, every quarter in a reference year is eligible as a final outcome only after the following local-time cutoff. The dates are `America/New_York` at 10:00; 2019-2024 refers to QCEW reference years, so the 2024 cutoff falls in 2025.
+
+| QCEW reference year | Final outcome not before |
+|---|---|
+| 2019 | 2020-09-02 10:00 |
+| 2020 | 2021-09-01 10:00 |
+| 2021 | 2022-09-07 10:00 |
+| 2022 | 2023-09-06 10:00 |
+| 2023 | 2024-09-04 10:00 |
+| 2024 | 2025-09-09 10:00 |
+
+This is a conservative timing rule for final target outcomes, not proof that a current QCEW file equals a historical preliminary release. A run must still retain its selected CSV bytes, source URL, retrieval time, hash, disclosure handling, and positive-level audit. The bundle includes no source bytes and makes no modeling, redistribution, attribution, or licensing assertion.
 
 ## Extended source roadmap
 
@@ -61,13 +78,16 @@ These sources can enrich the system after the core baseline is real, reproduced,
 
 ## Admission order
 
-1. Complete the real QCEW, BEA, and FHFA point-in-time baseline.
-2. Add detailed QCEW industry features and test expert ablations.
-3. Pilot BFS and building permits as genuinely new leading signals.
-4. Add EIA only after a historical-vintage decision, or begin prospective capture.
-5. Admit QWI only if publication history can be reconstructed.
-6. Add FDIC after institution identity and geographic allocation are specified.
-7. Pass Treasury rates only to a context-dependent gate or interaction model.
+The [versioned source-admission manifest](../catalog/source-admission.v1.json) preserves seven source-use records by stable catalog identity: aggregate QCEW, QCEW industry, BEA Regional Economic Accounts, FHFA HPI, Census BFS, Census building permits, and Treasury yields. QCEW is `admitted` only at the `final-qcew-outcome-timing` scope described above. The other six records remain `pending`; none is approved by the QCEW timing evidence bundle. QCEW aggregate and industry records deliberately share the catalog's canonical QCEW source identity while keeping their admission scopes separate.
+
+1. Retain QCEW run receipts and enforce the final-outcome cutoff in every training and evaluation fold.
+2. Complete the BEA and FHFA point-in-time baseline without treating their current histories as archived vintages.
+3. Add detailed QCEW industry features and test expert ablations.
+4. Pilot BFS and building permits as genuinely new leading signals.
+5. Add EIA only after a historical-vintage decision, or begin prospective capture.
+6. Admit QWI only if publication history can be reconstructed.
+7. Add FDIC after institution identity and geographic allocation are specified.
+8. Pass Treasury rates only to a context-dependent gate or interaction model.
 
 Adding a source to this map does not change the regional ensemble contract. Each model addition needs its own source authority, normalized schema, release-cutoff tests, cross-language implementation, and dated backtest.
 
