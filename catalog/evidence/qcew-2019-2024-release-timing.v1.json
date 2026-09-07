@@ -1,0 +1,456 @@
+{
+  "schemaVersion": "1.0",
+  "bundleId": "qcew-final-outcome-timing-2019-2024",
+  "catalogId": "awesome-economic-data:source:r-9c05fea3c3e0cde9",
+  "canonicalUrl": "https://www.bls.gov/cew/downloadable-data-files.htm",
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "retrievedAt": "2026-09-05",
+  "purpose": "Establish conservative point-in-time availability cutoffs for final QCEW third-month-employment outcomes for 2019 through 2024 reference years.",
+  "claimBoundary": {
+    "admission": "This bundle supports a final-outcome timing admission only. A fold may use a selected QCEW outcome no earlier than the listed annual final-outcome availability event.",
+    "doesNotEstablish": [
+      "The byte-for-byte preliminary QCEW file that was available on any historical release date.",
+      "That a current BLS download reproduces an earlier publication vintage.",
+      "A source license, redistribution permission, attribution requirement, or modeling permission.",
+      "A row-level completeness or positive-level audit for a particular model run."
+    ],
+    "cutoffPolicy": "Use the full-data availability time rather than the earlier County Employment and Wages news-release time. For each reference year, use the first-quarter full-data event in the following reference year as the conservative final-outcome cutoff."
+  },
+  "sources": [
+    {
+      "id": "release-calendar",
+      "url": "https://www.bls.gov/cew/release-calendar.htm",
+      "supports": "QCEW full-data availability dates and times, and BLS's statement that final quarterly and annual-average data for a reference year are available with the following year's first-quarter release.",
+      "retrievedAt": "2026-09-05"
+    },
+    {
+      "id": "technical-note",
+      "url": "https://www.bls.gov/cew/news-release-technical-note.htm",
+      "supports": "QCEW is based on unemployment-insurance reports, uses NAICS in the release, and remains preliminary until finalized in the first quarter of the following year.",
+      "retrievedAt": "2026-09-05"
+    },
+    {
+      "id": "revisions",
+      "url": "https://www.bls.gov/cew/revisions/home.htm",
+      "supports": "The quarter-specific revision sequence and the availability of national and state-level revision data from 2017 onward.",
+      "retrievedAt": "2026-09-05"
+    },
+    {
+      "id": "data-files-guide",
+      "url": "https://www.bls.gov/cew/about-data/data-files-guide.htm",
+      "supports": "New and revised data are posted on release day and year-specific collections are updated by the end of the full-data release day; it does not document a retained historical-file archive.",
+      "retrievedAt": "2026-09-05"
+    },
+    {
+      "id": "quarterly-layout",
+      "url": "https://www.bls.gov/cew/about-data/downloadable-file-layouts/quarterly/naics-based-quarterly-layout.htm",
+      "supports": "The quarterly CSV fields, including area_fips, own_code, industry_code, agglvl_code, size_code, qtr, disclosure_code, and month3_emplvl.",
+      "retrievedAt": "2026-09-05"
+    },
+    {
+      "id": "aggregation-levels",
+      "url": "https://www.bls.gov/cew/classifications/aggregation/agg-level-titles.htm",
+      "supports": "Aggregation level 50 as Statewide, Total Covered.",
+      "retrievedAt": "2026-09-05"
+    },
+    {
+      "id": "ownership-codes",
+      "url": "https://www.bls.gov/cew/classifications/ownerships/ownership-titles.htm",
+      "supports": "Ownership code 0 as Total Covered.",
+      "retrievedAt": "2026-09-05"
+    },
+    {
+      "id": "industry-codes",
+      "url": "https://www.bls.gov/cew/classifications/industry/industry-titles.htm",
+      "supports": "Industry code 10 as Total, all industries and the 2017-to-2021 and 2022-forward NAICS version ranges.",
+      "retrievedAt": "2026-09-05"
+    },
+    {
+      "id": "area-codes",
+      "url": "https://www.bls.gov/cew/classifications/areas/qcew-area-titles.htm",
+      "supports": "Five-character QCEW area codes and statewide records.",
+      "retrievedAt": "2026-09-05"
+    },
+    {
+      "id": "size-codes",
+      "url": "https://www.bls.gov/cew/classifications/size/size-titles.htm",
+      "supports": "Size code 0 or blank as all establishment sizes.",
+      "retrievedAt": "2026-09-05"
+    },
+    {
+      "id": "one-data-release-notice",
+      "url": "https://www.bls.gov/cew/notices/2025/qcew-moves-to-one-data-release-beginning-with-fourth-quarter-2024-publication.htm",
+      "supports": "Beginning with fourth-quarter 2024 publication, the news release and full-data update occur on the same date; it identifies the September 9, 2025 first-quarter 2025 event.",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "dataSelection": {
+    "fileFamily": "NAICS-based quarterly CSV",
+    "field": "month3_emplvl",
+    "fieldDefinition": "Employment level for the third month of a given quarter.",
+    "recordFilter": {
+      "stateAreaFips": [
+        "01000",
+        "02000",
+        "04000",
+        "05000",
+        "06000",
+        "08000",
+        "09000",
+        "10000",
+        "11000",
+        "12000",
+        "13000",
+        "15000",
+        "16000",
+        "17000",
+        "18000",
+        "19000",
+        "20000",
+        "21000",
+        "22000",
+        "23000",
+        "24000",
+        "25000",
+        "26000",
+        "27000",
+        "28000",
+        "29000",
+        "30000",
+        "31000",
+        "32000",
+        "33000",
+        "34000",
+        "35000",
+        "36000",
+        "37000",
+        "38000",
+        "39000",
+        "40000",
+        "41000",
+        "42000",
+        "44000",
+        "45000",
+        "46000",
+        "47000",
+        "48000",
+        "49000",
+        "50000",
+        "51000",
+        "53000",
+        "54000",
+        "55000",
+        "56000"
+      ],
+      "ownCode": "0",
+      "industryCode": "10",
+      "aggregationLevelCode": "50",
+      "sizeCode": "0"
+    },
+    "transformation": {
+      "name": "year-over-year log growth",
+      "formula": "log(month3_emplvl[t]) - log(month3_emplvl[t-4])",
+      "positiveLevelRequirement": "Both selected employment levels must be positive before the transformation is calculated."
+    },
+    "classificationBasis": [
+      {
+        "referenceYears": "2019-2021",
+        "naicsVersion": "2017"
+      },
+      {
+        "referenceYears": "2022-2024",
+        "naicsVersion": "2022"
+      }
+    ]
+  },
+  "releaseYears": [
+    {
+      "referenceYear": 2019,
+      "fullDataReleaseRecords": [
+        {
+          "referenceQuarter": "2019-Q1",
+          "fullDataAvailableOn": "2019-09-04",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2019-Q2",
+          "fullDataAvailableOn": "2019-12-04",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2019-Q3",
+          "fullDataAvailableOn": "2020-03-04",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2019-Q4",
+          "fullDataAvailableOn": "2020-06-03",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        }
+      ],
+      "finalOutcomeAvailability": {
+        "finalizationReferencePeriod": "2020-Q1",
+        "notBeforeDate": "2020-09-02",
+        "releaseTimeLocal": "10:00",
+        "timeZone": "America/New_York",
+        "evidenceSourceIds": [
+          "release-calendar",
+          "technical-note",
+          "revisions"
+        ]
+      },
+      "historicalDataArchiveUrl": null,
+      "historicalDataSha256": null,
+      "limitation": "The listed dates establish timing only; this bundle does not retain a 2019 release-file artifact."
+    },
+    {
+      "referenceYear": 2020,
+      "fullDataReleaseRecords": [
+        {
+          "referenceQuarter": "2020-Q1",
+          "fullDataAvailableOn": "2020-09-02",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2020-Q2",
+          "fullDataAvailableOn": "2020-12-02",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2020-Q3",
+          "fullDataAvailableOn": "2021-03-09",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2020-Q4",
+          "fullDataAvailableOn": "2021-06-02",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        }
+      ],
+      "finalOutcomeAvailability": {
+        "finalizationReferencePeriod": "2021-Q1",
+        "notBeforeDate": "2021-09-01",
+        "releaseTimeLocal": "10:00",
+        "timeZone": "America/New_York",
+        "evidenceSourceIds": [
+          "release-calendar",
+          "technical-note",
+          "revisions"
+        ]
+      },
+      "historicalDataArchiveUrl": null,
+      "historicalDataSha256": null,
+      "limitation": "The listed dates establish timing only; this bundle does not retain a 2020 release-file artifact."
+    },
+    {
+      "referenceYear": 2021,
+      "fullDataReleaseRecords": [
+        {
+          "referenceQuarter": "2021-Q1",
+          "fullDataAvailableOn": "2021-09-01",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2021-Q2",
+          "fullDataAvailableOn": "2021-12-01",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2021-Q3",
+          "fullDataAvailableOn": "2022-03-09",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2021-Q4",
+          "fullDataAvailableOn": "2022-06-08",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        }
+      ],
+      "finalOutcomeAvailability": {
+        "finalizationReferencePeriod": "2022-Q1",
+        "notBeforeDate": "2022-09-07",
+        "releaseTimeLocal": "10:00",
+        "timeZone": "America/New_York",
+        "evidenceSourceIds": [
+          "release-calendar",
+          "technical-note",
+          "revisions"
+        ]
+      },
+      "historicalDataArchiveUrl": null,
+      "historicalDataSha256": null,
+      "limitation": "The listed dates establish timing only; this bundle does not retain a 2021 release-file artifact."
+    },
+    {
+      "referenceYear": 2022,
+      "fullDataReleaseRecords": [
+        {
+          "referenceQuarter": "2022-Q1",
+          "fullDataAvailableOn": "2022-09-07",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2022-Q2",
+          "fullDataAvailableOn": "2022-12-06",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2022-Q3",
+          "fullDataAvailableOn": "2023-03-08",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2022-Q4",
+          "fullDataAvailableOn": "2023-06-07",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        }
+      ],
+      "finalOutcomeAvailability": {
+        "finalizationReferencePeriod": "2023-Q1",
+        "notBeforeDate": "2023-09-06",
+        "releaseTimeLocal": "10:00",
+        "timeZone": "America/New_York",
+        "evidenceSourceIds": [
+          "release-calendar",
+          "technical-note",
+          "revisions"
+        ]
+      },
+      "historicalDataArchiveUrl": null,
+      "historicalDataSha256": null,
+      "limitation": "The listed dates establish timing only; this bundle does not retain a 2022 release-file artifact."
+    },
+    {
+      "referenceYear": 2023,
+      "fullDataReleaseRecords": [
+        {
+          "referenceQuarter": "2023-Q1",
+          "fullDataAvailableOn": "2023-09-06",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2023-Q2",
+          "fullDataAvailableOn": "2023-12-07",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2023-Q3",
+          "fullDataAvailableOn": "2024-03-06",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2023-Q4",
+          "fullDataAvailableOn": "2024-06-05",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        }
+      ],
+      "finalOutcomeAvailability": {
+        "finalizationReferencePeriod": "2024-Q1",
+        "notBeforeDate": "2024-09-04",
+        "releaseTimeLocal": "10:00",
+        "timeZone": "America/New_York",
+        "evidenceSourceIds": [
+          "release-calendar",
+          "technical-note",
+          "revisions"
+        ]
+      },
+      "historicalDataArchiveUrl": null,
+      "historicalDataSha256": null,
+      "limitation": "The listed dates establish timing only; this bundle does not retain a 2023 release-file artifact."
+    },
+    {
+      "referenceYear": 2024,
+      "fullDataReleaseRecords": [
+        {
+          "referenceQuarter": "2024-Q1",
+          "fullDataAvailableOn": "2024-09-04",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2024-Q2",
+          "fullDataAvailableOn": "2024-12-05",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2024-Q3",
+          "fullDataAvailableOn": "2025-03-05",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        },
+        {
+          "referenceQuarter": "2024-Q4",
+          "fullDataAvailableOn": "2025-06-04",
+          "releaseTimeLocal": "10:00",
+          "timeZone": "America/New_York",
+          "evidenceSourceId": "release-calendar"
+        }
+      ],
+      "finalOutcomeAvailability": {
+        "finalizationReferencePeriod": "2025-Q1",
+        "notBeforeDate": "2025-09-09",
+        "releaseTimeLocal": "10:00",
+        "timeZone": "America/New_York",
+        "evidenceSourceIds": [
+          "release-calendar",
+          "technical-note",
+          "one-data-release-notice"
+        ]
+      },
+      "historicalDataArchiveUrl": null,
+      "historicalDataSha256": null,
+      "limitation": "The listed dates establish timing only; fourth-quarter 2024 and first-quarter 2025 use the one-data-release schedule, and this bundle does not retain a 2024 release-file artifact."
+    }
+  ],
+  "unresolved": {
+    "historicalDataBytes": "not-retained",
+    "historicalPreliminaryVintages": "not-established",
+    "terms": "not-reviewed",
+    "runReceiptRequirement": "A model run must retain its selected CSV bytes, retrieval timestamp, SHA-256, source URL, row-level disclosure handling, and positive-level audit; those run receipts are outside this catalog evidence bundle."
+  }
+}

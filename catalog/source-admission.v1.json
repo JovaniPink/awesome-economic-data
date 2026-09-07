@@ -1,0 +1,606 @@
+{
+  "schemaVersion": "1.1",
+  "projectId": "awesome-economic-data",
+  "baselineDocument": "docs/regional-economic-modeling-data.md",
+  "admissionStatus": "partial",
+  "target": {
+    "measure": "Next-quarter final QCEW third-month employment year-over-year log growth",
+    "geography": "50 states and Washington, DC",
+    "frequency": "quarterly"
+  },
+  "records": [
+    {
+      "key": "qcew",
+      "catalogId": "awesome-economic-data:source:r-9c05fea3c3e0cde9",
+      "canonicalUrl": "https://www.bls.gov/cew/downloadable-data-files.htm",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "expertRole": "Aggregate labor momentum",
+      "intendedUse": "Final target outcomes and their conservative availability cutoffs for 2019 through 2024 reference years. This admission does not approve QCEW as a general historical feature-vintage source.",
+      "materialLimitation": "The evidence bundle establishes release timing and a narrow record-selection contract, not retained historical data bytes, preliminary values, row-level receipts, or source terms.",
+      "admissionPriority": "core",
+      "admissionScope": "final-qcew-outcome-timing",
+      "admissionStatus": "admitted",
+      "pointInTimeFeasibility": "final-outcome-timing-only",
+      "evidence": {
+        "release": {
+          "status": "supported",
+          "requirement": "Use the conservative final-outcome cutoff in the linked evidence bundle. A news-release date must not substitute for the full-data availability event when the two differ.",
+          "bundlePath": "catalog/evidence/qcew-2019-2024-release-timing.v1.json",
+          "referencePeriodCoverage": "2019-Q1 through 2024-Q4",
+          "cutoffPolicy": "Use the following reference year's first-quarter full-data availability event for every quarter in the prior reference year; use the 2025-Q1 one-data-release event for 2024.",
+          "sourceIds": [
+            "release-calendar",
+            "technical-note",
+            "revisions",
+            "one-data-release-notice"
+          ]
+        },
+        "vintage": {
+          "status": "pending",
+          "requirement": "Preserve an exact archived release, retrieval timestamp, SHA-256 of retained bytes, and a binding from those bytes to extracted values before representing preliminary or otherwise historical QCEW values as reproducible vintages. A current download cannot stand in for a historical vintage.",
+          "archiveUrl": null,
+          "exactValueBinding": null,
+          "firstUsablePeriod": null,
+          "releaseCutoffAudit": null,
+          "retrievedAt": null,
+          "revisionPolicy": null,
+          "sha256": null,
+          "vintageId": null
+        },
+        "measures": {
+          "status": "supported",
+          "requirement": "Use the linked BLS field definition and derive the target only from positive selected employment levels.",
+          "bundlePath": "catalog/evidence/qcew-2019-2024-release-timing.v1.json",
+          "variableIds": [
+            "month3_emplvl"
+          ],
+          "units": "Employment level; BLS defines month3_emplvl as the employment level for the third month of a given quarter.",
+          "seasonalAdjustment": "Not stated by this evidence bundle; no seasonal-adjustment treatment is inferred.",
+          "measurementType": "Published QCEW employment-level field; year-over-year log growth is a derived transformation."
+        },
+        "geography": {
+          "status": "bounded",
+          "requirement": "Select only the 50 states and Washington, DC using the listed statewide QCEW area codes. Verify rows and coverage from retained run-specific bytes before model use.",
+          "bundlePath": "catalog/evidence/qcew-2019-2024-release-timing.v1.json",
+          "geographyCodes": [
+            "01000",
+            "02000",
+            "04000",
+            "05000",
+            "06000",
+            "08000",
+            "09000",
+            "10000",
+            "11000",
+            "12000",
+            "13000",
+            "15000",
+            "16000",
+            "17000",
+            "18000",
+            "19000",
+            "20000",
+            "21000",
+            "22000",
+            "23000",
+            "24000",
+            "25000",
+            "26000",
+            "27000",
+            "28000",
+            "29000",
+            "30000",
+            "31000",
+            "32000",
+            "33000",
+            "34000",
+            "35000",
+            "36000",
+            "37000",
+            "38000",
+            "39000",
+            "40000",
+            "41000",
+            "42000",
+            "44000",
+            "45000",
+            "46000",
+            "47000",
+            "48000",
+            "49000",
+            "50000",
+            "51000",
+            "53000",
+            "54000",
+            "55000",
+            "56000"
+          ],
+          "coverageBasis": "The BLS area-code table defines statewide QCEW records; this is a 51-code selection contract, not a row-level audit of a downloaded release.",
+          "rowLevelCoverageAudit": null,
+          "classificationBasis": "QCEW documents 2017 NAICS for 2019-2021 and 2022 NAICS for 2022-2024."
+        },
+        "access": {
+          "status": "pending",
+          "requirement": "For each run, retain the exact BLS file or data-slice URL, retrieval procedure, format, credentials condition, and byte receipt without storing credentials. This timing admission does not replace that run-specific access evidence.",
+          "credentials": null,
+          "format": null,
+          "retrievalProcedure": null
+        },
+        "terms": {
+          "status": "pending",
+          "requirement": "Retain dated publisher terms evidence and review modeling use, redistribution, and attribution requirements. Public access and the repository license do not establish source permissions.",
+          "attributionRequirements": null,
+          "modelingPermission": null,
+          "redistributionPermission": null,
+          "reviewedAt": null,
+          "termsUrl": null
+        },
+        "sourceSpecific": {
+          "status": "bounded",
+          "requirement": "Keep the target selection at Statewide, Total Covered, Total all industries, and all establishment sizes; record classification changes and perform disclosure and positive-level checks against each retained run receipt.",
+          "bundlePath": "catalog/evidence/qcew-2019-2024-release-timing.v1.json",
+          "recordSelection": {
+            "ownCode": "0",
+            "industryCode": "10",
+            "aggregationLevelCode": "50",
+            "sizeCode": "0"
+          },
+          "classificationBreaks": "2017 NAICS applies to 2019-2021 and 2022 NAICS applies to 2022-2024.",
+          "disclosureHandling": "Inspect disclosure_code in each retained run receipt; this evidence bundle contains no source rows and therefore no completed disclosure audit.",
+          "positiveLevelGrowthAudit": null
+        }
+      }
+    },
+    {
+      "key": "bea-regional",
+      "catalogId": "awesome-economic-data:source:r-d34e206ef619f350",
+      "canonicalUrl": "https://www.bea.gov/data/economic-accounts/regional",
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "expertRole": "State growth",
+      "intendedUse": "Core growth features from selected state GDP and personal-income tables; exact table and variable selection remains pending.",
+      "materialLimitation": "Regional tables differ in concepts, units, coverage, and revision windows; the current API does not establish historical release values.",
+      "admissionPriority": "core",
+      "admissionScope": "none",
+      "admissionStatus": "pending",
+      "pointInTimeFeasibility": "designed",
+      "evidence": {
+        "release": {
+          "status": "pending",
+          "requirement": "Bind the official release identifier and publication date to dated publisher evidence, the observation reference period, and observed release delay; an observation date is not a publication date.",
+          "publicationDate": null,
+          "publicationDateEvidence": null,
+          "publicationDelay": null,
+          "referencePeriod": null,
+          "releaseId": null
+        },
+        "vintage": {
+          "status": "pending",
+          "requirement": "Preserve an exact archived release, retrieval timestamp, SHA-256 of the retained bytes, and binding from those bytes to extracted values. Document revision behavior, first usable period, and an executed release-cutoff audit. A current download cannot stand in for a historical vintage.",
+          "archiveUrl": null,
+          "exactValueBinding": null,
+          "firstUsablePeriod": null,
+          "releaseCutoffAudit": null,
+          "retrievedAt": null,
+          "revisionPolicy": null,
+          "sha256": null,
+          "vintageId": null
+        },
+        "measures": {
+          "status": "pending",
+          "requirement": "Record exact variables, published units and transformations, seasonal treatment, and whether each measure is observed, modeled, or derived; reconcile these against release metadata.",
+          "measurementType": null,
+          "seasonalAdjustment": null,
+          "units": null,
+          "variableIds": null
+        },
+        "geography": {
+          "status": "pending",
+          "requirement": "Prove complete coverage of the 50 states and Washington, DC using explicit geographic codes, and preserve applicable geography and industry classification definitions and breaks.",
+          "classificationBasis": null,
+          "coverageAudit": null,
+          "geographyCodes": null
+        },
+        "access": {
+          "status": "pending",
+          "requirement": "Reproduce the file or API access procedure, format, credentials requirements, and any pagination; record requirements without storing credentials.",
+          "credentials": null,
+          "format": null,
+          "retrievalProcedure": null
+        },
+        "terms": {
+          "status": "pending",
+          "requirement": "Retain dated publisher terms evidence and review modeling use, redistribution, and attribution requirements. Public access and the repository license do not establish source permissions.",
+          "attributionRequirements": null,
+          "modelingPermission": null,
+          "redistributionPermission": null,
+          "reviewedAt": null,
+          "termsUrl": null
+        },
+        "sourceSpecific": {
+          "status": "pending",
+          "requirement": "Select exact table and line codes, unit multipliers, nominal or real price basis, and seasonal treatment. Bind each selected value to an archived regional release rather than the current API; preserve quarterly versus annual product distinctions.",
+          "archivedTableBinding": null,
+          "tableAndLineCodes": null,
+          "unitMultipliersAndPriceBasis": null
+        }
+      }
+    },
+    {
+      "key": "fhfa-hpi",
+      "catalogId": "awesome-economic-data:source:r-69828f692c044221",
+      "canonicalUrl": "https://www.fhfa.gov/house-price-index?tab=HPI+Datasets",
+      "publisher": "Federal Housing Finance Agency",
+      "expertRole": "Housing",
+      "intendedUse": "Core quarterly state purchase-only HPI features; selected seasonal treatment and index units remain pending.",
+      "materialLimitation": "Eligible mortgage transactions limit coverage, historical values are revised, and purchase-only, all-transactions, expanded-data, adjusted, and unadjusted variants are not interchangeable.",
+      "admissionPriority": "core",
+      "admissionScope": "none",
+      "admissionStatus": "pending",
+      "pointInTimeFeasibility": "designed",
+      "evidence": {
+        "release": {
+          "status": "pending",
+          "requirement": "Bind the official release identifier and publication date to dated publisher evidence, the observation reference period, and observed release delay; an observation date is not a publication date.",
+          "publicationDate": null,
+          "publicationDateEvidence": null,
+          "publicationDelay": null,
+          "referencePeriod": null,
+          "releaseId": null
+        },
+        "vintage": {
+          "status": "pending",
+          "requirement": "Preserve an exact archived release, retrieval timestamp, SHA-256 of the retained bytes, and binding from those bytes to extracted values. Document revision behavior, first usable period, and an executed release-cutoff audit. A current download cannot stand in for a historical vintage.",
+          "archiveUrl": null,
+          "exactValueBinding": null,
+          "firstUsablePeriod": null,
+          "releaseCutoffAudit": null,
+          "retrievedAt": null,
+          "revisionPolicy": null,
+          "sha256": null,
+          "vintageId": null
+        },
+        "measures": {
+          "status": "pending",
+          "requirement": "Record exact variables, published units and transformations, seasonal treatment, and whether each measure is observed, modeled, or derived; reconcile these against release metadata.",
+          "measurementType": null,
+          "seasonalAdjustment": null,
+          "units": null,
+          "variableIds": null
+        },
+        "geography": {
+          "status": "pending",
+          "requirement": "Prove complete coverage of the 50 states and Washington, DC using explicit geographic codes, and preserve applicable geography and industry classification definitions and breaks.",
+          "classificationBasis": null,
+          "coverageAudit": null,
+          "geographyCodes": null
+        },
+        "access": {
+          "status": "pending",
+          "requirement": "Reproduce the file or API access procedure, format, credentials requirements, and any pagination; record requirements without storing credentials.",
+          "credentials": null,
+          "format": null,
+          "retrievalProcedure": null
+        },
+        "terms": {
+          "status": "pending",
+          "requirement": "Retain dated publisher terms evidence and review modeling use, redistribution, and attribution requirements. Public access and the repository license do not establish source permissions.",
+          "attributionRequirements": null,
+          "modelingPermission": null,
+          "redistributionPermission": null,
+          "reviewedAt": null,
+          "termsUrl": null
+        },
+        "sourceSpecific": {
+          "status": "pending",
+          "requirement": "Bind the quarterly state purchase-only variant, seasonal treatment, and index base to archived report values, report identity, PDF page and layout evidence, and a recorded manual extraction review. Preserve published levels versus percentage changes.",
+          "archivedReportBinding": null,
+          "indexBase": null,
+          "manualExtractionReview": null,
+          "pdfPageAndLayoutEvidence": null,
+          "purchaseOnlyVariant": null
+        }
+      }
+    },
+    {
+      "key": "qcew-industry",
+      "catalogId": "awesome-economic-data:source:r-9c05fea3c3e0cde9",
+      "canonicalUrl": "https://www.bls.gov/cew/downloadable-data-files.htm",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "expertRole": "State industry momentum",
+      "intendedUse": "Leading-signal industry employment, share, momentum, concentration, dispersion, breadth, and publication-coverage features from original state-by-industry releases.",
+      "materialLimitation": "The official surfaces reviewed expose current revised history but do not yet establish retained original state-by-industry release bytes for the required backtest window.",
+      "admissionPriority": "pilot",
+      "admissionScope": "none",
+      "admissionStatus": "pending",
+      "pointInTimeFeasibility": "requires-archive-proof",
+      "evidence": {
+        "release": {
+          "status": "pending",
+          "requirement": "Bind each original BLS industry release to its official publication date and reference quarter; a current downloadable-history URL is not a release identity.",
+          "publicationDate": null,
+          "publicationDateEvidence": null,
+          "publicationDelay": null,
+          "referencePeriod": null,
+          "releaseId": null
+        },
+        "vintage": {
+          "status": "pending",
+          "requirement": "Locate and retain exact original publisher release bytes for every required state-by-industry vintage. Do not reconstruct an archived release from today's revised history.",
+          "archiveUrl": null,
+          "exactValueBinding": null,
+          "firstUsablePeriod": null,
+          "releaseCutoffAudit": null,
+          "retrievedAt": null,
+          "revisionPolicy": null,
+          "sha256": null,
+          "vintageId": null
+        },
+        "measures": {
+          "status": "pending",
+          "requirement": "Bind exact industry, employment, establishment, wage, reporting-coverage, and derived-feature definitions with units and seasonal treatment.",
+          "measurementType": null,
+          "seasonalAdjustment": null,
+          "units": null,
+          "variableIds": null
+        },
+        "geography": {
+          "status": "pending",
+          "requirement": "Prove complete 50-state-plus-DC coverage for every admitted industry vintage and preserve NAICS classification versions and breaks.",
+          "classificationBasis": null,
+          "coverageAudit": null,
+          "geographyCodes": null
+        },
+        "access": {
+          "status": "pending",
+          "requirement": "Record the official archive retrieval procedure, media type, credentials condition, and byte-level receipt for each release.",
+          "credentials": null,
+          "format": null,
+          "retrievalProcedure": null
+        },
+        "terms": {
+          "status": "pending",
+          "requirement": "Retain dated BLS terms evidence and the required attribution and disclaimer for derived analysis.",
+          "attributionRequirements": null,
+          "modelingPermission": null,
+          "redistributionPermission": null,
+          "reviewedAt": null,
+          "termsUrl": null
+        },
+        "sourceSpecific": {
+          "status": "pending",
+          "requirement": "Bind industry and ownership selection, 2017-to-2022 NAICS mapping, suppression handling, publication coverage, and original-release byte identity.",
+          "classificationBreaks": null,
+          "coverageAudit": null,
+          "disclosureAudit": null,
+          "historicalReleaseByteBinding": null,
+          "recordSelection": null
+        }
+      }
+    },
+    {
+      "key": "census-bfs",
+      "catalogId": "awesome-economic-data:source:r-2f165de831bde354",
+      "canonicalUrl": "https://www.census.gov/econ/bfs/data.html",
+      "publisher": "U.S. Census Bureau",
+      "expertRole": "Business formation",
+      "intendedUse": "Leading monthly state business-application features using applications and high-propensity application measures; projected formations remain excluded.",
+      "materialLimitation": "Historical releases and current series can incorporate seasonal, definitional, coding, and outcome revisions; projected formations are modeled outputs rather than observed births.",
+      "admissionPriority": "pilot",
+      "admissionScope": "none",
+      "admissionStatus": "pending",
+      "pointInTimeFeasibility": "requires-archive-proof",
+      "evidence": {
+        "release": {
+          "status": "pending",
+          "requirement": "Bind each Census historical BFS release to its publication date, reference month or quarter, and official release file.",
+          "publicationDate": null,
+          "publicationDateEvidence": null,
+          "publicationDelay": null,
+          "referencePeriod": null,
+          "releaseId": null
+        },
+        "vintage": {
+          "status": "pending",
+          "requirement": "Retain exact historical quarterly and monthly release bytes, hashes, retrieval timestamps, and an executed cutoff audit.",
+          "archiveUrl": null,
+          "exactValueBinding": null,
+          "firstUsablePeriod": null,
+          "releaseCutoffAudit": null,
+          "retrievedAt": null,
+          "revisionPolicy": null,
+          "sha256": null,
+          "vintageId": null
+        },
+        "measures": {
+          "status": "pending",
+          "requirement": "Select exact business-application and high-propensity series codes and distinguish observed applications from Census projected formations.",
+          "measurementType": null,
+          "seasonalAdjustment": null,
+          "units": null,
+          "variableIds": null
+        },
+        "geography": {
+          "status": "pending",
+          "requirement": "Prove complete 50-state-plus-DC coverage at every eligible monthly release and preserve geographic coding changes.",
+          "classificationBasis": null,
+          "coverageAudit": null,
+          "geographyCodes": null
+        },
+        "access": {
+          "status": "pending",
+          "requirement": "Record official historical-release URLs, formats, credentials condition, and a reproducible retrieval procedure.",
+          "credentials": null,
+          "format": null,
+          "retrievalProcedure": null
+        },
+        "terms": {
+          "status": "pending",
+          "requirement": "Retain dated Census terms and attribution evidence for modeling and redistribution.",
+          "attributionRequirements": null,
+          "modelingPermission": null,
+          "redistributionPermission": null,
+          "reviewedAt": null,
+          "termsUrl": null
+        },
+        "sourceSpecific": {
+          "status": "pending",
+          "requirement": "Preserve the 2020 quarterly-to-2021 monthly product transition, seasonal policy, selected series, and explicit exclusion of projected formation outcomes.",
+          "frequencyTransition": null,
+          "projectedFormationExclusion": null,
+          "seasonalAdjustmentPolicy": null,
+          "seriesCodes": null
+        }
+      }
+    },
+    {
+      "key": "census-building-permits",
+      "catalogId": "awesome-economic-data:source:r-993b9b7077978e95",
+      "canonicalUrl": "https://www.census.gov/construction/bps/statemonthly.html",
+      "publisher": "U.S. Census Bureau",
+      "expertRole": "Construction pipeline",
+      "intendedUse": "Leading monthly state total, single-family, and five-plus-unit residential authorization features from dated state workbooks.",
+      "materialLimitation": "Permits measure authorizations rather than starts or completions; monthly and year-to-date values have different revision behavior and the estimation universe changed in January 2022.",
+      "admissionPriority": "pilot",
+      "admissionScope": "none",
+      "admissionStatus": "pending",
+      "pointInTimeFeasibility": "requires-archive-proof",
+      "evidence": {
+        "release": {
+          "status": "pending",
+          "requirement": "Bind every state monthly workbook to its official publication date and reference month.",
+          "publicationDate": null,
+          "publicationDateEvidence": null,
+          "publicationDelay": null,
+          "referencePeriod": null,
+          "releaseId": null
+        },
+        "vintage": {
+          "status": "pending",
+          "requirement": "Retain each dated official workbook, retrieval timestamp, hash, value binding, and cutoff audit without replacing it with a later cumulative file.",
+          "archiveUrl": null,
+          "exactValueBinding": null,
+          "firstUsablePeriod": null,
+          "releaseCutoffAudit": null,
+          "retrievedAt": null,
+          "revisionPolicy": null,
+          "sha256": null,
+          "vintageId": null
+        },
+        "measures": {
+          "status": "pending",
+          "requirement": "Bind total, single-family, and five-plus-unit authorization columns, count units, adjustment status, and derived three-month growth.",
+          "measurementType": null,
+          "seasonalAdjustment": null,
+          "units": null,
+          "variableIds": null
+        },
+        "geography": {
+          "status": "pending",
+          "requirement": "Prove complete state and District of Columbia coverage for each selected workbook and preserve territory exclusions.",
+          "classificationBasis": null,
+          "coverageAudit": null,
+          "geographyCodes": null
+        },
+        "access": {
+          "status": "pending",
+          "requirement": "Record workbook URLs, file format, credentials condition, and exact retrieval procedure.",
+          "credentials": null,
+          "format": null,
+          "retrievalProcedure": null
+        },
+        "terms": {
+          "status": "pending",
+          "requirement": "Retain dated Census terms and attribution evidence for modeling and redistribution.",
+          "attributionRequirements": null,
+          "modelingPermission": null,
+          "redistributionPermission": null,
+          "reviewedAt": null,
+          "termsUrl": null
+        },
+        "sourceSpecific": {
+          "status": "pending",
+          "requirement": "Bind workbook layout, state monthly revision policy, the January 2022 universe and imputation change, and the selected measure columns.",
+          "methodologyBreak": null,
+          "monthlyRevisionPolicy": null,
+          "measureColumns": null,
+          "workbookLayoutEvidence": null
+        }
+      }
+    },
+    {
+      "key": "treasury-yield-curve",
+      "catalogId": "awesome-economic-data:source:r-769f48dc29248970",
+      "canonicalUrl": "https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics",
+      "publisher": "U.S. Department of the Treasury",
+      "expertRole": "National rate context",
+      "intendedUse": "Gate-only daily 3-month, 2-year, and 10-year par-yield context and derived spreads; the source is not a state-varying expert.",
+      "materialLimitation": "Rates are curve-derived indicative measures rather than transaction prices, contain no state variation, and cross a documented methodology break on December 6, 2021.",
+      "admissionPriority": "gate_context",
+      "admissionScope": "none",
+      "admissionStatus": "pending",
+      "pointInTimeFeasibility": "designed",
+      "evidence": {
+        "release": {
+          "status": "pending",
+          "requirement": "Bind each official yearly daily-rate file to its publication surface and observation dates, preserving the trading-day release clock limitation.",
+          "publicationDate": null,
+          "publicationDateEvidence": null,
+          "publicationDelay": null,
+          "referencePeriod": null,
+          "releaseId": null
+        },
+        "vintage": {
+          "status": "pending",
+          "requirement": "Retain exact official yearly CSV or XML bytes, retrieval timestamps, hashes, and a cutoff audit through the last eligible trading day.",
+          "archiveUrl": null,
+          "exactValueBinding": null,
+          "firstUsablePeriod": null,
+          "releaseCutoffAudit": null,
+          "retrievedAt": null,
+          "revisionPolicy": null,
+          "sha256": null,
+          "vintageId": null
+        },
+        "measures": {
+          "status": "pending",
+          "requirement": "Select nominal par yields at 3 months, 2 years, and 10 years in percent and define both spreads and 20-trading-day changes.",
+          "measurementType": null,
+          "seasonalAdjustment": null,
+          "units": null,
+          "variableIds": null
+        },
+        "geography": {
+          "status": "pending",
+          "requirement": "Record that the national observation is shared gate context for every state and is not duplicated as state-specific source evidence.",
+          "classificationBasis": null,
+          "coverageAudit": null,
+          "geographyCodes": null
+        },
+        "access": {
+          "status": "pending",
+          "requirement": "Record the official daily-rate CSV or XML endpoints, credentials condition, and year-by-year retrieval procedure.",
+          "credentials": null,
+          "format": null,
+          "retrievalProcedure": null
+        },
+        "terms": {
+          "status": "pending",
+          "requirement": "Retain dated Treasury terms and attribution evidence for modeling and redistribution.",
+          "attributionRequirements": null,
+          "modelingPermission": null,
+          "redistributionPermission": null,
+          "reviewedAt": null,
+          "termsUrl": null
+        },
+        "sourceSpecific": {
+          "status": "pending",
+          "requirement": "Bind selected maturities, trading-day handling, archive identity, and the December 6, 2021 switch from the Hermite-spline to monotone-convex curve method.",
+          "archiveBinding": null,
+          "maturities": null,
+          "methodologyBreak": null,
+          "tradingDayPolicy": null
+        }
+      }
+    }
+  ]
+}
