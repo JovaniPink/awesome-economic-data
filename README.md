@@ -8,6 +8,8 @@ External sources are reviewed when added or materially changed. A catalog-wide s
 
 The [alternative economic and financial data review](docs/alternative-financial-data-review.md) records the September 2026 additions, access evidence, methodological dependencies, and deferred learning datasets.
 
+The [household wealth and community data review](docs/household-wealth-community-data-review.md) records six additions for studying household resources, unpaid work, civic participation, and housing supply.
+
 The [machine-readable resource index](catalog/resources.v1.json) assigns stable public identifiers while preserving the catalog boundary: inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof. The index uses schema version 1.1 and retains unknown access and source authority until reviewed evidence is supplied. See the [resource index contract](docs/knowledge-resource-index.md) before using an entry in a model or lab.
 
 ## Contents
@@ -17,6 +19,7 @@ The [machine-readable resource index](catalog/resources.v1.json) assigns stable 
 - [Housing & Shelter](#housing--shelter)
 - [Consumer Spending & Mobility](#consumer-spending--mobility)
 - [Household Financial Health](#household-financial-health)
+- [Unpaid Work & Civic Life](#unpaid-work--civic-life)
 - [Goods Flow & Logistics](#goods-flow--logistics)
 - [Trade & Shipping Rates](#trade--shipping-rates)
 - [Market-Implied Macro](#market-implied-macro)
@@ -57,10 +60,11 @@ Fast-moving price measures that lead or complement CPI and PCE.
 
 ## Housing & Shelter
 
-Asking-rent and housing series that can lead official shelter inflation.
+Asking-rent series and housing-supply data describe different aspects of shelter costs and availability.
 
 - [Apartment List National Rent Data](https://www.apartmentlist.com/research/national-rent-data) - Publishes monthly asking-rent estimates with metro-level cuts and downloadable time series.
 - [Zillow Data](https://www.zillow.com/research/data/) - Provides ZORI repeat-rent estimates and other housing datasets with published methodology.
+- [Census Characteristics of New Housing](https://www.census.gov/construction/chars/index.html) - Publishes annual Survey of Construction tables and microdata on new-home size, features, and prices; new construction does not represent the entire housing stock or establish affordability near jobs.
 
 ## Consumer Spending & Mobility
 
@@ -77,6 +81,16 @@ Survey responses, credit aggregates, tax records, and utility payment events des
 - [New York Fed Consumer Data Bank](https://www.newyorkfed.org/microeconomics/databank) - Offers quarterly household credit aggregates and separate consumer-expectations survey downloads with module-specific cadences; public credit workbooks do not expose underlying Consumer Credit Panel microdata.
 - [IRS ZIP-Code Income Data](https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi) - Provides annual income and wage aggregates by ZIP code and income bracket in CSV and Excel; delayed tax-return statistics exclude nonfilers and do not measure individual worker raises.
 - [EIA Utility Disconnections](https://www.eia.gov/analysis/requests/residential/utility/) - Provides downloadable utility-level monthly nonpayment notices, disconnections, and reconnections for 2024; this limited collection cannot establish a trend since 2020 or count unique affected households.
+- [Federal Reserve Survey of Consumer Finances](https://www.federalreserve.gov/econres/scfindex.htm) - Provides triennial household wealth and debt survey files, CSV extracts, and codebooks; weights and multiple imputations are essential, and broad age-group comparisons do not follow the same families.
+- [Census Survey of Income and Program Participation](https://www.census.gov/programs-surveys/sipp/data/datasets.html) - Offers annual public-use income, assets, benefits, and household-transition files with documentation; reference years differ from survey labels, and redesigns and attrition complicate historical comparisons.
+
+## Unpaid Work & Civic Life
+
+Household-production estimates and surveys of participation complement monetary measures without directly measuring every form of social well-being.
+
+- [BEA Household Production](https://www.bea.gov/data/special-topics/household-production) - Publishes periodically updated annual estimates of unpaid household work in Excel with methods; time-use inputs and wage-based valuations make these constructed estimates rather than independent observations of social welfare.
+- [NORC General Social Survey](https://gss.norc.org/get-the-data.html) - Offers repeated social-attitude and participation surveys, generally biennial since 1994, in SAS, Stata, and SPSS; attribution terms, changing modes, restricted geography, and revised variable coding require care.
+- [Census Volunteering and Civic Life Supplement](https://www.census.gov/data/datasets/2023/demo/cps/cps-volunteer.html) - Provides 2023 volunteering and informal-helping survey files in CSV and compressed formats with replicate weights; this periodic CPS supplement shares survey infrastructure and requires comparable questions across waves.
 
 ## Goods Flow & Logistics
 
