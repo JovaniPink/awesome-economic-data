@@ -109,6 +109,153 @@
       },
       "editorialStatus": "published",
       "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-2aaff649fe40d8c7",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "labor-hiring"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://github.com/hiring-lab/indeed-wage-tracker",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Indeed Wage Tracker"
+      },
+      "summary": "Publishes monthly advertised wage-growth CSVs by country and occupational sector under CC BY 4.0; job-title comparisons measure offers rather than pay received by individual workers.",
+      "title": "Indeed Wage Tracker",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-bcd694b1a75086a5",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "labor-hiring"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://gusto.com/resources/gusto-insights/real-time-economic-data",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Gusto Real Time Economic Data"
+      },
+      "summary": "Offers monthly small-business payroll earnings and hiring series as CSVs; estimates use QCEW calibration and revisions, so independently collected payroll is not an independent national benchmark.",
+      "title": "Gusto Real Time Economic Data",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-4358c78294b33d08",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "labor-hiring"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://squareup.com/us/en/the-bottom-line/tools/square-payroll-index",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Square Payroll Index"
+      },
+      "summary": "Reports monthly retail and food-service base wages and hourly earnings including tips and overtime; public charts cover Square employers, and bulk export remains unverified.",
+      "title": "Square Payroll Index",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
       "id": "awesome-economic-data:source:r-1ebe7c3451ae7600",
       "kind": "source",
       "legacyIds": [],
@@ -403,6 +550,153 @@
       },
       "editorialStatus": "published",
       "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-de030e33cc831902",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "prices-inflation"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://mymarketnews.ams.usda.gov/viewReport/3324",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "USDA Advertised Grocery Prices"
+      },
+      "summary": "Publishes weekly specialty-crop grocery advertisement reports with product and regional detail through Market News; promotional offers are not transaction prices or a complete grocery basket.",
+      "title": "USDA Advertised Grocery Prices",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-f870284e004209b4",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "prices-inflation"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://huggingface.co/datasets/openfoodfacts/open-prices",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Open Prices"
+      },
+      "summary": "Provides community-contributed dated product prices and proof metadata in Parquet under ODbL; irregular observations and geographic selection prevent assuming a representative U.S. price index.",
+      "title": "Open Prices",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-2887e73813f79807",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "prices-inflation"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.eia.gov/electricity/sales_revenue_price/",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "EIA Electricity Prices and Bills"
+      },
+      "summary": "Publishes annual electricity sales, revenues, average prices, and residential bills in spreadsheets; bills reflect consumption as well as unit prices and exclude other utilities.",
+      "title": "EIA Electricity Prices and Bills",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
       "id": "awesome-economic-data:source:r-af86e08d50229aac",
       "kind": "source",
       "legacyIds": [],
@@ -501,6 +795,55 @@
       },
       "editorialStatus": "published",
       "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-2906f39932f1674f",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "housing-shelter"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.census.gov/construction/chars/index.html",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Census Characteristics of New Housing"
+      },
+      "summary": "Publishes annual Survey of Construction tables and microdata on new-home size, features, and prices; new construction does not represent the entire housing stock or establish affordability near jobs.",
+      "title": "Census Characteristics of New Housing",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
       "id": "awesome-economic-data:source:r-1729be9f616e1938",
       "kind": "source",
       "legacyIds": [],
@@ -590,6 +933,447 @@
       },
       "summary": "Publishes daily airport-screening throughput for current and comparison years.",
       "title": "TSA Checkpoint Travel Numbers",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-97c316d34ae7d78c",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "household-financial-health"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Federal Reserve SHED Data"
+      },
+      "summary": "Provides annual financial well-being survey microdata as CSV and Stata files with codebooks; weights, revised files, and changing questions matter when comparing self-reported hardship.",
+      "title": "Federal Reserve SHED Data",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-de60b33199fc7cec",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "household-financial-health"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.newyorkfed.org/microeconomics/databank",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "New York Fed Consumer Data Bank"
+      },
+      "summary": "Offers quarterly household credit aggregates and separate consumer-expectations survey downloads with module-specific cadences; public credit workbooks do not expose underlying Consumer Credit Panel microdata.",
+      "title": "New York Fed Consumer Data Bank",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-582058d89f7db437",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "household-financial-health"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "IRS ZIP-Code Income Data"
+      },
+      "summary": "Provides annual income and wage aggregates by ZIP code and income bracket in CSV and Excel; delayed tax-return statistics exclude nonfilers and do not measure individual worker raises.",
+      "title": "IRS ZIP-Code Income Data",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-0363c942a2aa435f",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "household-financial-health"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.eia.gov/analysis/requests/residential/utility/",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "EIA Utility Disconnections"
+      },
+      "summary": "Provides downloadable utility-level monthly nonpayment notices, disconnections, and reconnections for 2024; this limited collection cannot establish a trend since 2020 or count unique affected households.",
+      "title": "EIA Utility Disconnections",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-1352f3b7f416c656",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "household-financial-health"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.federalreserve.gov/econres/scfindex.htm",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Federal Reserve Survey of Consumer Finances"
+      },
+      "summary": "Provides triennial household wealth and debt survey files, CSV extracts, and codebooks; weights and multiple imputations are essential, and broad age-group comparisons do not follow the same families.",
+      "title": "Federal Reserve Survey of Consumer Finances",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-ce621c7867de969c",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "household-financial-health"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.census.gov/programs-surveys/sipp/data/datasets.html",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Census Survey of Income and Program Participation"
+      },
+      "summary": "Offers annual public-use income, assets, benefits, and household-transition files with documentation; reference years differ from survey labels, and redesigns and attrition complicate historical comparisons.",
+      "title": "Census Survey of Income and Program Participation",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-a106c9b26a28f748",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "unpaid-work-civic-life"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.bea.gov/data/special-topics/household-production",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "BEA Household Production"
+      },
+      "summary": "Publishes periodically updated annual estimates of unpaid household work in Excel with methods; time-use inputs and wage-based valuations make these constructed estimates rather than independent observations of social welfare.",
+      "title": "BEA Household Production",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-be7a3368a50b6d86",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "unpaid-work-civic-life"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://gss.norc.org/get-the-data.html",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "NORC General Social Survey"
+      },
+      "summary": "Offers repeated social-attitude and participation surveys, generally biennial since 1994, in SAS, Stata, and SPSS; attribution terms, changing modes, restricted geography, and revised variable coding require care.",
+      "title": "NORC General Social Survey",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-9bbeccd711838884",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "unpaid-work-civic-life"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.census.gov/data/datasets/2023/demo/cps/cps-volunteer.html",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Census Volunteering and Civic Life Supplement"
+      },
+      "summary": "Provides 2023 volunteering and informal-helping survey files in CSV and compressed formats with replicate weights; this periodic CPS supplement shares survey infrastructure and requires comparable questions across waves.",
+      "title": "Census Volunteering and Civic Life Supplement",
       "visibility": "public"
     },
     {
@@ -1276,6 +2060,349 @@
       },
       "summary": "Explains the yield-curve recession model, inputs, interpretation, and limitations.",
       "title": "New York Fed Yield Curve Model FAQ",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-c7c3d098adb34d5e",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "corporate-financials-financial-accounts"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "SEC Financial Statement Data Sets"
+      },
+      "summary": "Publishes quarterly ZIPs of financial-statement facts extracted from company filings; fiscal periods, tags, restatements, and coverage require reconciliation before comparing margins or aggregate profits.",
+      "title": "SEC Financial Statement Data Sets",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-ab76597b40286ba4",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "corporate-financials-financial-accounts"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.census.gov/econ/qfr/historic.html",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Census Quarterly Financial Report"
+      },
+      "summary": "Offers quarterly industry financial estimates through historical spreadsheets and publications; sector and firm-size coverage vary, and shared inputs limit independence from national profit estimates.",
+      "title": "Census Quarterly Financial Report",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-0d8937f25d9d823b",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "corporate-financials-financial-accounts"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.federalreserve.gov/releases/z1/",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Federal Reserve Financial Accounts Z.1"
+      },
+      "summary": "Publishes quarterly sector financial flows and balance sheets with CSV and XML downloads; multi-source estimates and revisions distinguish these accounts from direct household or company observations.",
+      "title": "Federal Reserve Financial Accounts Z.1",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-6dfcb606cd7c009e",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "financial-markets-returns"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.sec.gov/data-research/sec-markets-data/form-n-port-data-sets",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "SEC Form N-PORT Data Sets"
+      },
+      "summary": "Offers quarterly ZIPs of publicly disseminated fund portfolio filings; disclosure delays and fund coverage prevent treating the files as complete current holdings.",
+      "title": "SEC Form N-PORT Data Sets",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-dd3990584a9efa74",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "financial-markets-returns"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.newyorkfed.org/markets/reference-rates",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "New York Fed Reference Rates"
+      },
+      "summary": "Publishes daily overnight funding benchmarks with historical data and API access; transaction-based rates such as SOFR describe wholesale funding rather than household borrowing costs or forecasts.",
+      "title": "New York Fed Reference Rates",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-4d6b6c6757230963",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "financial-markets-returns"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.financialresearch.gov/short-term-funding-monitor/api/",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "OFR Short-Term Funding Monitor API"
+      },
+      "summary": "Provides unauthenticated JSON queries and metadata for funding indicators with series-specific frequencies; mixed observation sources and derived measures require checking upstream definitions and terms.",
+      "title": "OFR Short-Term Funding Monitor API",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-c17369b4acf7f87f",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "financial-markets-returns"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Kenneth French Data Library"
+      },
+      "summary": "Offers downloadable daily, weekly, and monthly factor and portfolio research returns in CSV and text; constructed CRSP-derived histories can revise and are not raw tradable security prices.",
+      "title": "Kenneth French Data Library",
       "visibility": "public"
     },
     {
