@@ -6,6 +6,8 @@ Catalog structure reviewed: August 2026.
 
 External sources are reviewed when added or materially changed. A catalog-wide source recency review has not yet been recorded.
 
+The [alternative economic and financial data review](docs/alternative-financial-data-review.md) records the September 2026 additions, access evidence, methodological dependencies, and deferred learning datasets.
+
 The [machine-readable resource index](catalog/resources.v1.json) assigns stable public identifiers while preserving the catalog boundary: inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof. The index uses schema version 1.1 and retains unknown access and source authority until reviewed evidence is supplied. See the [resource index contract](docs/knowledge-resource-index.md) before using an entry in a model or lab.
 
 ## Contents
@@ -14,9 +16,12 @@ The [machine-readable resource index](catalog/resources.v1.json) assigns stable 
 - [Prices & Inflation](#prices--inflation)
 - [Housing & Shelter](#housing--shelter)
 - [Consumer Spending & Mobility](#consumer-spending--mobility)
+- [Household Financial Health](#household-financial-health)
 - [Goods Flow & Logistics](#goods-flow--logistics)
 - [Trade & Shipping Rates](#trade--shipping-rates)
 - [Market-Implied Macro](#market-implied-macro)
+- [Corporate Financials & Financial Accounts](#corporate-financials--financial-accounts)
+- [Financial Markets & Returns](#financial-markets--returns)
 - [Remote Sensing & Alternative Data](#remote-sensing--alternative-data)
 - [Behavioral & Company Proxies](#behavioral--company-proxies)
 - [Composite Trackers](#composite-trackers)
@@ -28,10 +33,13 @@ The [machine-readable resource index](catalog/resources.v1.json) assigns stable 
 
 ## Labor & Hiring
 
-Directional reads on hiring before official labor releases.
+Measures of hiring, advertised pay, and received earnings with different worker and employer coverage.
 
 - [ADP National Employment Report](https://adpemploymentreport.com/) - Provides a monthly estimate of private-sector employment and pay based on ADP payroll data.
 - [Conference Board-Lightcast Help Wanted OnLine](https://www.conference-board.org/topics/help-wanted-online/) - Models monthly job openings from online job advertisements as an early view of labor demand.
+- [Indeed Wage Tracker](https://github.com/hiring-lab/indeed-wage-tracker) - Publishes monthly advertised wage-growth CSVs by country and occupational sector under CC BY 4.0; job-title comparisons measure offers rather than pay received by individual workers.
+- [Gusto Real Time Economic Data](https://gusto.com/resources/gusto-insights/real-time-economic-data) - Offers monthly small-business payroll earnings and hiring series as CSVs; estimates use QCEW calibration and revisions, so independently collected payroll is not an independent national benchmark.
+- [Square Payroll Index](https://squareup.com/us/en/the-bottom-line/tools/square-payroll-index) - Reports monthly retail and food-service base wages and hourly earnings including tips and overtime; public charts cover Square employers, and bulk export remains unverified.
 
 ## Prices & Inflation
 
@@ -43,6 +51,9 @@ Fast-moving price measures that lead or complement CPI and PCE.
 - [Copper Futures](https://www.cmegroup.com/markets/metals/base/copper.html) - Provides market pricing commonly used as a noisy signal of global industrial demand.
 - [Big Mac Index](https://www.economist.com/interactive/big-mac-index) - Compares burger prices as an informal purchasing-power-parity and currency-valuation measure.
 - [Big Mac Index Data](https://github.com/TheEconomist/big-mac-data) - Publishes the Economist's underlying Big Mac Index dataset and methodology notes.
+- [USDA Advertised Grocery Prices](https://mymarketnews.ams.usda.gov/viewReport/3324) - Publishes weekly specialty-crop grocery advertisement reports with product and regional detail through Market News; promotional offers are not transaction prices or a complete grocery basket.
+- [Open Prices](https://huggingface.co/datasets/openfoodfacts/open-prices) - Provides community-contributed dated product prices and proof metadata in Parquet under ODbL; irregular observations and geographic selection prevent assuming a representative U.S. price index.
+- [EIA Electricity Prices and Bills](https://www.eia.gov/electricity/sales_revenue_price/) - Publishes annual electricity sales, revenues, average prices, and residential bills in spreadsheets; bills reflect consumption as well as unit prices and exclude other utilities.
 
 ## Housing & Shelter
 
@@ -57,6 +68,15 @@ Near-real-time indicators of services activity and travel.
 
 - [OpenTable State of the Industry](https://www.opentable.com/c/state-of-industry/) - Reports year-over-year changes in seated diners as a narrow restaurant-activity signal.
 - [TSA Checkpoint Travel Numbers](https://www.tsa.gov/travel/passenger-volumes) - Publishes daily airport-screening throughput for current and comparison years.
+
+## Household Financial Health
+
+Survey responses, credit aggregates, tax records, and utility payment events describe different populations and forms of financial pressure.
+
+- [Federal Reserve SHED Data](https://www.federalreserve.gov/consumerscommunities/shed_data.htm) - Provides annual financial well-being survey microdata as CSV and Stata files with codebooks; weights, revised files, and changing questions matter when comparing self-reported hardship.
+- [New York Fed Consumer Data Bank](https://www.newyorkfed.org/microeconomics/databank) - Offers quarterly household credit aggregates and separate consumer-expectations survey downloads with module-specific cadences; public credit workbooks do not expose underlying Consumer Credit Panel microdata.
+- [IRS ZIP-Code Income Data](https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi) - Provides annual income and wage aggregates by ZIP code and income bracket in CSV and Excel; delayed tax-return statistics exclude nonfilers and do not measure individual worker raises.
+- [EIA Utility Disconnections](https://www.eia.gov/analysis/requests/residential/utility/) - Provides downloadable utility-level monthly nonpayment notices, disconnections, and reconnections for 2024; this limited collection cannot establish a trend since 2020 or count unique affected households.
 
 ## Goods Flow & Logistics
 
@@ -86,6 +106,23 @@ Market prices and models used to assess growth and recession risk.
 - [10-Year Treasury Minus 3-Month Treasury](https://fred.stlouisfed.org/series/T10Y3M) - Provides the term spread used by the New York Fed's recession-probability model.
 - [10-Year Treasury Minus 2-Year Treasury](https://fred.stlouisfed.org/series/T10Y2Y) - Provides a widely followed alternative term spread that can differ from the model benchmark.
 - [New York Fed Yield Curve Model FAQ](https://www.newyorkfed.org/research/capital_markets/ycfaq) - Explains the yield-curve recession model, inputs, interpretation, and limitations.
+
+## Corporate Financials & Financial Accounts
+
+Company filings, industry accounting estimates, and sector balance sheets require compatible populations, periods, and revision histories.
+
+- [SEC Financial Statement Data Sets](https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets) - Publishes quarterly ZIPs of financial-statement facts extracted from company filings; fiscal periods, tags, restatements, and coverage require reconciliation before comparing margins or aggregate profits.
+- [Census Quarterly Financial Report](https://www.census.gov/econ/qfr/historic.html) - Offers quarterly industry financial estimates through historical spreadsheets and publications; sector and firm-size coverage vary, and shared inputs limit independence from national profit estimates.
+- [Federal Reserve Financial Accounts Z.1](https://www.federalreserve.gov/releases/z1/) - Publishes quarterly sector financial flows and balance sheets with CSV and XML downloads; multi-source estimates and revisions distinguish these accounts from direct household or company observations.
+
+## Financial Markets & Returns
+
+Fund disclosures, funding benchmarks, mixed-source indicators, and constructed research returns answer different financial questions.
+
+- [SEC Form N-PORT Data Sets](https://www.sec.gov/data-research/sec-markets-data/form-n-port-data-sets) - Offers quarterly ZIPs of publicly disseminated fund portfolio filings; disclosure delays and fund coverage prevent treating the files as complete current holdings.
+- [New York Fed Reference Rates](https://www.newyorkfed.org/markets/reference-rates) - Publishes daily overnight funding benchmarks with historical data and API access; transaction-based rates such as SOFR describe wholesale funding rather than household borrowing costs or forecasts.
+- [OFR Short-Term Funding Monitor API](https://www.financialresearch.gov/short-term-funding-monitor/api/) - Provides unauthenticated JSON queries and metadata for funding indicators with series-specific frequencies; mixed observation sources and derived measures require checking upstream definitions and terms.
+- [Kenneth French Data Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) - Offers downloadable daily, weekly, and monthly factor and portfolio research returns in CSV and text; constructed CRSP-derived histories can revise and are not raw tradable security prices.
 
 ## Remote Sensing & Alternative Data
 
