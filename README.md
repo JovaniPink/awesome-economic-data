@@ -153,6 +153,7 @@ Indirect and company-specific signals that should be treated as context rather t
 - [Lipstick Effect Research](https://www.sciencedirect.com/science/article/abs/pii/S2214804319304884) - Examines the debated hypothesis that some consumers shift toward small luxury purchases during economic stress.
 - [FirstCash Investor Relations](https://investors.firstcash.com/) - Provides company filings and results that can offer a narrow, company-specific view of pawn lending and retail activity.
 - [EZCORP Investor Relations](https://www.ezcorp.com/investor-relations) - Provides company filings and results that can offer a second narrow view of pawn lending and retail activity.
+- [Reboot Hub Listed Drone Prices](https://reboot-hub.com/pages/reboot-hub-data) - Publishes a free CC BY 4.0 Q3 2026 snapshot of 43 model-level listed-price aggregates covering 251 catalog configurations, with versioned updates rather than a fixed release cadence; one retailer's asking prices are not transactions or a representative market index.
 
 ## Composite Trackers
 

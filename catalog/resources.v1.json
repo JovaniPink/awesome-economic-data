@@ -2706,6 +2706,55 @@
       },
       "editorialStatus": "published",
       "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-76c6f44846892d36",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "behavioral-company-proxies"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://reboot-hub.com/pages/reboot-hub-data",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Reboot Hub Listed Drone Prices"
+      },
+      "summary": "Publishes a free CC BY 4.0 Q3 2026 snapshot of 43 model-level listed-price aggregates covering 251 catalog configurations, with versioned updates rather than a fixed release cadence; one retailer's asking prices are not transactions or a representative market index.",
+      "title": "Reboot Hub Listed Drone Prices",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
       "id": "awesome-economic-data:source:r-7c5008882dd55a81",
       "kind": "source",
       "legacyIds": [],
