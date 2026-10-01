@@ -26,6 +26,11 @@ class ResourceCreationDateTests(unittest.TestCase):
             with patch.multiple(module, README_PATH=readme, CONFIG_PATH=config):
                 return module.build_projection()
 
+    def test_newly_admitted_identity_dates(self):
+        config = json.loads((ROOT / "catalog/resource-index.config.json").read_text())
+        for url in ['https://reboot-hub.com/pages/reboot-hub-data', 'https://thepergolakit.com/pergola-price-index/']:
+            self.assertEqual(config["creationDates"][url], "2026-10-01")
+
     def test_missing_creation_date_is_not_backdated(self):
         with self.assertRaisesRegex(ValueError, "Missing explicit catalog creation date"):
             self.build(["- [New](https://example.com/new) - Synthetic source."], {})
