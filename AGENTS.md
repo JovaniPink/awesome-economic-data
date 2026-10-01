@@ -36,3 +36,8 @@ A passing validator proves local Markdown structure, anchors, relative links, UR
 - Label indirect, modeled, company-specific, and anecdotal signals accurately.
 - Run both canonical commands before opening or updating a pull request.
 - Do not change the repository license without explicit owner approval.
+
+## Resource creation metadata
+
+- Record an explicit ISO calendar date for each new canonical URL in `catalog/resource-index.config.json` under `creationDates`; regenerate the index afterward. Missing dates fail generation instead of inheriting the historical projection date.
+- Preserve recorded dates for existing identities. Creation metadata does not establish retrieval, dataset vintage, publisher publication date or independent source review.

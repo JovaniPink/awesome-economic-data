@@ -55,6 +55,7 @@ Fast-moving price measures that lead or complement CPI and PCE.
 - [Big Mac Index](https://www.economist.com/interactive/big-mac-index) - Compares burger prices as an informal purchasing-power-parity and currency-valuation measure.
 - [Big Mac Index Data](https://github.com/TheEconomist/big-mac-data) - Publishes the Economist's underlying Big Mac Index dataset and methodology notes.
 - [USDA Advertised Grocery Prices](https://mymarketnews.ams.usda.gov/viewReport/3324) - Publishes weekly specialty-crop grocery advertisement reports with product and regional detail through Market News; promotional offers are not transaction prices or a complete grocery basket.
+- [Pergola Price Index](https://thepergolakit.com/pergola-price-index/) - Publishes quarterly summary statistics (median, quartiles, minimum and maximum dollars per square foot) of US pergola kit list prices, with a CC BY 4.0 CSV and methodology; a company-published snapshot of advertised prices from 73 sellers, it does not measure transaction prices or overall household costs.
 - [Open Prices](https://huggingface.co/datasets/openfoodfacts/open-prices) - Provides community-contributed dated product prices and proof metadata in Parquet under ODbL; irregular observations and geographic selection prevent assuming a representative U.S. price index.
 - [EIA Electricity Prices and Bills](https://www.eia.gov/electricity/sales_revenue_price/) - Publishes annual electricity sales, revenues, average prices, and residential bills in spreadsheets; bills reflect consumption as well as unit prices and exclude other utilities.
 
@@ -153,6 +154,7 @@ Indirect and company-specific signals that should be treated as context rather t
 - [Lipstick Effect Research](https://www.sciencedirect.com/science/article/abs/pii/S2214804319304884) - Examines the debated hypothesis that some consumers shift toward small luxury purchases during economic stress.
 - [FirstCash Investor Relations](https://investors.firstcash.com/) - Provides company filings and results that can offer a narrow, company-specific view of pawn lending and retail activity.
 - [EZCORP Investor Relations](https://www.ezcorp.com/investor-relations) - Provides company filings and results that can offer a second narrow view of pawn lending and retail activity.
+- [Reboot Hub Listed Drone Prices](https://reboot-hub.com/pages/reboot-hub-data) - Publishes a free CC BY 4.0 Q3 2026 snapshot of 43 model-level listed-price aggregates covering 251 catalog configurations, with versioned updates rather than a fixed release cadence; one retailer's asking prices are not transactions or a representative market index.
 
 ## Composite Trackers
 
