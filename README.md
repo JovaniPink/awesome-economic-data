@@ -209,6 +209,7 @@ Research indexes and data services for finding economic series and literature.
 - [FRED and ALFRED API](https://fred.stlouisfed.org/docs/api/fred/overview.html) - Requires a registered API key to retrieve current and vintage series by source, release, category, and series; it is an aggregation layer, so original-source definitions, revisions, and terms remain controlling.
 - [U.S. Treasury Fiscal Data](https://fiscaldata.treasury.gov/) - Provides machine-readable debt, revenue, spending, deficit, and Treasury operations datasets with dataset-specific cadences, units, accounting definitions, metadata, and APIs.
 - [DBnomics Web API](https://docs.db.nomics.world/web-api/) - Normalizes access across many economic providers; provider codes and original sources remain authoritative, and the API is intended for focused queries rather than indiscriminate bulk downloads.
+- [Invokely](https://invokely.ai/docs) - Provides REST and MCP access to source-cited official statistics for U.S. states and counties, EU regions, Spanish municipalities, and World Bank countries; publisher schedules and reuse terms vary, and the free plan includes 500 calls per month with up to 60 points per series.
 
 ## Finance, Economics & Systems Channels
 
