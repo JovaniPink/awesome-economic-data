@@ -43,6 +43,7 @@ Measures of hiring, advertised pay, and received earnings with different worker 
 - [Indeed Wage Tracker](https://github.com/hiring-lab/indeed-wage-tracker) - Publishes monthly advertised wage-growth CSVs by country and occupational sector under CC BY 4.0; job-title comparisons measure offers rather than pay received by individual workers.
 - [Gusto Real Time Economic Data](https://gusto.com/resources/gusto-insights/real-time-economic-data) - Offers monthly small-business payroll earnings and hiring series as CSVs; estimates use QCEW calibration and revisions, so independently collected payroll is not an independent national benchmark.
 - [Square Payroll Index](https://squareup.com/us/en/the-bottom-line/tools/square-payroll-index) - Reports monthly retail and food-service base wages and hourly earnings including tips and overtime; public charts cover Square employers, and bulk export remains unverified.
+- [CareJobs.Now Healthcare Job Pay](https://carejobs.now/data) - Publishes daily hourly pay posted on US healthcare employers' open job listings by kind of job, read from about 270 employers' career sites under CC BY 4.0; advertised ranges are offers rather than pay received, and only kinds of job with posted rates from at least three employers are included.
 
 ## Prices & Inflation
 
