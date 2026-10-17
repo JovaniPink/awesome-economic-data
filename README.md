@@ -43,6 +43,7 @@ Measures of hiring, advertised pay, and received earnings with different worker 
 - [Indeed Wage Tracker](https://github.com/hiring-lab/indeed-wage-tracker) - Publishes monthly advertised wage-growth CSVs by country and occupational sector under CC BY 4.0; job-title comparisons measure offers rather than pay received by individual workers.
 - [Gusto Real Time Economic Data](https://gusto.com/resources/gusto-insights/real-time-economic-data) - Offers monthly small-business payroll earnings and hiring series as CSVs; estimates use QCEW calibration and revisions, so independently collected payroll is not an independent national benchmark.
 - [Square Payroll Index](https://squareup.com/us/en/the-bottom-line/tools/square-payroll-index) - Reports monthly retail and food-service base wages and hourly earnings including tips and overtime; public charts cover Square employers, and bulk export remains unverified.
+- [Fliar BI Global Salary Data by Skill and Role](https://huggingface.co/datasets/HarshitKZ/skill-salary-percentiles-global) - Publishes a one-time CC BY-NC 4.0 sample of 100,060 of 620,752 job postings with stated pay in 55 countries from January 2024 to June 2026, annualised to US dollars at fixed exchange rates; posted offers with uneven country coverage, not earnings received.
 
 ## Prices & Inflation
 
