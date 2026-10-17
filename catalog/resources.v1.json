@@ -301,6 +301,55 @@
     {
       "corrections": [],
       "dates": {
+        "createdAt": "2026-10-17"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-119a159b6fec5c4a",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "labor-hiring"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://huggingface.co/datasets/HarshitKZ/skill-salary-percentiles-global",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Fliar BI Global Salary Data by Skill and Role"
+      },
+      "summary": "Publishes a one-time CC BY-NC 4.0 sample of 100,060 of 620,752 job postings with stated pay in 55 countries from January 2024 to June 2026, annualised to US dollars at fixed exchange rates; posted offers with uneven country coverage, not earnings received.",
+      "title": "Fliar BI Global Salary Data by Skill and Role",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
         "createdAt": "2026-08-30"
       },
       "editorialStatus": "published",
@@ -4655,7 +4704,7 @@
         ],
         "publisher": "Invokely"
       },
-      "summary": "Provides REST and MCP access to source-cited official statistics across U.S. states and counties, EU regions, Spanish municipalities, and World Bank country series; source cadence and reuse terms vary by publisher, and the free plan includes 500 calls per month with up to 60 points per series.",
+      "summary": "Provides REST and MCP access to source-cited official statistics for U.S. states and counties, EU regions, Spanish municipalities, and World Bank countries; publisher schedules and reuse terms vary, and the free plan includes 500 calls per month with up to 60 points per series.",
       "title": "Invokely",
       "visibility": "public"
     },
