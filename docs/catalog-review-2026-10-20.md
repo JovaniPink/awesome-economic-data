@@ -90,13 +90,22 @@ Contributor-supplied identity dates remain attached to their original commits.
 Original contributor PRs, Renovate onboarding, and open issues are unchanged. No merge,
 contributor feedback, license change, paid API access, or dataset import is part of this
 integration. Source descriptions based on public documentation do not establish
-independently tested authenticated behavior. Hosted CI on these local integration commits
-has not run.
+independently tested authenticated behavior. Hosted CI had not run at the initial local integration checkpoint; see the follow-up below.
 
 ## Final integration check
 
-- Offline unit suite: 50 tests passed; README validation, generated-index check, and whitespace check passed.
+- Offline unit suite: 51 tests passed; README validation, generated-index check, and whitespace check passed.
 - Final automated scan: 122 entries; blocked/authentication-required: 14, reachable: 92, redirected: 1, server-error: 4, transport-error: 11.
 - Observation interval: `2026-10-20T19:31:14+00:00` through `2026-10-20T19:33:46+00:00`.
 - [Full link-audit JSON](link-audits/2026-10-20.json) includes the matching catalog SHA-256 and per-request evidence.
 - No final missing-link classifications were recorded. EIA endpoints returned server errors; several FRED/FRASER requests and the USDA/OpenTable pages timed out. These are unresolved access observations, not evidence of discontinued resources. Earlier successful publisher reads and later transport failures remain distinct observations.
+
+## Draft PR CI follow-up
+
+The [first hosted run](https://github.com/JovaniPink/awesome-economic-data/actions/runs/39485020462)
+passed Python 3.14 but failed four redirect scenarios on Python 3.11. Its standard-library
+redirect handler changed HEAD to GET. The correction explicitly preserves HEAD, keeping
+the recorded method accurate and preventing unexpected body retrieval. Controlled tests
+now check both HEAD and GET across 301, 302, 303, 307, and 308 redirects, including body
+limits and response closure. All 51 local tests and canonical checks pass after this fix;
+the draft PR checks record the hosted result for each subsequent commit.
