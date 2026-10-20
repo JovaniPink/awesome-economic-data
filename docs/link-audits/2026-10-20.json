@@ -1,0 +1,3142 @@
+{
+  "schemaVersion": "1.0",
+  "projectId": "awesome-economic-data",
+  "catalogSha256": "eb5c0e18a65bae357a213a8df4ba0845f1ed31e879ac93afe1bb299253c83951",
+  "startedAt": "2026-10-20T19:31:14+00:00",
+  "completedAt": "2026-10-20T19:33:46+00:00",
+  "boundary": "Transport observations only; HTTP success does not establish relevant content, rights, freshness, completeness, or quality.",
+  "settings": {
+    "workers": 4,
+    "timeoutSeconds": 20,
+    "transientRetries": 1,
+    "maxGetBytes": 65536
+  },
+  "summary": {
+    "blocked/authentication-required": 14,
+    "reachable": 92,
+    "redirected": 1,
+    "server-error": 4,
+    "transport-error": 11
+  },
+  "resources": [
+    {
+      "resourceId": "awesome-economic-data:source:r-5926d42abbc3b856",
+      "url": "https://adpemploymentreport.com/",
+      "observedAt": "2026-10-20T19:31:14+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://adpemploymentreport.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:14+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://adpemploymentreport.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-1fadda8b0d3ff9bc",
+      "url": "https://www.conference-board.org/topics/help-wanted-online/",
+      "observedAt": "2026-10-20T19:31:35+00:00",
+      "method": "HEAD",
+      "httpStatus": null,
+      "finalUrl": "https://www.conference-board.org/topics/help-wanted-online/",
+      "redirectChain": [],
+      "error": "The read operation timed out",
+      "classification": "transport-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:14+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://www.conference-board.org/topics/help-wanted-online/",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:35+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://www.conference-board.org/topics/help-wanted-online/",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-2aaff649fe40d8c7",
+      "url": "https://github.com/hiring-lab/indeed-wage-tracker",
+      "observedAt": "2026-10-20T19:31:14+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/hiring-lab/indeed-wage-tracker",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:14+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/hiring-lab/indeed-wage-tracker",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-bcd694b1a75086a5",
+      "url": "https://gusto.com/resources/gusto-insights/real-time-economic-data",
+      "observedAt": "2026-10-20T19:31:14+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://gusto.com/resources/gusto-insights/real-time-economic-data",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:14+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://gusto.com/resources/gusto-insights/real-time-economic-data",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-4358c78294b33d08",
+      "url": "https://squareup.com/us/en/the-bottom-line/tools/square-payroll-index",
+      "observedAt": "2026-10-20T19:31:14+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://squareup.com/us/en/the-bottom-line/tools/square-payroll-index",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:14+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://squareup.com/us/en/the-bottom-line/tools/square-payroll-index",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-323f98ec2f8654d1",
+      "url": "https://carejobs.now/data",
+      "observedAt": "2026-10-20T19:31:14+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://carejobs.now/data",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:14+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://carejobs.now/data",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-119a159b6fec5c4a",
+      "url": "https://huggingface.co/datasets/HarshitKZ/skill-salary-percentiles-global",
+      "observedAt": "2026-10-20T19:31:14+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://huggingface.co/datasets/HarshitKZ/skill-salary-percentiles-global",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:14+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://huggingface.co/datasets/HarshitKZ/skill-salary-percentiles-global",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-1ebe7c3451ae7600",
+      "url": "https://truflation.com/marketplace/us-inflation-rate",
+      "observedAt": "2026-10-20T19:31:15+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://truflation.com/marketplace/us-inflation-rate",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:15+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://truflation.com/marketplace/us-inflation-rate",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-731abbec167981f4",
+      "url": "https://site.manheim.com/en/services/consulting/used-vehicle-value-index.html",
+      "observedAt": "2026-10-20T19:31:15+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://site.manheim.com/en/services/consulting/used-vehicle-value-index.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:15+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://site.manheim.com/en/services/consulting/used-vehicle-value-index.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-3ab92b166dd7ebe1",
+      "url": "https://fred.stlouisfed.org/release?rid=736",
+      "observedAt": "2026-10-20T19:31:36+00:00",
+      "method": "HEAD",
+      "httpStatus": null,
+      "finalUrl": "https://fred.stlouisfed.org/release?rid=736",
+      "redirectChain": [],
+      "error": "The read operation timed out",
+      "classification": "transport-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:15+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fred.stlouisfed.org/release?rid=736",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:36+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fred.stlouisfed.org/release?rid=736",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-0f4a59ce2d67f7e0",
+      "url": "https://www.cmegroup.com/markets/metals/base/copper.html",
+      "observedAt": "2026-10-20T19:31:15+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.cmegroup.com/markets/metals/base/copper.html",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:15+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.cmegroup.com/markets/metals/base/copper.html",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:31:15+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.cmegroup.com/markets/metals/base/copper.html",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-35a94be74e81b4c8",
+      "url": "https://www.economist.com/interactive/big-mac-index",
+      "observedAt": "2026-10-20T19:31:16+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.economist.com/interactive/big-mac-index",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:15+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.economist.com/interactive/big-mac-index",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:31:16+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.economist.com/interactive/big-mac-index",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-5ae06f3d871288a7",
+      "url": "https://github.com/TheEconomist/big-mac-data",
+      "observedAt": "2026-10-20T19:31:16+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/TheEconomist/big-mac-data",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:16+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/TheEconomist/big-mac-data",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-de030e33cc831902",
+      "url": "https://mymarketnews.ams.usda.gov/viewReport/3324",
+      "observedAt": "2026-10-20T19:31:37+00:00",
+      "method": "HEAD",
+      "httpStatus": null,
+      "finalUrl": "https://mymarketnews.ams.usda.gov/viewReport/3324",
+      "redirectChain": [],
+      "error": "The read operation timed out",
+      "classification": "transport-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:16+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://mymarketnews.ams.usda.gov/viewReport/3324",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:37+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://mymarketnews.ams.usda.gov/viewReport/3324",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-ca136eca2d28d8b4",
+      "url": "https://thepergolakit.com/pergola-price-index/",
+      "observedAt": "2026-10-20T19:31:16+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://thepergolakit.com/pergola-price-index/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:16+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://thepergolakit.com/pergola-price-index/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-f870284e004209b4",
+      "url": "https://huggingface.co/datasets/openfoodfacts/open-prices",
+      "observedAt": "2026-10-20T19:31:17+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://huggingface.co/datasets/openfoodfacts/open-prices",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:17+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://huggingface.co/datasets/openfoodfacts/open-prices",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-2887e73813f79807",
+      "url": "https://www.eia.gov/electricity/sales_revenue_price/",
+      "observedAt": "2026-10-20T19:31:27+00:00",
+      "method": "HEAD",
+      "httpStatus": 503,
+      "finalUrl": "https://www.eia.gov/electricity/sales_revenue_price/",
+      "redirectChain": [],
+      "error": "Service Unavailable",
+      "classification": "server-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:17+00:00",
+          "httpStatus": 503,
+          "finalUrl": "https://www.eia.gov/electricity/sales_revenue_price/",
+          "redirectChain": [],
+          "error": "Service Unavailable"
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:27+00:00",
+          "httpStatus": 503,
+          "finalUrl": "https://www.eia.gov/electricity/sales_revenue_price/",
+          "redirectChain": [],
+          "error": "Service Unavailable"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-af86e08d50229aac",
+      "url": "https://www.apartmentlist.com/research/national-rent-data",
+      "observedAt": "2026-10-20T19:31:35+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.apartmentlist.com/research/national-rent-data",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:35+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.apartmentlist.com/research/national-rent-data",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-0c30a691dd357726",
+      "url": "https://www.zillow.com/research/data/",
+      "observedAt": "2026-10-20T19:31:36+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.zillow.com/research/data/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:36+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.zillow.com/research/data/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-2906f39932f1674f",
+      "url": "https://www.census.gov/construction/chars/index.html",
+      "observedAt": "2026-10-20T19:31:36+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.census.gov/construction/chars/index.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:36+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.census.gov/construction/chars/index.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-1729be9f616e1938",
+      "url": "https://www.opentable.com/c/state-of-industry/",
+      "observedAt": "2026-10-20T19:31:58+00:00",
+      "method": "HEAD",
+      "httpStatus": null,
+      "finalUrl": "https://www.opentable.com/c/state-of-industry/",
+      "redirectChain": [],
+      "error": "The read operation timed out",
+      "classification": "transport-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:36+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://www.opentable.com/c/state-of-industry/",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:58+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://www.opentable.com/c/state-of-industry/",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-c5d1924384ad1851",
+      "url": "https://www.tsa.gov/travel/passenger-volumes",
+      "observedAt": "2026-10-20T19:31:55+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.tsa.gov/travel/passenger-volumes",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:55+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tsa.gov/travel/passenger-volumes",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-97c316d34ae7d78c",
+      "url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "observedAt": "2026-10-20T19:31:55+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:55+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-de60b33199fc7cec",
+      "url": "https://www.newyorkfed.org/microeconomics/databank",
+      "observedAt": "2026-10-20T19:31:56+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.newyorkfed.org/microeconomics/databank",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:56+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.newyorkfed.org/microeconomics/databank",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-582058d89f7db437",
+      "url": "https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi",
+      "observedAt": "2026-10-20T19:31:56+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:56+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-0363c942a2aa435f",
+      "url": "https://www.eia.gov/analysis/requests/residential/utility/",
+      "observedAt": "2026-10-20T19:32:07+00:00",
+      "method": "HEAD",
+      "httpStatus": 503,
+      "finalUrl": "https://www.eia.gov/analysis/requests/residential/utility/",
+      "redirectChain": [],
+      "error": "Service Unavailable",
+      "classification": "server-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:56+00:00",
+          "httpStatus": 503,
+          "finalUrl": "https://www.eia.gov/analysis/requests/residential/utility/",
+          "redirectChain": [],
+          "error": "Service Unavailable"
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:07+00:00",
+          "httpStatus": 503,
+          "finalUrl": "https://www.eia.gov/analysis/requests/residential/utility/",
+          "redirectChain": [],
+          "error": "Service Unavailable"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-1352f3b7f416c656",
+      "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+      "observedAt": "2026-10-20T19:31:56+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.federalreserve.gov/econres/scfindex.htm",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:56+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.federalreserve.gov/econres/scfindex.htm",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-ce621c7867de969c",
+      "url": "https://www.census.gov/programs-surveys/sipp/data/datasets.html",
+      "observedAt": "2026-10-20T19:31:56+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.census.gov/programs-surveys/sipp/data/datasets.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:56+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.census.gov/programs-surveys/sipp/data/datasets.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-a106c9b26a28f748",
+      "url": "https://www.bea.gov/data/special-topics/household-production",
+      "observedAt": "2026-10-20T19:31:57+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.bea.gov/data/special-topics/household-production",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:57+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bea.gov/data/special-topics/household-production",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-be7a3368a50b6d86",
+      "url": "https://gss.norc.org/get-the-data.html",
+      "observedAt": "2026-10-20T19:31:57+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://gss.norc.org/get-the-data.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:57+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://gss.norc.org/get-the-data.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-9bbeccd711838884",
+      "url": "https://www.census.gov/data/datasets/2023/demo/cps/cps-volunteer.html",
+      "observedAt": "2026-10-20T19:31:57+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.census.gov/data/datasets/2023/demo/cps/cps-volunteer.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:57+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.census.gov/data/datasets/2023/demo/cps/cps-volunteer.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-4c7f39b1c83475c5",
+      "url": "https://www.cassinfo.com/freight-audit-payment/cass-transportation-indexes/cass-freight-index",
+      "observedAt": "2026-10-20T19:31:57+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cassinfo.com/freight-audit-payment/cass-transportation-indexes/cass-freight-index",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:57+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cassinfo.com/freight-audit-payment/cass-transportation-indexes/cass-freight-index",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-cea9e3306e0de3f6",
+      "url": "https://www.aar.org/data-center/",
+      "observedAt": "2026-10-20T19:31:57+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aar.org/data-center/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:57+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.aar.org/data-center/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-945fe2972475f50c",
+      "url": "https://www.portoflosangeles.org/business/statistics/container-statistics",
+      "observedAt": "2026-10-20T19:31:58+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://portoflosangeles.org/business/statistics/container-statistics",
+      "redirectChain": [
+        {
+          "status": 301,
+          "from": "https://www.portoflosangeles.org/business/statistics/container-statistics",
+          "to": "https://portoflosangeles.org/business/statistics/container-statistics"
+        }
+      ],
+      "error": null,
+      "classification": "redirected",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:58+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://portoflosangeles.org/business/statistics/container-statistics",
+          "redirectChain": [
+            {
+              "status": 301,
+              "from": "https://www.portoflosangeles.org/business/statistics/container-statistics",
+              "to": "https://portoflosangeles.org/business/statistics/container-statistics"
+            }
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-b7491c4ab65148e9",
+      "url": "https://www.dat.com/trendlines",
+      "observedAt": "2026-10-20T19:31:59+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.dat.com/trendlines",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:59+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.dat.com/trendlines",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-6caf08fdf370626e",
+      "url": "https://www.fibrebox.org/data-and-research",
+      "observedAt": "2026-10-20T19:31:59+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.fibrebox.org/data-and-research",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:59+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fibrebox.org/data-and-research",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-a89df21e39a3f4fb",
+      "url": "https://fred.stlouisfed.org/series/PCU322211322211P",
+      "observedAt": "2026-10-20T19:32:20+00:00",
+      "method": "HEAD",
+      "httpStatus": null,
+      "finalUrl": "https://fred.stlouisfed.org/series/PCU322211322211P",
+      "redirectChain": [],
+      "error": "The read operation timed out",
+      "classification": "transport-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:59+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fred.stlouisfed.org/series/PCU322211322211P",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:20+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fred.stlouisfed.org/series/PCU322211322211P",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-3cf319921c114f14",
+      "url": "https://fred.stlouisfed.org/series/IPG3221N",
+      "observedAt": "2026-10-20T19:32:25+00:00",
+      "method": "HEAD",
+      "httpStatus": null,
+      "finalUrl": "https://fred.stlouisfed.org/series/IPG3221N",
+      "redirectChain": [],
+      "error": "The read operation timed out",
+      "classification": "transport-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:04+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fred.stlouisfed.org/series/IPG3221N",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:25+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fred.stlouisfed.org/series/IPG3221N",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-df93f04a237051fd",
+      "url": "https://www.balticexchange.com/en/index.html",
+      "observedAt": "2026-10-20T19:32:18+00:00",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://www.balticexchange.com/en/index.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:16+00:00",
+          "httpStatus": 404,
+          "finalUrl": "https://www.balticexchange.com/_sec/cp_challenge/challenge.html?type=&provider=crypto&kix=challenge_172638&contenturl=&rt=&powstate=true&powduration=10&powcpu=false&ep=&bs=&rs=&ct=webclient&ou=/en/index.html&om=HEAD&mo=1&ml=1&chn=d6c88c1bffe367dc5284",
+          "redirectChain": [
+            {
+              "status": 301,
+              "from": "https://www.balticexchange.com/en/index.html",
+              "to": "https://www.balticexchange.com/_sec/cp_challenge/challenge.html?type=&provider=crypto&kix=challenge_172638&contenturl=&rt=&powstate=true&powduration=10&powcpu=false&ep=&bs=&rs=&ct=webclient&ou=/en/index.html&om=HEAD&mo=1&ml=1&chn=d6c88c1bffe367dc5284"
+            }
+          ],
+          "error": "Not Found"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:32:18+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.balticexchange.com/en/index.html",
+          "redirectChain": [],
+          "error": null,
+          "sampleBytes": 1889
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-6b0a4f5133f6c297",
+      "url": "https://www.harperpetersen.com/container",
+      "observedAt": "2026-10-20T19:32:18+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.harperpetersen.com/container",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:18+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.harperpetersen.com/container",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-eeb3b00bee7cc4d9",
+      "url": "https://www.freightos.com/enterprise/terminal/freightos-baltic-index-global-container-pricing-index/",
+      "observedAt": "2026-10-20T19:32:19+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freightos.com/enterprise/terminal/freightos-baltic-index-global-container-pricing-index/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:19+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.freightos.com/enterprise/terminal/freightos-baltic-index-global-container-pricing-index/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-46d23e28eef43ca6",
+      "url": "https://www.iata.org/en/publications/economics/",
+      "observedAt": "2026-10-20T19:32:19+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.iata.org/en/publications/economics/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:19+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.iata.org/en/publications/economics/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-e25c2112544b7752",
+      "url": "https://fred.stlouisfed.org/series/T10Y3M",
+      "observedAt": "2026-10-20T19:32:40+00:00",
+      "method": "HEAD",
+      "httpStatus": null,
+      "finalUrl": "https://fred.stlouisfed.org/series/T10Y3M",
+      "redirectChain": [],
+      "error": "The read operation timed out",
+      "classification": "transport-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:19+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fred.stlouisfed.org/series/T10Y3M",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:40+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fred.stlouisfed.org/series/T10Y3M",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-0ee5139327303384",
+      "url": "https://fred.stlouisfed.org/series/T10Y2Y",
+      "observedAt": "2026-10-20T19:32:41+00:00",
+      "method": "HEAD",
+      "httpStatus": null,
+      "finalUrl": "https://fred.stlouisfed.org/series/T10Y2Y",
+      "redirectChain": [],
+      "error": "The read operation timed out",
+      "classification": "transport-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:20+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fred.stlouisfed.org/series/T10Y2Y",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:41+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fred.stlouisfed.org/series/T10Y2Y",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-f403a99663a4e65a",
+      "url": "https://www.newyorkfed.org/research/capital_markets/ycfaq",
+      "observedAt": "2026-10-20T19:32:41+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.newyorkfed.org/research/capital_markets/ycfaq",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:41+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.newyorkfed.org/research/capital_markets/ycfaq",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-be596cd9cb0984d6",
+      "url": "https://fiscaldata.treasury.gov/",
+      "observedAt": "2026-10-20T19:32:41+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://fiscaldata.treasury.gov/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:41+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://fiscaldata.treasury.gov/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-efc3130a4c6946ea",
+      "url": "https://api.usaspending.gov/",
+      "observedAt": "2026-10-20T19:32:41+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://api.usaspending.gov/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:41+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://api.usaspending.gov/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-44406e79fbd917d0",
+      "url": "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+      "observedAt": "2026-10-20T19:32:42+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:42+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-d2aae2ca2ff554b9",
+      "url": "https://lda.gov/api/",
+      "observedAt": "2026-10-20T19:32:42+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://lda.gov/api/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:42+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://lda.gov/api/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-5233462570823ed3",
+      "url": "https://data.open-contracting.org/",
+      "observedAt": "2026-10-20T19:32:43+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://data.open-contracting.org/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:43+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://data.open-contracting.org/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-9dd5b2d29cbec8e5",
+      "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+      "observedAt": "2026-10-20T19:32:43+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:43+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-c7c3d098adb34d5e",
+      "url": "https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets",
+      "observedAt": "2026-10-20T19:32:44+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:44+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:32:44+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-ab76597b40286ba4",
+      "url": "https://www.census.gov/econ/qfr/historic.html",
+      "observedAt": "2026-10-20T19:32:44+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.census.gov/econ/qfr/historic.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:44+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.census.gov/econ/qfr/historic.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-0d8937f25d9d823b",
+      "url": "https://www.federalreserve.gov/releases/z1/",
+      "observedAt": "2026-10-20T19:32:44+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.federalreserve.gov/releases/z1/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:44+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.federalreserve.gov/releases/z1/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-6dfcb606cd7c009e",
+      "url": "https://www.sec.gov/data-research/sec-markets-data/form-n-port-data-sets",
+      "observedAt": "2026-10-20T19:32:45+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.sec.gov/data-research/sec-markets-data/form-n-port-data-sets",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:44+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.sec.gov/data-research/sec-markets-data/form-n-port-data-sets",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:32:45+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.sec.gov/data-research/sec-markets-data/form-n-port-data-sets",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-dd3990584a9efa74",
+      "url": "https://www.newyorkfed.org/markets/reference-rates",
+      "observedAt": "2026-10-20T19:32:45+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.newyorkfed.org/markets/reference-rates",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:45+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.newyorkfed.org/markets/reference-rates",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-4d6b6c6757230963",
+      "url": "https://www.financialresearch.gov/short-term-funding-monitor/api/",
+      "observedAt": "2026-10-20T19:32:45+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.financialresearch.gov/short-term-funding-monitor/api/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:45+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.financialresearch.gov/short-term-funding-monitor/api/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-c17369b4acf7f87f",
+      "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+      "observedAt": "2026-10-20T19:32:45+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:45+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-3d1763f0d430c728",
+      "url": "https://eogdata.mines.edu/products/vnl/",
+      "observedAt": "2026-10-20T19:32:45+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://eogdata.mines.edu/products/vnl/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:45+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://eogdata.mines.edu/products/vnl/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-115d5dca93cb7c61",
+      "url": "https://blackmarble.gsfc.nasa.gov/",
+      "observedAt": "2026-10-20T19:32:46+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://blackmarble.gsfc.nasa.gov/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:46+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://blackmarble.gsfc.nasa.gov/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-f8c4b04ed1c9a86b",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aeri.20210422",
+      "observedAt": "2026-10-20T19:32:46+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aeaweb.org/articles?id=10.1257/aeri.20210422",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:46+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.aeaweb.org/articles?id=10.1257/aeri.20210422",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-49a9fc97c94f3504",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S2214804319304884",
+      "observedAt": "2026-10-20T19:32:46+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.sciencedirect.com/science/article/abs/pii/S2214804319304884",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:46+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.sciencedirect.com/science/article/abs/pii/S2214804319304884",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:32:46+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.sciencedirect.com/science/article/abs/pii/S2214804319304884",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-a898f341dd24d83b",
+      "url": "https://investors.firstcash.com/",
+      "observedAt": "2026-10-20T19:32:47+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://investors.firstcash.com/",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:46+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://investors.firstcash.com/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:32:47+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://investors.firstcash.com/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-be2bedec3d98cf5b",
+      "url": "https://www.ezcorp.com/investor-relations",
+      "observedAt": "2026-10-20T19:32:47+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.ezcorp.com/investor-relations",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:46+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.ezcorp.com/investor-relations",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:32:47+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.ezcorp.com/investor-relations",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-76c6f44846892d36",
+      "url": "https://reboot-hub.com/pages/reboot-hub-data",
+      "observedAt": "2026-10-20T19:32:47+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://reboot-hub.com/pages/reboot-hub-data",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:47+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://reboot-hub.com/pages/reboot-hub-data",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-7c5008882dd55a81",
+      "url": "https://economictracker.org/",
+      "observedAt": "2026-10-20T19:32:47+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://economictracker.org/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:47+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://economictracker.org/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-646fa280f1904c27",
+      "url": "https://github.com/OpportunityInsights/EconomicTracker",
+      "observedAt": "2026-10-20T19:32:47+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/OpportunityInsights/EconomicTracker",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:47+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/OpportunityInsights/EconomicTracker",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-ba9d4007932e9b12",
+      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/",
+      "observedAt": "2026-10-20T19:32:50+00:00",
+      "method": "GET",
+      "httpStatus": null,
+      "finalUrl": "https://ecommerce.ismworld.org/SSO/Login.aspx?DPLF=Y&vi=10&vt=e5f23f334be89904dd06698e9e507bd751363b54f7b97aab7230551c61bae1d4e1c5e7c0eb61ccdbe507dc779b32818d5e3b8ec75d1e585ff8954a54a559a114f42c0e102ebe43b5e8b30bd829a08effd03b058b89bb76c7dbc297d5fd6f95127236a98bca09437acc8a08fd4b0d86f3",
+      "redirectChain": [
+        {
+          "status": 302,
+          "from": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/",
+          "to": "https://ecommerce.ismworld.org/SSO/Login.aspx?DPLF=Y&vi=10&vt=e5f23f334be89904dd06698e9e507bd751363b54f7b97aab7230551c61bae1d4e1c5e7c0eb61ccdbe507dc779b32818d5e3b8ec75d1e585ff8954a54a559a114f42c0e102ebe43b5e8b30bd829a08effd03b058b89bb76c7dbc297d5fd6f95127236a98bca09437acc8a08fd4b0d86f3"
+        }
+      ],
+      "error": "Remote end closed connection without response",
+      "classification": "transport-error",
+      "crossDomainRedirect": true,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:47+00:00",
+          "httpStatus": 404,
+          "finalUrl": "https://ecommerce.ismworld.org/SSO/Login.aspx?DPLF=Y&vi=10&vt=bf33c6dfeb88024af15b93283be9ffd180d536a16fc856b1e71d33accc61d2451f515513469c104e9162d3167b0c075e82cb8618250c42511b7cb72d5adddd2ad1f719d22a44ffe8a5f04142fcee1664f621abe066310347eeec992fdaa6d9c0ac0dcd2ab65103792f7e75afe52ce09b",
+          "redirectChain": [
+            {
+              "status": 302,
+              "from": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/",
+              "to": "https://ecommerce.ismworld.org/SSO/Login.aspx?DPLF=Y&vi=10&vt=bf33c6dfeb88024af15b93283be9ffd180d536a16fc856b1e71d33accc61d2451f515513469c104e9162d3167b0c075e82cb8618250c42511b7cb72d5adddd2ad1f719d22a44ffe8a5f04142fcee1664f621abe066310347eeec992fdaa6d9c0ac0dcd2ab65103792f7e75afe52ce09b"
+            }
+          ],
+          "error": "Not Found"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:32:49+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://ecommerce.ismworld.org/SSO/Login.aspx?DPLF=Y&vi=10&vt=7331e33869975530696cf650323ed7ef7debd7a8981e1e210dbc70e83481ff5e2aa050af368288d6a51dd5e1c1368c899be3162084fe3f1196f250b76828e03ec08f33973292211d3de37e57bd5a1e91a3522d8687bfb9134d0f5286f5764b710ddc6491574079240b7df485aa09b4a5",
+          "redirectChain": [
+            {
+              "status": 302,
+              "from": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/",
+              "to": "https://ecommerce.ismworld.org/SSO/Login.aspx?DPLF=Y&vi=10&vt=7331e33869975530696cf650323ed7ef7debd7a8981e1e210dbc70e83481ff5e2aa050af368288d6a51dd5e1c1368c899be3162084fe3f1196f250b76828e03ec08f33973292211d3de37e57bd5a1e91a3522d8687bfb9134d0f5286f5764b710ddc6491574079240b7df485aa09b4a5"
+            }
+          ],
+          "error": "Remote end closed connection without response",
+          "transient": true
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:32:50+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://ecommerce.ismworld.org/SSO/Login.aspx?DPLF=Y&vi=10&vt=e5f23f334be89904dd06698e9e507bd751363b54f7b97aab7230551c61bae1d4e1c5e7c0eb61ccdbe507dc779b32818d5e3b8ec75d1e585ff8954a54a559a114f42c0e102ebe43b5e8b30bd829a08effd03b058b89bb76c7dbc297d5fd6f95127236a98bca09437acc8a08fd4b0d86f3",
+          "redirectChain": [
+            {
+              "status": 302,
+              "from": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/",
+              "to": "https://ecommerce.ismworld.org/SSO/Login.aspx?DPLF=Y&vi=10&vt=e5f23f334be89904dd06698e9e507bd751363b54f7b97aab7230551c61bae1d4e1c5e7c0eb61ccdbe507dc779b32818d5e3b8ec75d1e585ff8954a54a559a114f42c0e102ebe43b5e8b30bd829a08effd03b058b89bb76c7dbc297d5fd6f95127236a98bca09437acc8a08fd4b0d86f3"
+            }
+          ],
+          "error": "Remote end closed connection without response",
+          "transient": true
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-bd8ee4b251590e7c",
+      "url": "https://www.pmi.spglobal.com/Public/Release/PressReleases",
+      "observedAt": "2026-10-20T19:32:48+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.pmi.spglobal.com/Public/Release/PressReleases",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:48+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.pmi.spglobal.com/Public/Release/PressReleases",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:32:48+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.pmi.spglobal.com/Public/Release/PressReleases",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-bcc5358591711bce",
+      "url": "https://www.eia.gov/electricity/gridmonitor/",
+      "observedAt": "2026-10-20T19:32:59+00:00",
+      "method": "HEAD",
+      "httpStatus": 503,
+      "finalUrl": "https://www.eia.gov/electricity/gridmonitor/",
+      "redirectChain": [],
+      "error": "Service Unavailable",
+      "classification": "server-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:48+00:00",
+          "httpStatus": 503,
+          "finalUrl": "https://www.eia.gov/electricity/gridmonitor/",
+          "redirectChain": [],
+          "error": "Service Unavailable"
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:59+00:00",
+          "httpStatus": 503,
+          "finalUrl": "https://www.eia.gov/electricity/gridmonitor/",
+          "redirectChain": [],
+          "error": "Service Unavailable"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-87b24950cc1fe022",
+      "url": "https://www.atlantafed.org/research-and-data/data/gdpnow",
+      "observedAt": "2026-10-20T19:32:51+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.atlantafed.org/research-and-data/data/gdpnow",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:51+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.atlantafed.org/research-and-data/data/gdpnow",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-41b1edafc75fdf37",
+      "url": "https://www.dallasfed.org/research/wei",
+      "observedAt": "2026-10-20T19:32:51+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.dallasfed.org/research/wei",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:51+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.dallasfed.org/research/wei",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-cf8c265a424f60dd",
+      "url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads",
+      "observedAt": "2026-10-20T19:32:52+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:52+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-9c05fea3c3e0cde9",
+      "url": "https://www.bls.gov/cew/downloadable-data-files.htm",
+      "observedAt": "2026-10-20T19:32:56+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.bls.gov/cew/downloadable-data-files.htm",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:55+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.bls.gov/cew/downloadable-data-files.htm",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:32:56+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.bls.gov/cew/downloadable-data-files.htm",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-2f165de831bde354",
+      "url": "https://www.census.gov/econ/bfs/data.html",
+      "observedAt": "2026-10-20T19:32:56+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.census.gov/econ/bfs/data.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:56+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.census.gov/econ/bfs/data.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-993b9b7077978e95",
+      "url": "https://www.census.gov/construction/bps/statemonthly.html",
+      "observedAt": "2026-10-20T19:32:56+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.census.gov/construction/bps/statemonthly.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:56+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.census.gov/construction/bps/statemonthly.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-d34e206ef619f350",
+      "url": "https://www.bea.gov/data/economic-accounts/regional",
+      "observedAt": "2026-10-20T19:32:56+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.bea.gov/data/economic-accounts/regional",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:56+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bea.gov/data/economic-accounts/regional",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-69828f692c044221",
+      "url": "https://www.fhfa.gov/house-price-index?tab=HPI+Datasets",
+      "observedAt": "2026-10-20T19:32:57+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.fhfa.gov/house-price-index?tab=HPI+Datasets",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:57+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fhfa.gov/house-price-index?tab=HPI+Datasets",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-1ee248c60aa80759",
+      "url": "https://www.eia.gov/opendata/documentation.php",
+      "observedAt": "2026-10-20T19:33:08+00:00",
+      "method": "HEAD",
+      "httpStatus": 503,
+      "finalUrl": "https://www.eia.gov/opendata/documentation.php",
+      "redirectChain": [],
+      "error": "Service Unavailable",
+      "classification": "server-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:32:57+00:00",
+          "httpStatus": 503,
+          "finalUrl": "https://www.eia.gov/opendata/documentation.php",
+          "redirectChain": [],
+          "error": "Service Unavailable"
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:08+00:00",
+          "httpStatus": 503,
+          "finalUrl": "https://www.eia.gov/opendata/documentation.php",
+          "redirectChain": [],
+          "error": "Service Unavailable"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-be4a8fd2331a610d",
+      "url": "https://www.census.gov/data/developers/data-sets/qwi.html",
+      "observedAt": "2026-10-20T19:33:00+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.census.gov/data/developers/data-sets/qwi.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:00+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.census.gov/data/developers/data-sets/qwi.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-f768cd26f83967d6",
+      "url": "https://www.fdic.gov/bank-data-guide/data-downloads",
+      "observedAt": "2026-10-20T19:33:01+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.fdic.gov/bank-data-guide/data-downloads",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:01+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fdic.gov/bank-data-guide/data-downloads",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-769f48dc29248970",
+      "url": "https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics",
+      "observedAt": "2026-10-20T19:33:01+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:01+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-fd6f71ca42d8c31a",
+      "url": "https://www.bls.gov/sae/",
+      "observedAt": "2026-10-20T19:33:01+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.bls.gov/sae/",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:01+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.bls.gov/sae/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:33:01+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.bls.gov/sae/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-b04bc5404eaf8cfb",
+      "url": "https://www.bls.gov/lau/",
+      "observedAt": "2026-10-20T19:33:01+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.bls.gov/lau/",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:01+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.bls.gov/lau/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:33:01+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.bls.gov/lau/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-ddd16082dc834a7e",
+      "url": "https://www.bls.gov/jlt/jlt_statedata.htm",
+      "observedAt": "2026-10-20T19:33:02+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.bls.gov/jlt/jlt_statedata.htm",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:01+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.bls.gov/jlt/jlt_statedata.htm",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:33:02+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.bls.gov/jlt/jlt_statedata.htm",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-e312ad3abed07c58",
+      "url": "https://www.census.gov/programs-surveys/cbp/data/datasets.html",
+      "observedAt": "2026-10-20T19:33:01+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.census.gov/programs-surveys/cbp/data/datasets.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:01+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.census.gov/programs-surveys/cbp/data/datasets.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-a888582005fa9653",
+      "url": "https://www.census.gov/programs-surveys/bds/data.API.html",
+      "observedAt": "2026-10-20T19:33:02+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.census.gov/programs-surveys/bds/data.API.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:02+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.census.gov/programs-surveys/bds/data.API.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-9534b2e1f956cef2",
+      "url": "https://www.census.gov/programs-surveys/acs/data/data-via-api.html",
+      "observedAt": "2026-10-20T19:33:02+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.census.gov/programs-surveys/acs/data/data-via-api.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:02+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.census.gov/programs-surveys/acs/data/data-via-api.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-b6e0d46a65c6c4e0",
+      "url": "https://www.irs.gov/statistics/soi-tax-stats-migration-data",
+      "observedAt": "2026-10-20T19:33:03+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.irs.gov/statistics/soi-tax-stats-migration-data",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:03+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.irs.gov/statistics/soi-tax-stats-migration-data",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-8e195cc8272731ef",
+      "url": "https://data.sba.gov/dataset/7a-504-foia",
+      "observedAt": "2026-10-20T19:33:03+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://data.sba.gov/dataset/7a-504-foia",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:03+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://data.sba.gov/dataset/7a-504-foia",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-c9411480158b4c57",
+      "url": "https://www.nass.usda.gov/Quick_Stats/",
+      "observedAt": "2026-10-20T19:33:03+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nass.usda.gov/Quick_Stats/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:03+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nass.usda.gov/Quick_Stats/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-6395549e188d0e6b",
+      "url": "https://www.ncdc.noaa.gov/cdo-web/webservices/v2",
+      "observedAt": "2026-10-20T19:33:03+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ncdc.noaa.gov/cdo-web/webservices/v2",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:03+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ncdc.noaa.gov/cdo-web/webservices/v2",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-a0f0fa2e82eed59d",
+      "url": "https://www.fema.gov/about/openfema/disaster-declarations-summaries",
+      "observedAt": "2026-10-20T19:33:04+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.fema.gov/about/openfema/disaster-declarations-summaries",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:03+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.fema.gov/about/openfema/disaster-declarations-summaries",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:33:04+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.fema.gov/about/openfema/disaster-declarations-summaries",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-684b79c6aca9bf8f",
+      "url": "https://ideas.repec.org/",
+      "observedAt": "2026-10-20T19:33:04+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://ideas.repec.org/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:04+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://ideas.repec.org/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-da19197a547a4072",
+      "url": "https://www.bls.gov/developers/",
+      "observedAt": "2026-10-20T19:33:04+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.bls.gov/developers/",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:04+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.bls.gov/developers/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:33:04+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.bls.gov/developers/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-32e683b2db21f3dc",
+      "url": "https://fraser.stlouisfed.org/",
+      "observedAt": "2026-10-20T19:33:25+00:00",
+      "method": "HEAD",
+      "httpStatus": null,
+      "finalUrl": "https://fraser.stlouisfed.org/",
+      "redirectChain": [],
+      "error": "The read operation timed out",
+      "classification": "transport-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:04+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fraser.stlouisfed.org/",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:25+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fraser.stlouisfed.org/",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-2d6790f418b1424e",
+      "url": "https://apps.bea.gov/api/signup/",
+      "observedAt": "2026-10-20T19:33:04+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://apps.bea.gov/api/signup/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:04+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://apps.bea.gov/api/signup/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-c6879ba33aa9f8ed",
+      "url": "https://www.census.gov/data/developers/data-sets/economic-indicators.html",
+      "observedAt": "2026-10-20T19:33:05+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.census.gov/data/developers/data-sets/economic-indicators.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:05+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.census.gov/data/developers/data-sets/economic-indicators.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-061db1e3ae2d55a7",
+      "url": "https://fred.stlouisfed.org/docs/api/fred/overview.html",
+      "observedAt": "2026-10-20T19:33:26+00:00",
+      "method": "HEAD",
+      "httpStatus": null,
+      "finalUrl": "https://fred.stlouisfed.org/docs/api/fred/overview.html",
+      "redirectChain": [],
+      "error": "The read operation timed out",
+      "classification": "transport-error",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:05+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fred.stlouisfed.org/docs/api/fred/overview.html",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        },
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:26+00:00",
+          "httpStatus": null,
+          "finalUrl": "https://fred.stlouisfed.org/docs/api/fred/overview.html",
+          "redirectChain": [],
+          "error": "The read operation timed out",
+          "transient": true
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-acd30857b1fbd117",
+      "url": "https://docs.db.nomics.world/web-api/",
+      "observedAt": "2026-10-20T19:33:09+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://docs.db.nomics.world/web-api/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:09+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://docs.db.nomics.world/web-api/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-8034e603c4c1e1f1",
+      "url": "https://invokely.ai/docs",
+      "observedAt": "2026-10-20T19:33:09+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://invokely.ai/docs",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:09+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://invokely.ai/docs",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-a8eb1b4245a5c121",
+      "url": "https://www.youtube.com/channel/UCASM0cgfkJxQ1ICmRilfHLw",
+      "observedAt": "2026-10-20T19:33:09+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/channel/UCASM0cgfkJxQ1ICmRilfHLw",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:09+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/channel/UCASM0cgfkJxQ1ICmRilfHLw",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-5574b136f85bf175",
+      "url": "https://www.youtube.com/@BenFelixCSI",
+      "observedAt": "2026-10-20T19:33:10+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@BenFelixCSI",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:10+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@BenFelixCSI",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-6588da03248ef281",
+      "url": "https://www.youtube.com/@AswathDamodaranonValuation",
+      "observedAt": "2026-10-20T19:33:10+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@AswathDamodaranonValuation",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:10+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@AswathDamodaranonValuation",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-7a32098beae5be8d",
+      "url": "https://www.youtube.com/@Pensioncraft",
+      "observedAt": "2026-10-20T19:33:11+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@Pensioncraft",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:11+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@Pensioncraft",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-f95dd31c33a3854c",
+      "url": "https://www.youtube.com/@MoneyMacro",
+      "observedAt": "2026-10-20T19:33:12+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@MoneyMacro",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:12+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@MoneyMacro",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-6944ae67bc9969e7",
+      "url": "https://www.youtube.com/@ThePlainBagel",
+      "observedAt": "2026-10-20T19:33:12+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@ThePlainBagel",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:12+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@ThePlainBagel",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-cc93a0d4e3963c9c",
+      "url": "https://www.youtube.com/@MarginalRevolutionUniversity",
+      "observedAt": "2026-10-20T19:33:13+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@MarginalRevolutionUniversity",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:13+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@MarginalRevolutionUniversity",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-a7a1eea330751293",
+      "url": "https://www.youtube.com/@Asianometry",
+      "observedAt": "2026-10-20T19:33:13+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@Asianometry",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:13+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@Asianometry",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-385533532a47fd3a",
+      "url": "https://www.youtube.com/@SabineHossenfelder",
+      "observedAt": "2026-10-20T19:33:14+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@SabineHossenfelder",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:14+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@SabineHossenfelder",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-a6e7dfca0221e617",
+      "url": "https://github.com/cwyalpha/Awesome-Machine-Learning-in-Economics-and-Finance",
+      "observedAt": "2026-10-20T19:33:15+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cwyalpha/Awesome-Machine-Learning-in-Economics-and-Finance",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:15+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/cwyalpha/Awesome-Machine-Learning-in-Economics-and-Finance",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-19a9eb15ca7f4b78",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/jep.31.2.87",
+      "observedAt": "2026-10-20T19:33:15+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aeaweb.org/articles?id=10.1257/jep.31.2.87",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:15+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.aeaweb.org/articles?id=10.1257/jep.31.2.87",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-6db7001704050b74",
+      "url": "https://github.com/py-why/EconML",
+      "observedAt": "2026-10-20T19:33:16+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/py-why/EconML",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:16+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/py-why/EconML",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-7969f76f69390174",
+      "url": "https://docs.doubleml.org/stable/",
+      "observedAt": "2026-10-20T19:33:16+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://docs.doubleml.org/stable/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:16+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://docs.doubleml.org/stable/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-dadf80d4d10c37ac",
+      "url": "https://github.com/FreedomIntelligence/Awesome-Economic-World-Models",
+      "observedAt": "2026-10-20T19:33:17+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/FreedomIntelligence/Awesome-Economic-World-Models",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:17+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/FreedomIntelligence/Awesome-Economic-World-Models",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-3d1fb556a8f866c0",
+      "url": "https://arxiv.org/abs/2608.06020",
+      "observedAt": "2026-10-20T19:33:17+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://arxiv.org/abs/2608.06020",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:17+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://arxiv.org/abs/2608.06020",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-9b072dd1066de8a6",
+      "url": "https://arxiv.org/abs/2402.09563",
+      "observedAt": "2026-10-20T19:33:17+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://arxiv.org/abs/2402.09563",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:17+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://arxiv.org/abs/2402.09563",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-da29cfc4802d83a0",
+      "url": "https://www.open-contracting.org/resources/red-flags-in-public-procurement-a-guide-to-using-data-to-detect-and-mitigate-risks/",
+      "observedAt": "2026-10-20T19:33:17+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.open-contracting.org/resources/red-flags-in-public-procurement-a-guide-to-using-data-to-detect-and-mitigate-risks/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:17+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.open-contracting.org/resources/red-flags-in-public-procurement-a-guide-to-using-data-to-detect-and-mitigate-risks/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-875722680c13a077",
+      "url": "https://github.com/uinue2010/awesome-ai-research-writing-economics",
+      "observedAt": "2026-10-20T19:33:17+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/uinue2010/awesome-ai-research-writing-economics",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:17+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/uinue2010/awesome-ai-research-writing-economics",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-ff8508d14a7aba4b",
+      "url": "https://ocw.mit.edu/search/?d=Economics&s=department_course_numbers.sort_coursenum",
+      "observedAt": "2026-10-20T19:33:17+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://ocw.mit.edu/search/?d=Economics&s=department_course_numbers.sort_coursenum",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:17+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://ocw.mit.edu/search/?d=Economics&s=department_course_numbers.sort_coursenum",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-10f47abfb0c2243d",
+      "url": "https://www.edx.org/learn/economics",
+      "observedAt": "2026-10-20T19:33:18+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.edx.org/learn/economics",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:18+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.edx.org/learn/economics",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-economic-data:source:r-a75cae9c01b617bf",
+      "url": "https://www.khanacademy.org/economics-finance-domain",
+      "observedAt": "2026-10-20T19:33:18+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.khanacademy.org/economics-finance-domain",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:33:18+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.khanacademy.org/economics-finance-domain",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    }
+  ]
+}

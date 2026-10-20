@@ -34,8 +34,10 @@
     "https://gss.norc.org/get-the-data.html": "2026-08-30",
     "https://gusto.com/resources/gusto-insights/real-time-economic-data": "2026-08-30",
     "https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics": "2026-08-30",
+    "https://huggingface.co/datasets/HarshitKZ/skill-salary-percentiles-global": "2026-10-17",
     "https://huggingface.co/datasets/openfoodfacts/open-prices": "2026-08-30",
     "https://ideas.repec.org/": "2026-08-30",
+    "https://invokely.ai/docs": "2026-10-11",
     "https://investors.firstcash.com/": "2026-08-30",
     "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html": "2026-08-30",
     "https://mymarketnews.ams.usda.gov/viewReport/3324": "2026-08-30",
@@ -119,6 +121,15 @@
     "https://www.youtube.com/@SabineHossenfelder": "2026-08-30",
     "https://www.youtube.com/@ThePlainBagel": "2026-08-30",
     "https://www.youtube.com/channel/UCASM0cgfkJxQ1ICmRilfHLw": "2026-08-30",
-    "https://www.zillow.com/research/data/": "2026-08-30"
+    "https://www.zillow.com/research/data/": "2026-08-30",
+    "https://carejobs.now/data": "2026-10-16",
+    "https://www.freightos.com/enterprise/terminal/freightos-baltic-index-global-container-pricing-index/": "2026-10-20",
+    "https://api.usaspending.gov/": "2026-10-20",
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data": "2026-10-20",
+    "https://lda.gov/api/": "2026-10-20",
+    "https://data.open-contracting.org/": "2026-10-20",
+    "https://www.worldbank.org/en/publication/worldwide-governance-indicators": "2026-10-20",
+    "https://fraser.stlouisfed.org/": "2026-10-20",
+    "https://www.open-contracting.org/resources/red-flags-in-public-procurement-a-guide-to-using-data-to-detect-and-mitigate-risks/": "2026-10-20"
   }
 }
