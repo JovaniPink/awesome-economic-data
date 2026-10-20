@@ -1967,11 +1967,11 @@
     {
       "corrections": [],
       "dates": {
-        "createdAt": "2026-08-30"
+        "createdAt": "2026-10-20"
       },
       "editorialStatus": "published",
       "evidenceStatus": "unreviewed",
-      "id": "awesome-economic-data:source:r-dfc3d4e318880e25",
+      "id": "awesome-economic-data:source:r-eeb3b00bee7cc4d9",
       "kind": "source",
       "legacyIds": [],
       "limitations": [
@@ -2002,7 +2002,7 @@
       "source": {
         "accessStatus": "unknown",
         "authorityRole": "unknown",
-        "canonicalUrl": "https://www.freightos.com/freightos-baltic-index/",
+        "canonicalUrl": "https://www.freightos.com/enterprise/terminal/freightos-baltic-index-global-container-pricing-index/",
         "license": "Resource-specific terms apply; catalog inclusion grants no license.",
         "methodologyWarnings": [
           "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
@@ -2207,6 +2207,300 @@
       },
       "summary": "Explains the yield-curve recession model, inputs, interpretation, and limitations.",
       "title": "New York Fed Yield Curve Model FAQ",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-08-30"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-be596cd9cb0984d6",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "public-finance-procurement-institutions"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://fiscaldata.treasury.gov/",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "U.S. Treasury Fiscal Data"
+      },
+      "summary": "Provides machine-readable debt, revenue, spending, deficit, and Treasury operations datasets with dataset-specific cadences, units, accounting definitions, metadata, and APIs.",
+      "title": "U.S. Treasury Fiscal Data",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-10-20"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-efc3130a4c6946ea",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "public-finance-procurement-institutions"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://api.usaspending.gov/",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "USAspending API"
+      },
+      "summary": "Provides official federal award and account-level spending data; obligations, outlays, award ceilings, amendments, recipient addresses, and places of performance are distinct measures with differing reporting coverage.",
+      "title": "USAspending API",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-10-20"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-44406e79fbd917d0",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "public-finance-procurement-institutions"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "FEC Campaign Finance Bulk Data"
+      },
+      "summary": "Provides reported federal campaign receipts, disbursements, committees, and filings as bulk downloads; reconcile amendments and refunds, and observe restrictions on selling or using individual contributor information for soliciting contributions or commercial purposes.",
+      "title": "FEC Campaign Finance Bulk Data",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-10-20"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-d2aae2ca2ff554b9",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "public-finance-procurement-institutions"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://lda.gov/api/",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Congressional Lobbying Disclosures API"
+      },
+      "summary": "Provides registered API access to lobbying registrations, quarterly activity reports, and LD-203 contribution disclosures; reporting periods, amendments, clients, registrants, and amount definitions must remain distinct, and disclosure does not establish causal influence.",
+      "title": "Congressional Lobbying Disclosures API",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-10-20"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-5233462570823ed3",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "public-finance-procurement-institutions"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://data.open-contracting.org/",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Open Contracting Data Registry"
+      },
+      "summary": "Provides public procurement datasets in JSON, CSV, and Excel with publisher-specific coverage and quality notes; compiled releases contain the latest value of each field, and coverage, reuse terms, and availability vary by publisher.",
+      "title": "Open Contracting Data Registry",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-10-20"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-9dd5b2d29cbec8e5",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "public-finance-procurement-institutions"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Worldwide Governance Indicators"
+      },
+      "summary": "Publishes annual perception-based composite governance estimates using surveys and expert assessments; preserve uncertainty, methodology, and release vintage because historical estimates can be revised and scores are not direct counts of misconduct.",
+      "title": "Worldwide Governance Indicators",
       "visibility": "public"
     },
     {
@@ -3038,7 +3332,7 @@
         ],
         "publisher": "ISM PMI Reports"
       },
-      "summary": "Publishes manufacturing and services diffusion indices with industry and subcomponent detail.",
+      "summary": "Publishes manufacturing and services diffusion indices with industry and subcomponent detail; access can depend on a login, and automated requests may redirect to the publisher sign-in page.",
       "title": "ISM PMI Reports",
       "visibility": "public"
     },
@@ -4368,11 +4662,11 @@
     {
       "corrections": [],
       "dates": {
-        "createdAt": "2026-08-30"
+        "createdAt": "2026-10-20"
       },
       "editorialStatus": "published",
       "evidenceStatus": "unreviewed",
-      "id": "awesome-economic-data:source:r-f72ac11efaecd54d",
+      "id": "awesome-economic-data:source:r-32e683b2db21f3dc",
       "kind": "source",
       "legacyIds": [],
       "limitations": [
@@ -4403,15 +4697,15 @@
       "source": {
         "accessStatus": "unknown",
         "authorityRole": "unknown",
-        "canonicalUrl": "https://research.stlouisfed.org/resources.html",
+        "canonicalUrl": "https://fraser.stlouisfed.org/",
         "license": "Resource-specific terms apply; catalog inclusion grants no license.",
         "methodologyWarnings": [
           "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
         ],
-        "publisher": "Federal Reserve Bank of St. Louis Resources"
+        "publisher": "FRASER Economic History Archive"
       },
-      "summary": "Links to FRED, ALFRED, FRASER, and related economic data and archival services.",
-      "title": "Federal Reserve Bank of St. Louis Resources",
+      "summary": "Provides digitized U.S. financial, economic, and banking history, including archival collections and historical publications; document dates, collection coverage, and item-specific reuse conditions require review.",
+      "title": "FRASER Economic History Archive",
       "visibility": "public"
     },
     {
@@ -4568,55 +4862,6 @@
       },
       "editorialStatus": "published",
       "evidenceStatus": "unreviewed",
-      "id": "awesome-economic-data:source:r-be596cd9cb0984d6",
-      "kind": "source",
-      "legacyIds": [],
-      "limitations": [
-        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
-        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
-      ],
-      "projectId": "awesome-economic-data",
-      "provenance": {
-        "methodIds": [],
-        "sourceIds": []
-      },
-      "relationships": [],
-      "schemaVersion": "1.1",
-      "semantics": {
-        "domains": [
-          "economics",
-          "finance",
-          "policy"
-        ],
-        "entities": [],
-        "tags": [
-          "catalog-resource"
-        ],
-        "topics": [
-          "portals"
-        ]
-      },
-      "source": {
-        "accessStatus": "unknown",
-        "authorityRole": "unknown",
-        "canonicalUrl": "https://fiscaldata.treasury.gov/",
-        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
-        "methodologyWarnings": [
-          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
-        ],
-        "publisher": "U.S. Treasury Fiscal Data"
-      },
-      "summary": "Provides machine-readable debt, revenue, spending, deficit, and Treasury operations datasets with dataset-specific cadences, units, accounting definitions, metadata, and APIs.",
-      "title": "U.S. Treasury Fiscal Data",
-      "visibility": "public"
-    },
-    {
-      "corrections": [],
-      "dates": {
-        "createdAt": "2026-08-30"
-      },
-      "editorialStatus": "published",
-      "evidenceStatus": "unreviewed",
       "id": "awesome-economic-data:source:r-acd30857b1fbd117",
       "kind": "source",
       "legacyIds": [],
@@ -4704,7 +4949,7 @@
         ],
         "publisher": "Invokely"
       },
-      "summary": "Provides REST and MCP access to source-cited official statistics for U.S. states and counties, EU regions, Spanish municipalities, and World Bank countries; publisher schedules and reuse terms vary, and the free plan includes 500 calls per month with up to 60 points per series.",
+      "summary": "Commercial aggregation service providing source-cited official statistics across U.S. subnational and international geographies; the free MCP plan includes 500 calls per month, while REST access requires a paid plan or credits. Publisher schedules, revisions, and upstream reuse terms remain controlling; authenticated service behavior has not been independently qualified.",
       "title": "Invokely",
       "visibility": "public"
     },
@@ -5490,6 +5735,55 @@
       },
       "summary": "Describes an agent-based simulator for economic systems with learning agents, useful for controlled experiments but separate from observed-market evidence or trading validation.",
       "title": "ABIDES-Economist",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-10-20"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-da29cfc4802d83a0",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "learning-methods"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.open-contracting.org/resources/red-flags-in-public-procurement-a-guide-to-using-data-to-detect-and-mitigate-risks/",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Open Contracting Procurement Red Flags"
+      },
+      "summary": "Documents procurement risk indicators and formulas mapped to the Open Contracting Data Standard; flags prioritize investigation and do not establish corruption or an official finding.",
+      "title": "Open Contracting Procurement Red Flags",
       "visibility": "public"
     },
     {

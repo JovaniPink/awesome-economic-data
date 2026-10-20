@@ -129,7 +129,7 @@ RELEASE_SOURCE_CONTRACTS: Final[tuple[ReleaseSourceContract, ...]] = (
     {
         "name": "U.S. Treasury Fiscal Data",
         "url": "https://fiscaldata.treasury.gov/",
-        "section": "Portals",
+        "section": "Public Finance, Procurement & Institutions",
         "required_phrases": (
             "machine-readable debt, revenue, spending, deficit",
             "dataset-specific cadences, units, accounting definitions",

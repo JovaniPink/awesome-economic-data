@@ -23,6 +23,7 @@ The [machine-readable resource index](catalog/resources.v1.json) assigns stable 
 - [Goods Flow & Logistics](#goods-flow--logistics)
 - [Trade & Shipping Rates](#trade--shipping-rates)
 - [Market-Implied Macro](#market-implied-macro)
+- [Public Finance, Procurement & Institutions](#public-finance-procurement--institutions)
 - [Corporate Financials & Financial Accounts](#corporate-financials--financial-accounts)
 - [Financial Markets & Returns](#financial-markets--returns)
 - [Remote Sensing & Alternative Data](#remote-sensing--alternative-data)
@@ -113,7 +114,7 @@ Costs and volumes for dry bulk, containerized trade, and air cargo.
 
 - [Baltic Exchange Indices](https://www.balticexchange.com/en/index.html) - Provides dry-bulk and other freight-market benchmarks, including the Baltic Dry Index.
 - [Harpex](https://www.harperpetersen.com/container) - Publishes a weekly container-ship charter-rate index.
-- [Freightos Baltic Index](https://www.freightos.com/freightos-baltic-index/) - Reports daily container prices across major global trade lanes using commercial transaction data.
+- [Freightos Baltic Index](https://www.freightos.com/enterprise/terminal/freightos-baltic-index-global-container-pricing-index/) - Reports daily container prices across major global trade lanes using commercial transaction data.
 - [IATA Economics](https://www.iata.org/en/publications/economics/) - Publishes recurring air-cargo market analysis, including cargo tonne-kilometer trends.
 
 ## Market-Implied Macro
@@ -123,6 +124,17 @@ Market prices and models used to assess growth and recession risk.
 - [10-Year Treasury Minus 3-Month Treasury](https://fred.stlouisfed.org/series/T10Y3M) - Provides the term spread used by the New York Fed's recession-probability model.
 - [10-Year Treasury Minus 2-Year Treasury](https://fred.stlouisfed.org/series/T10Y2Y) - Provides a widely followed alternative term spread that can differ from the model benchmark.
 - [New York Fed Yield Curve Model FAQ](https://www.newyorkfed.org/research/capital_markets/ycfaq) - Explains the yield-curve recession model, inputs, interpretation, and limitations.
+
+## Public Finance, Procurement & Institutions
+
+Fiscal accounts, reported money flows, procurement records, and governance estimates answer different questions. Preserve amendments, reporting periods, currencies, units, and publisher definitions; a payment, lobbying registration, or risk flag alone does not establish improper influence or misconduct.
+
+- [U.S. Treasury Fiscal Data](https://fiscaldata.treasury.gov/) - Provides machine-readable debt, revenue, spending, deficit, and Treasury operations datasets with dataset-specific cadences, units, accounting definitions, metadata, and APIs.
+- [USAspending API](https://api.usaspending.gov/) - Provides official federal award and account-level spending data; obligations, outlays, award ceilings, amendments, recipient addresses, and places of performance are distinct measures with differing reporting coverage.
+- [FEC Campaign Finance Bulk Data](https://www.fec.gov/data/browse-data/?tab=bulk-data) - Provides reported federal campaign receipts, disbursements, committees, and filings as bulk downloads; reconcile amendments and refunds, and observe restrictions on selling or using individual contributor information for soliciting contributions or commercial purposes.
+- [Congressional Lobbying Disclosures API](https://lda.gov/api/) - Provides registered API access to lobbying registrations, quarterly activity reports, and LD-203 contribution disclosures; reporting periods, amendments, clients, registrants, and amount definitions must remain distinct, and disclosure does not establish causal influence.
+- [Open Contracting Data Registry](https://data.open-contracting.org/) - Provides public procurement datasets in JSON, CSV, and Excel with publisher-specific coverage and quality notes; compiled releases contain the latest value of each field, and coverage, reuse terms, and availability vary by publisher.
+- [Worldwide Governance Indicators](https://www.worldbank.org/en/publication/worldwide-governance-indicators) - Publishes annual perception-based composite governance estimates using surveys and expert assessments; preserve uncertainty, methodology, and release vintage because historical estimates can be revised and scores are not direct counts of misconduct.
 
 ## Corporate Financials & Financial Accounts
 
@@ -164,7 +176,7 @@ Multi-source dashboards and recurring composite indicators.
 
 - [Economic Tracker](https://economictracker.org/) - Visualizes high-frequency spending, employment, and small-business measures by geography and income group.
 - [Economic Tracker Data](https://github.com/OpportunityInsights/EconomicTracker) - Publishes downloadable data and documentation used by the Economic Tracker.
-- [ISM PMI Reports](https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/) - Publishes manufacturing and services diffusion indices with industry and subcomponent detail.
+- [ISM PMI Reports](https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/) - Publishes manufacturing and services diffusion indices with industry and subcomponent detail; access can depend on a login, and automated requests may redirect to the publisher sign-in page.
 - [S&P Global US PMI Releases](https://www.pmi.spglobal.com/Public/Release/PressReleases) - Publishes flash and final U.S. purchasing managers' indices using a globally comparable methodology.
 - [EIA Hourly Electric Grid Monitor](https://www.eia.gov/electricity/gridmonitor/) - Reports hourly electricity demand and generation as a weather-sensitive activity signal.
 - [Atlanta Fed GDPNow](https://www.atlantafed.org/research-and-data/data/gdpnow) - Publishes a model-based running estimate of current-quarter real GDP growth; it is not an official Atlanta Fed forecast, receives no subjective adjustment, and can retain substantial error near the advance GDP release.
@@ -205,13 +217,12 @@ Research indexes and data services for finding economic series and literature.
 
 - [IDEAS/RePEc](https://ideas.repec.org/) - Indexes economics working papers, articles, books, software components, and author profiles.
 - [BLS Public Data API](https://www.bls.gov/developers/) - Provides programmatic access to published U.S. labor-market and price data with documented query limits, citation requirements, and terms for secondary use.
-- [Federal Reserve Bank of St. Louis Resources](https://research.stlouisfed.org/resources.html) - Links to FRED, ALFRED, FRASER, and related economic data and archival services.
+- [FRASER Economic History Archive](https://fraser.stlouisfed.org/) - Provides digitized U.S. financial, economic, and banking history, including archival collections and historical publications; document dates, collection coverage, and item-specific reuse conditions require review.
 - [BEA Data API](https://apps.bea.gov/api/signup/) - Provides registered, API-key access to a subset of published GDP, income, industry, regional, trade, and investment statistics plus metadata; terms acceptance is required.
 - [Census Economic Indicators API](https://www.census.gov/data/developers/data-sets/economic-indicators.html) - Provides monthly and quarterly retail, housing, manufacturing, trade, services, and construction series; every query requires an API key, Census attribution, originating-program attribution, and preservation of published precision.
 - [FRED and ALFRED API](https://fred.stlouisfed.org/docs/api/fred/overview.html) - Requires a registered API key to retrieve current and vintage series by source, release, category, and series; it is an aggregation layer, so original-source definitions, revisions, and terms remain controlling.
-- [U.S. Treasury Fiscal Data](https://fiscaldata.treasury.gov/) - Provides machine-readable debt, revenue, spending, deficit, and Treasury operations datasets with dataset-specific cadences, units, accounting definitions, metadata, and APIs.
 - [DBnomics Web API](https://docs.db.nomics.world/web-api/) - Normalizes access across many economic providers; provider codes and original sources remain authoritative, and the API is intended for focused queries rather than indiscriminate bulk downloads.
-- [Invokely](https://invokely.ai/docs) - Provides REST and MCP access to source-cited official statistics for U.S. states and counties, EU regions, Spanish municipalities, and World Bank countries; publisher schedules and reuse terms vary, and the free plan includes 500 calls per month with up to 60 points per series.
+- [Invokely](https://invokely.ai/docs) - Commercial aggregation service providing source-cited official statistics across U.S. subnational and international geographies; the free MCP plan includes 500 calls per month, while REST access requires a paid plan or credits. Publisher schedules, revisions, and upstream reuse terms remain controlling; authenticated service behavior has not been independently qualified.
 
 ## Finance, Economics & Systems Channels
 
@@ -247,6 +258,8 @@ Discovery resources for prediction, causal machine learning, and economic simula
 ## Learning & Methods
 
 Open and structured resources for learning economic concepts and interpreting data.
+
+- [Open Contracting Procurement Red Flags](https://www.open-contracting.org/resources/red-flags-in-public-procurement-a-guide-to-using-data-to-detect-and-mitigate-risks/) - Documents procurement risk indicators and formulas mapped to the Open Contracting Data Standard; flags prioritize investigation and do not establish corruption or an official finding.
 
 - [AI Research Writing for Economics](https://github.com/uinue2010/awesome-ai-research-writing-economics) - Organizes Chinese-language prompts for economics research and writing and identifies an upstream prompt collection; use it as workflow inspiration because no recognized license was present at the August 30, 2026 review.
 - [MIT OpenCourseWare Economics](https://ocw.mit.edu/search/?d=Economics&s=department_course_numbers.sort_coursenum) - Provides self-paced undergraduate and graduate economics course materials.
