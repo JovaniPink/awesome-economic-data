@@ -637,7 +637,7 @@
         ],
         "publisher": "Big Mac Index Data"
       },
-      "summary": "Publishes the Economist's underlying Big Mac Index dataset and methodology notes.",
+      "summary": "Publishes the Economist's underlying CSV/Excel data, calculation code, and prior releases; GDP-adjusted history can be revised, so preserve the release used for reproducible comparisons.",
       "title": "Big Mac Index Data",
       "visibility": "public"
     },
@@ -688,6 +688,55 @@
       },
       "summary": "Publishes weekly specialty-crop grocery advertisement reports with product and regional detail through Market News; promotional offers are not transaction prices or a complete grocery basket.",
       "title": "USDA Advertised Grocery Prices",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-10-20"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-7b84e6d5f3d57b20",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "prices-inflation"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.ers.usda.gov/data-products/food-price-outlook",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "USDA ERS Food Price Outlook"
+      },
+      "summary": "Publishes monthly food CPI/PPI forecasts, observed price changes, and CSV/XLSX history; distinguish forecasts from observations and revised-method historical reconstructions from originally published forecasts in the separate archive.",
+      "title": "USDA ERS Food Price Outlook",
       "visibility": "public"
     },
     {
@@ -1029,7 +1078,7 @@
         ],
         "publisher": "OpenTable State of the Industry"
       },
-      "summary": "Reports year-over-year changes in seated diners as a narrow restaurant-activity signal.",
+      "summary": "Reports year-over-year changes in diners seated through online reservations on its network; since June 2024 it excludes phone reservations and walk-ins, compares matching weekdays and weeks, and does not adjust for holidays or other external factors.",
       "title": "OpenTable State of the Industry",
       "visibility": "public"
     },
@@ -1869,11 +1918,11 @@
     {
       "corrections": [],
       "dates": {
-        "createdAt": "2026-08-30"
+        "createdAt": "2026-10-20"
       },
       "editorialStatus": "published",
       "evidenceStatus": "unreviewed",
-      "id": "awesome-economic-data:source:r-df93f04a237051fd",
+      "id": "awesome-economic-data:source:r-7e71df6494a514ad",
       "kind": "source",
       "legacyIds": [],
       "limitations": [
@@ -1904,15 +1953,64 @@
       "source": {
         "accessStatus": "unknown",
         "authorityRole": "unknown",
-        "canonicalUrl": "https://www.balticexchange.com/en/index.html",
+        "canonicalUrl": "https://www.balticexchange.com/en/data-services/market-information0/indices.html",
         "license": "Resource-specific terms apply; catalog inclusion grants no license.",
         "methodologyWarnings": [
           "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
         ],
         "publisher": "Baltic Exchange Indices"
       },
-      "summary": "Provides dry-bulk and other freight-market benchmarks, including the Baltic Dry Index.",
+      "summary": "Documents dry-bulk and other freight benchmarks, including the Baltic Dry Index; assessed freight rates are not shipment volumes, and data feeds and reuse are subject to commercial access and licensing terms.",
       "title": "Baltic Exchange Indices",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-10-20"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-ebacd1759ca97413",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "trade-shipping-rates"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://portwatch.imf.org/pages/data-and-methodology",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "IMF PortWatch"
+      },
+      "summary": "Provides downloadable daily port and chokepoint activity and modeled shipment volumes derived from ship AIS signals; coverage gaps, spoofing, and methodological revisions affect estimates, which are not customs trade statistics or freight prices.",
+      "title": "IMF PortWatch",
       "visibility": "public"
     },
     {
@@ -3332,7 +3430,7 @@
         ],
         "publisher": "ISM PMI Reports"
       },
-      "summary": "Publishes manufacturing and services diffusion indices with industry and subcomponent detail; access can depend on a login, and automated requests may redirect to the publisher sign-in page.",
+      "summary": "Publishes manufacturing and services diffusion indices with public monthly report pages and PDFs; historical data access has separate terms, and automated requests may encounter sign-in redirects even when public pages load in a browser.",
       "title": "ISM PMI Reports",
       "visibility": "public"
     },
@@ -3579,6 +3677,55 @@
       },
       "summary": "Publishes a model-based daily business-conditions estimate plus real-time vintages; it combines inputs at mixed frequencies and is not a directly observed daily measure.",
       "title": "Philadelphia Fed ADS Index",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
+        "createdAt": "2026-10-20"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-5d95134052de040c",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "composite-trackers"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://www.chicagofed.org/research/data/nfci/current-data",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "Chicago Fed National Financial Conditions Index"
+      },
+      "summary": "Publishes weekly NFCI and macroeconomically adjusted ANFCI composites from 105 financial indicators; historical values and weights can change with incoming data and revisions, so retain the release vintage.",
+      "title": "Chicago Fed National Financial Conditions Index",
       "visibility": "public"
     },
     {

@@ -62,8 +62,9 @@ Fast-moving price measures that lead or complement CPI and PCE.
 - [Visa Spending Momentum Index on FRED](https://fred.stlouisfed.org/release?rid=736) - Reports a monthly card-spending momentum index derived from Visa payments data.
 - [Copper Futures](https://www.cmegroup.com/markets/metals/base/copper.html) - Provides market pricing commonly used as a noisy signal of global industrial demand.
 - [Big Mac Index](https://www.economist.com/interactive/big-mac-index) - Compares burger prices as an informal purchasing-power-parity and currency-valuation measure.
-- [Big Mac Index Data](https://github.com/TheEconomist/big-mac-data) - Publishes the Economist's underlying Big Mac Index dataset and methodology notes.
+- [Big Mac Index Data](https://github.com/TheEconomist/big-mac-data) - Publishes the Economist's underlying CSV/Excel data, calculation code, and prior releases; GDP-adjusted history can be revised, so preserve the release used for reproducible comparisons.
 - [USDA Advertised Grocery Prices](https://mymarketnews.ams.usda.gov/viewReport/3324) - Publishes weekly specialty-crop grocery advertisement reports with product and regional detail through Market News; promotional offers are not transaction prices or a complete grocery basket.
+- [USDA ERS Food Price Outlook](https://www.ers.usda.gov/data-products/food-price-outlook) - Publishes monthly food CPI/PPI forecasts, observed price changes, and CSV/XLSX history; distinguish forecasts from observations and revised-method historical reconstructions from originally published forecasts in the separate archive.
 - [Pergola Price Index](https://thepergolakit.com/pergola-price-index/) - Publishes quarterly summary statistics (median, quartiles, minimum and maximum dollars per square foot) of US pergola kit list prices, with a CC BY 4.0 CSV and methodology; a company-published snapshot of advertised prices from 73 sellers, it does not measure transaction prices or overall household costs.
 - [Open Prices](https://huggingface.co/datasets/openfoodfacts/open-prices) - Provides community-contributed dated product prices and proof metadata in Parquet under ODbL; irregular observations and geographic selection prevent assuming a representative U.S. price index.
 - [EIA Electricity Prices and Bills](https://www.eia.gov/electricity/sales_revenue_price/) - Publishes annual electricity sales, revenues, average prices, and residential bills in spreadsheets; bills reflect consumption as well as unit prices and exclude other utilities.
@@ -80,7 +81,7 @@ Asking-rent series and housing-supply data describe different aspects of shelter
 
 Near-real-time indicators of services activity and travel.
 
-- [OpenTable State of the Industry](https://www.opentable.com/c/state-of-industry/) - Reports year-over-year changes in seated diners as a narrow restaurant-activity signal.
+- [OpenTable State of the Industry](https://www.opentable.com/c/state-of-industry/) - Reports year-over-year changes in diners seated through online reservations on its network; since June 2024 it excludes phone reservations and walk-ins, compares matching weekdays and weeks, and does not adjust for holidays or other external factors.
 - [TSA Checkpoint Travel Numbers](https://www.tsa.gov/travel/passenger-volumes) - Publishes daily airport-screening throughput for current and comparison years.
 
 ## Household Financial Health
@@ -118,7 +119,8 @@ Freight, port, rail, and packaging measures that can move before retail-sales re
 
 Costs and volumes for dry bulk, containerized trade, and air cargo.
 
-- [Baltic Exchange Indices](https://www.balticexchange.com/en/index.html) - Provides dry-bulk and other freight-market benchmarks, including the Baltic Dry Index.
+- [Baltic Exchange Indices](https://www.balticexchange.com/en/data-services/market-information0/indices.html) - Documents dry-bulk and other freight benchmarks, including the Baltic Dry Index; assessed freight rates are not shipment volumes, and data feeds and reuse are subject to commercial access and licensing terms.
+- [IMF PortWatch](https://portwatch.imf.org/pages/data-and-methodology) - Provides downloadable daily port and chokepoint activity and modeled shipment volumes derived from ship AIS signals; coverage gaps, spoofing, and methodological revisions affect estimates, which are not customs trade statistics or freight prices.
 - [Harpex](https://www.harperpetersen.com/container) - Publishes a weekly container-ship charter-rate index.
 - [Freightos Baltic Index](https://www.freightos.com/enterprise/terminal/freightos-baltic-index-global-container-pricing-index/) - Reports daily container prices across major global trade lanes using commercial transaction data.
 - [IATA Economics](https://www.iata.org/en/publications/economics/) - Publishes recurring air-cargo market analysis, including cargo tonne-kilometer trends.
@@ -182,12 +184,13 @@ Multi-source dashboards and recurring composite indicators.
 
 - [Economic Tracker](https://economictracker.org/) - Visualizes high-frequency spending, employment, and small-business measures by geography and income group.
 - [Economic Tracker Data](https://github.com/OpportunityInsights/EconomicTracker) - Publishes downloadable data and documentation used by the Economic Tracker.
-- [ISM PMI Reports](https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/) - Publishes manufacturing and services diffusion indices with industry and subcomponent detail; access can depend on a login, and automated requests may redirect to the publisher sign-in page.
+- [ISM PMI Reports](https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/) - Publishes manufacturing and services diffusion indices with public monthly report pages and PDFs; historical data access has separate terms, and automated requests may encounter sign-in redirects even when public pages load in a browser.
 - [S&P Global US PMI Releases](https://www.pmi.spglobal.com/Public/Release/PressReleases) - Publishes flash and final U.S. purchasing managers' indices using a globally comparable methodology.
 - [EIA Hourly Electric Grid Monitor](https://www.eia.gov/electricity/gridmonitor/) - Reports hourly electricity demand and generation as a weather-sensitive activity signal.
 - [Atlanta Fed GDPNow](https://www.atlantafed.org/research-and-data/data/gdpnow) - Publishes a model-based running estimate of current-quarter real GDP growth; it is not an official Atlanta Fed forecast, receives no subjective adjustment, and can retain substantial error near the advance GDP release.
 - [Dallas Fed Weekly Economic Index](https://www.dallasfed.org/research/wei) - Models the common component of ten daily and weekly series, updates weekly, and scales the result to four-quarter GDP growth; weights and past values may be revised.
 - [Philadelphia Fed ADS Index](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads) - Publishes a model-based daily business-conditions estimate plus real-time vintages; it combines inputs at mixed frequencies and is not a directly observed daily measure.
+- [Chicago Fed National Financial Conditions Index](https://www.chicagofed.org/research/data/nfci/current-data) - Publishes weekly NFCI and macroeconomically adjusted ANFCI composites from 105 financial indicators; historical values and weights can change with incoming data and revisions, so retain the release vintage.
 
 ## Regional Economic Modeling Data
 
