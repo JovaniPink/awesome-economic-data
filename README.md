@@ -2,6 +2,12 @@
 
 > A curated, U.S.-focused catalog of high-frequency and alternative economic indicators, data portals, and learning resources. Descriptions identify what each source measures and where interpretation requires care.
 
+Maintained by [Jovani Pink](https://github.com/JovaniPink), with support from The Measured
+Studios and community contributors. This public catalog helps people discover useful
+sources for economic data and research and understand their limitations. Everyone is welcome to
+[suggest a source, report a correction, or contribute](#contributing); no coding is
+required to open an issue. See [reuse and attribution](LICENSING.md).
+
 Catalog structure reviewed: August 2026.
 
 External sources are reviewed when added or materially changed. A catalog-wide source recency review has not yet been recorded.
@@ -270,4 +276,8 @@ The [original English AI-assisted economics research and writing guide](docs/ai-
 
 ## Contributing
 
-See [contributing.md](contributing.md) before proposing a source. The automated gate checks catalog structure; contributors must separately verify source quality, access, recency, and the claims in each description.
+Help make this catalog more useful: suggest a source, report a broken link, improve a
+limitation, or clarify an explanation. First-time contributors are welcome, and opening
+an issue does not require coding. Start with the [contribution guide](contributing.md).
+We review evidence and disclose affiliations; inclusion is not endorsement or a grant
+of rights to third-party data. Please follow our [Code of Conduct](code-of-conduct.md).
