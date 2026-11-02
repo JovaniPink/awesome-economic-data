@@ -68,6 +68,7 @@ Fast-moving price measures that lead or complement CPI and PCE.
 - [Pergola Price Index](https://thepergolakit.com/pergola-price-index/) - Publishes quarterly summary statistics (median, quartiles, minimum and maximum dollars per square foot) of US pergola kit list prices, with a CC BY 4.0 CSV and methodology; a company-published snapshot of advertised prices from 73 sellers, it does not measure transaction prices or overall household costs.
 - [Open Prices](https://huggingface.co/datasets/openfoodfacts/open-prices) - Provides community-contributed dated product prices and proof metadata in Parquet under ODbL; irregular observations and geographic selection prevent assuming a representative U.S. price index.
 - [EIA Electricity Prices and Bills](https://www.eia.gov/electricity/sales_revenue_price/) - Publishes annual electricity sales, revenues, average prices, and residential bills in spreadsheets; bills reflect consumption as well as unit prices and exclude other utilities.
+- [ek litre Pakistan Fuel Prices](https://eklitre.pk/data/) - Publishes Pakistan's notified pump prices for petrol, diesel, kerosene and light diesel oil since 2006, and the regulator OGRA's per-litre price build-up since July 2026, as CSV, JSON and a keyless API under CC BY 4.0; each figure cites an archived source document, and where the distributor's own archive gives conflicting prices for a date they are flagged rather than resolved.
 
 ## Housing & Shelter
 
