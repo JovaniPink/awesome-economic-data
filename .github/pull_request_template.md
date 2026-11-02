@@ -9,6 +9,11 @@ Link the public publisher documentation, methodology, and license/access terms y
 checked, with the check date. Explain important limitations. Use "not applicable" for
 changes that do not alter source claims.
 
+For new sources or material source changes, use `docs/source-review-template.md`
+and link the completed record under `docs/`, including the tested scope and
+unresolved checks. See contributing.md for when a review is required and how to
+record earlier evidence without implying a new access check.
+
 ## Affiliation and authorship
 
 Disclose ownership, employment, sponsorship, referral relationships, and material AI

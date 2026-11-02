@@ -2,6 +2,8 @@
 
 Review date: 2026-09-08. Scope: 19 candidates selected for the catalog expansion, using publisher documentation and download listings, schemas, or exposed samples. Seventeen are listed; M5 and dunnhumby are deferred. The resulting catalog has 105 resources and 18 Contents entries. This is a source-specific review, not a catalog-wide recency audit.
 
+The [November 2 labor follow-up](alternative-labor-review-2026-11-02.md) updates the access evidence and descriptions for Indeed, Gusto, and Square. In particular, Square's overall-earnings chart CSV is now verified as a historical export; the September observations below remain a record of that earlier review.
+
 No bulk archives were acquired. A visible download listing establishes an offered route, not successful file retrieval, validated rows, unrestricted reuse, or point-in-time fitness. Public reports can qualify as explicitly labeled research resources without an open microdata export. Terms evidence below distinguishes explicit licenses from public-access statements and unresolved redistribution permission. These assessments do not change the index's conservative fields or the separate source-admission manifest.
 
 ## Labor and hiring

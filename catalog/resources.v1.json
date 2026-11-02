@@ -147,7 +147,7 @@
         ],
         "publisher": "Indeed Wage Tracker"
       },
-      "summary": "Publishes monthly advertised wage-growth CSVs by country and occupational sector under CC BY 4.0; job-title comparisons measure offers rather than pay received by individual workers.",
+      "summary": "Publishes monthly year-over-year growth in advertised wages by country and occupational sector as CC BY 4.0 CSVs; matches job-title, region, and salary-type cells rather than workers, is not seasonally adjusted, and measures offers rather than actual payroll earnings.",
       "title": "Indeed Wage Tracker",
       "visibility": "public"
     },
@@ -196,7 +196,7 @@
         ],
         "publisher": "Gusto Real Time Economic Data"
       },
-      "summary": "Offers monthly small-business payroll earnings and hiring series as CSVs; estimates use QCEW calibration and revisions, so independently collected payroll is not an independent national benchmark.",
+      "summary": "Publishes monthly hiring, average hourly earnings, and new-hire pay indicators from actual payroll records at U.S. businesses with 1-49 employees, with dashboard CSV downloads; QCEW and Census business-age weighting, seasonal adjustment, platform coverage, and revisions limit interpretation as an independent national benchmark, and an open redistribution license has not been established.",
       "title": "Gusto Real Time Economic Data",
       "visibility": "public"
     },
@@ -245,7 +245,7 @@
         ],
         "publisher": "Square Payroll Index"
       },
-      "summary": "Reports monthly retail and food-service base wages and hourly earnings including tips and overtime; public charts cover Square employers, and bulk export remains unverified.",
+      "summary": "Reports retail and restaurant payroll wages and hourly earnings including tips and overtime; the embedded overall-earnings chart offers a CSV verified through November 2024, with geographic weighting and no seasonal adjustment, so that export does not establish current coverage or an open reuse license.",
       "title": "Square Payroll Index",
       "visibility": "public"
     },

@@ -28,6 +28,7 @@ defer, or decline a suggestion. Inclusion does not endorse a provider.
 - Describe what the source measures, its update frequency, its access level, and a meaningful limitation in one concise sentence.
 - Identify observed data, modeled estimates, market prices, forecasts, and anecdotal or company-specific proxies accurately.
 - Link to the recurring dataset or methodology page, not a one-time news story or generic press hub.
+- Use the [source-review template](docs/source-review-template.md) to organize the evidence for a new source or a material change. Initial suggestions can provide what is known and ask for help with unresolved fields.
 - Do not submit affiliate, referral, pay-to-rank, or promotional links.
 - Do not copy, translate, or republish text from a repository that lacks a compatible license or documented permission; write an original attributed summary instead.
 - Add one resource per pull request when practical, and explain why it improves the catalog.
@@ -45,13 +46,42 @@ Company results and behavioral proxies must be labeled as narrow context. They m
 
 A source listed in a modeling roadmap is not automatically model-ready. Point-in-time use requires verified release dates, historical vintages or prospective capture, stable units and geography, documented terms, and leakage-resistant validation.
 
+## Record a source review
+
+For a catalog addition or a material change to a source's description, methodology,
+access, or terms, copy the [source-review template](docs/source-review-template.md)
+into a dated Markdown review under `docs/` and link the completed record in your PR.
+Use one record per canonical URL; related sources may share a file. The
+[Indeed, Gusto, and Square reviews](docs/alternative-labor-review-2026-11-02.md)
+show how to document tested exports alongside unresolved checks. Pure formatting,
+tooling, and unrelated documentation changes do not require a new source review.
+
+Identify the exact population, series, units, adjustment, and smoothing. Separate
+reference, collection, publication, and retrieval dates, and record definition breaks
+and revision behavior. Link the publisher evidence with its check date. Distinguish
+observed results, publisher-documented behavior, and unverified claims. When reusing
+earlier evidence, retain its dates and say that access was not retested.
+
+Record the download route, selected variant, returned coverage and columns, and any
+snapshot identifier or file hash captured. A visible download link is not a tested
+export; one successful export does not verify every series or API. Write `Unknown`
+or `Not tested` with the consequence and next check, rather than inventing evidence.
+Use `Not applicable` with a reason when a field does not fit the resource.
+
+Public access does not imply unrestricted reuse. Record explicit license grants,
+attribution requirements, general terms, and unresolved rights separately. Review
+records do not change the catalog schema, stable IDs, recorded creation dates, or
+the generated index's conservative evidence/access fields. An unresolved field may
+require a narrower description or deferral; completing the form is not approval,
+source admission to a model, or proof of catalog-wide freshness.
+
 ## Make a catalog pull request
 
 1. Fork the repository and create a branch for one focused change.
 2. Edit `README.md` in the most appropriate existing category. Use an original concise description and a canonical HTTPS URL; do not copy publisher marketing text.
 3. For a new canonical URL, add an ISO date (`YYYY-MM-DD`) under `creationDates` in `catalog/resource-index.config.json`. Use the date you first add the entry in your contribution. Do not backdate it, alter existing dates, or advance catalog-wide review dates. A changed canonical URL is a new identity; keep the old date mapping as history.
 4. Regenerate the resource index with `python3 scripts/build_resource_index.py`. Do not hand-edit generated records.
-5. Commit the README, date metadata, regenerated index, and any related documentation together. Open a PR using the template.
+5. Include a completed source review for additions or material source changes, following the instructions above. Commit the README, applicable date metadata, regenerated index, and related documentation together. Open a PR using the template.
 
 ## Validate your change
 
