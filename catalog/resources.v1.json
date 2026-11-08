@@ -301,6 +301,55 @@
     {
       "corrections": [],
       "dates": {
+        "createdAt": "2026-11-08"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-832c373ca9f6d755",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "labor-hiring"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://clockintoday.com/report/",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "ClockInToday No-Interview Jobs Dataset"
+      },
+      "summary": "Publishes a monthly CC BY 4.0 table of minimum age, background-check, vehicle, payout-speed, advertised-pay and worker-classification terms for 112 curated US gig and no-interview job platforms, read from each company's own requirement pages; it records stated entry rules and advertised or third-party pay figures, not hiring volumes or earnings received.",
+      "title": "ClockInToday No-Interview Jobs Dataset",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
         "createdAt": "2026-10-17"
       },
       "editorialStatus": "published",
