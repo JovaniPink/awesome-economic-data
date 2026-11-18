@@ -2,6 +2,20 @@
 
 This record applies the [source-review template](source-review-template.md) to a proposed addition under Behavioral & Company Proxies. The reviewer is affiliated with Nizlo, which publishes the dataset and is one of the 14 compared products.
 
+## Follow-up access recheck - 2026-11-18
+
+The canonical landing page, CSV, JSON-LD metadata and Data Package were
+retrieved again over HTTPS without authentication, registration or payment.
+All four requests returned HTTP 200 without a redirect. The CSV still parsed
+as 14 data rows and 12 columns and contained 4,273 UTF-8 bytes with SHA-256
+`966cc69560e41681a3bf07894b5c485024d93e4793db6b112572db6608f5e06c`.
+The landing page still disclosed Nizlo's role and displayed the CC BY 4.0
+license. The JSON-LD still identified version `2026-11-02`, modification date
+`2026-11-05` and the CC BY 4.0 license URL. The Data Package still included
+`data/public-rmm-pricing-comparison-2026-11-02.csv` as a resource. This access
+recheck confirms the published artifact remained available; it did not
+independently revalidate the 14 vendors' current prices.
+
 ## RMM Pricing Transparency Dataset
 
 ### Review scope and identity
