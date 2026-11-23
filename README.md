@@ -235,6 +235,7 @@ Research indexes and data services for finding economic series and literature.
 - [FRED and ALFRED API](https://fred.stlouisfed.org/docs/api/fred/overview.html) - Requires a registered API key to retrieve current and vintage series by source, release, category, and series; it is an aggregation layer, so original-source definitions, revisions, and terms remain controlling.
 - [DBnomics Web API](https://docs.db.nomics.world/web-api/) - Normalizes access across many economic providers; provider codes and original sources remain authoritative, and the API is intended for focused queries rather than indiscriminate bulk downloads.
 - [Invokely](https://invokely.ai/docs) - Commercial aggregation service providing source-cited official statistics across U.S. subnational and international geographies; the free MCP plan includes 500 calls per month, while REST access requires a paid plan or credits. Publisher schedules, revisions, and upstream reuse terms remain controlling; authenticated service behavior has not been independently qualified.
+- [FlowFeed](https://flowfeed.cc) - Commercial service delivering real-time central bank releases, an economic calendar with forecast, previous and actual values, and macro, forex and crypto news to AI agents over a remote MCP server; paid only ($9/month), no free tier.
 
 ## Finance, Economics & Systems Channels
 
