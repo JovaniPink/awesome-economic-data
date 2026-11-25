@@ -3290,6 +3290,55 @@
     {
       "corrections": [],
       "dates": {
+        "createdAt": "2026-11-05"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-economic-data:source:r-6b2077ec55676c4f",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-economic-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "economics",
+          "finance",
+          "policy"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "behavioral-company-proxies"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://izikipizi.github.io/nizlo-msp-operations-resources/public-rmm-pricing-dataset.html",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "RMM Pricing Transparency Dataset"
+      },
+      "summary": "Publishes a CC BY 4.0 snapshot of 14 remote-monitoring products' public price visibility and one-technician subscription scenarios at 10, 50, 100 and 500 endpoints; Nizlo maintains the dataset and is one compared product, vendor pages were checked from October 30 to November 2, 2026, and the cross-section is neither transaction data nor a representative software-price index.",
+      "title": "RMM Pricing Transparency Dataset",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
         "createdAt": "2026-10-01"
       },
       "editorialStatus": "published",
