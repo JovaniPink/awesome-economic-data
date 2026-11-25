@@ -58,3 +58,13 @@ published pages.
 | Catalog action | Proposed: add to Labor & Hiring as a company-stated entry-requirements source, labeled as a curated list. |
 | Unresolved checks | Independent review of the source pages behind individual rows; whether monthly cadence holds over time. |
 | Recheck triggers | A missed monthly update, a license change, or a change in the CSV columns. |
+
+## Maintainer follow-up - 2026-11-25
+
+Prepared with material AI assistance in response to the [November 17 maintainer feedback](https://github.com/JovaniPink/awesome-economic-data/pull/33#issuecomment-6965006891). The original publisher review and November 8 receipt above are preserved as historical evidence; this follow-up does not relabel their retrieval date.
+
+The public [report](https://clockintoday.com/report/) was readable on 2026-11-25 and displayed 116 platforms and a CC BY 4.0 reuse notice. The [methodology](https://clockintoday.com/how-we-check/), marked effective November 11, documents monthly rechecks, missing-field handling and source selection. These are current publisher-page observations and documented practices, not an independent audit of every platform's requirements or of sustained monthly release history.
+
+The README now omits the changing platform count, identifies monthly rechecks as publisher-stated, and preserves the distinction between stated platform terms and hiring or earnings outcomes. The existing URL, creation date 2026-11-08, contributor credit and URL-derived resource ID are unchanged; the index is regenerated from that description.
+
+No new CSV or API export, Zenodo version history, MCP service or individual company requirement page was tested in this follow-up. The November 8 file hash still identifies only that earlier artifact. Changes to coverage, access, license or release history require a separately dated check before stronger claims are made.

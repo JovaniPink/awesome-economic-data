@@ -343,7 +343,7 @@
         ],
         "publisher": "ClockInToday No-Interview Jobs Dataset"
       },
-      "summary": "Publishes a monthly CC BY 4.0 table of minimum age, background-check, vehicle, payout-speed, advertised-pay and worker-classification terms for 112 curated US gig and no-interview job platforms, read from each company's own requirement pages; it records stated entry rules and advertised or third-party pay figures, not hiring volumes or earnings received.",
+      "summary": "Publishes a free CC BY 4.0 table of stated entry requirements, payout terms and advertised or third-party pay figures for curated US gig and no-interview platforms, with publisher-stated monthly rechecks; coverage changes and the records describe platform terms, not hiring volumes or earnings received.",
       "title": "ClockInToday No-Interview Jobs Dataset",
       "visibility": "public"
     },
