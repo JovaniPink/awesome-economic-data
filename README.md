@@ -228,6 +228,7 @@ Additional sources can improve timing, structure, credit, agriculture, or shock 
 Research indexes and data services for finding economic series and literature.
 
 - [IDEAS/RePEc](https://ideas.repec.org/) - Indexes economics working papers, articles, books, software components, and author profiles.
+- [Global Data Tracker](https://globaldatatracker.com/) - Provides a free exploration interface for annual World Bank country indicators with source links and reporting years; the publisher reports daily update checks while open, coverage and years vary, and moving population and GDP counters are modeled estimates.
 - [BLS Public Data API](https://www.bls.gov/developers/) - Provides programmatic access to published U.S. labor-market and price data with documented query limits, citation requirements, and terms for secondary use.
 - [FRASER Economic History Archive](https://fraser.stlouisfed.org/) - Provides digitized U.S. financial, economic, and banking history, including archival collections and historical publications; document dates, collection coverage, and item-specific reuse conditions require review.
 - [BEA Data API](https://apps.bea.gov/api/signup/) - Provides registered, API-key access to a subset of published GDP, income, industry, regional, trade, and investment statistics plus metadata; terms acceptance is required.
