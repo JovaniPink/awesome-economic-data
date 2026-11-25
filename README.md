@@ -180,6 +180,7 @@ Indirect and company-specific signals that should be treated as context rather t
 - [Lipstick Effect Research](https://www.sciencedirect.com/science/article/abs/pii/S2214804319304884) - Examines the debated hypothesis that some consumers shift toward small luxury purchases during economic stress.
 - [FirstCash Investor Relations](https://investors.firstcash.com/) - Provides company filings and results that can offer a narrow, company-specific view of pawn lending and retail activity.
 - [EZCORP Investor Relations](https://www.ezcorp.com/investor-relations) - Provides company filings and results that can offer a second narrow view of pawn lending and retail activity.
+- [RMM Pricing Transparency Dataset](https://izikipizi.github.io/nizlo-msp-operations-resources/public-rmm-pricing-dataset.html) - Publishes a CC BY 4.0 snapshot of 14 remote-monitoring products' public price visibility and one-technician subscription scenarios at 10, 50, 100 and 500 endpoints; Nizlo maintains the dataset and is one compared product, vendor pages were checked from October 30 to November 2, 2026, and the cross-section is neither transaction data nor a representative software-price index.
 - [Reboot Hub Listed Drone Prices](https://reboot-hub.com/pages/reboot-hub-data) - Publishes a free CC BY 4.0 Q3 2026 snapshot of 43 model-level listed-price aggregates covering 251 catalog configurations, with versioned updates rather than a fixed release cadence; one retailer's asking prices are not transactions or a representative market index.
 
 ## Composite Trackers
@@ -229,6 +230,7 @@ Additional sources can improve timing, structure, credit, agriculture, or shock 
 Research indexes and data services for finding economic series and literature.
 
 - [IDEAS/RePEc](https://ideas.repec.org/) - Indexes economics working papers, articles, books, software components, and author profiles.
+- [Global Data Tracker](https://globaldatatracker.com/) - Provides a free exploration interface for annual World Bank country indicators with source links and reporting years; the publisher reports daily update checks while open, coverage and years vary, and moving population and GDP counters are modeled estimates.
 - [BLS Public Data API](https://www.bls.gov/developers/) - Provides programmatic access to published U.S. labor-market and price data with documented query limits, citation requirements, and terms for secondary use.
 - [FRASER Economic History Archive](https://fraser.stlouisfed.org/) - Provides digitized U.S. financial, economic, and banking history, including archival collections and historical publications; document dates, collection coverage, and item-specific reuse conditions require review.
 - [BEA Data API](https://apps.bea.gov/api/signup/) - Provides registered, API-key access to a subset of published GDP, income, industry, regional, trade, and investment statistics plus metadata; terms acceptance is required.
