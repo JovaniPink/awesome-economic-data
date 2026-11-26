@@ -147,6 +147,7 @@ Fiscal accounts, reported money flows, procurement records, and governance estim
 - [Congressional Lobbying Disclosures API](https://lda.gov/api/) - Provides registered API access to lobbying registrations, quarterly activity reports, and LD-203 contribution disclosures; reporting periods, amendments, clients, registrants, and amount definitions must remain distinct, and disclosure does not establish causal influence.
 - [Open Contracting Data Registry](https://data.open-contracting.org/) - Provides public procurement datasets in JSON, CSV, and Excel with publisher-specific coverage and quality notes; compiled releases contain the latest value of each field, and coverage, reuse terms, and availability vary by publisher.
 - [Worldwide Governance Indicators](https://www.worldbank.org/en/publication/worldwide-governance-indicators) - Publishes annual perception-based composite governance estimates using surveys and expert assessments; preserve uncertainty, methodology, and release vintage because historical estimates can be revised and scores are not direct counts of misconduct.
+- [Data Center Fact Check](https://datacenterfactcheck.org/) - Tracks 41 verified Texas Chapter 380/381/312 tax agreements across 33 data center sites ($445.5M in stated figures, 323 job commitments), plus county property tax and residential electric rate history; figures are compiled from the underlying public agreements and filings, and coverage is limited to tracked projects, so it is not a complete census of local incentives.
 
 ## Corporate Financials & Financial Accounts
 
