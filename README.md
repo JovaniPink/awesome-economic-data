@@ -55,6 +55,7 @@ Measures of hiring, advertised pay, and received earnings with different worker 
 - [CareJobs.Now Healthcare Job Pay](https://carejobs.now/data) - Publishes daily hourly pay posted on US healthcare employers' open job listings by kind of job, read from about 270 employers' career sites under CC BY 4.0; advertised ranges are offers rather than pay received, and only kinds of job with posted rates from at least three employers are included.
 - [ClockInToday No-Interview Jobs Dataset](https://clockintoday.com/report/) - Publishes a free CC BY 4.0 table of stated entry requirements, payout terms and advertised or third-party pay figures for curated US gig and no-interview platforms, with publisher-stated monthly rechecks; coverage changes and the records describe platform terms, not hiring volumes or earnings received.
 - [Fliar BI Global Salary Data by Skill and Role](https://huggingface.co/datasets/HarshitKZ/skill-salary-percentiles-global) - Publishes a one-time CC BY-NC 4.0 sample of 100,060 of 620,752 job postings with stated pay in 55 countries from January 2024 to June 2026, annualised to US dollars at fixed exchange rates; posted offers with uneven country coverage, not earnings received.
+- [WorkinVirtual Remote Job Eligibility Index](https://workinvirtual.com/research/remote-job-eligibility-index-2026/) - Provides a free dated, single-platform snapshot of advertised applicant location eligibility in 112 remote listings, with methodology and aggregate counts limited to that board's published labels.
 
 ## Prices & Inflation
 
